@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_RMA_Reason__c</fullName>
+    <description>Scott Safety field - What is the purpose for the RMA?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the purpose for the RMA?</inlineHelpText>
+    <label>SS-RMA Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SS_Case_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Freight Billing Issue</fullName>
+                <default>false</default>
+                <label>Freight Billing Issue</label>
+            </value>
+            <value>
+                <fullName>Order Credit/Billing Issue</fullName>
+                <default>false</default>
+                <label>Order Credit/Billing Issue</label>
+            </value>
+            <value>
+                <fullName>Packing Slip Billing Error</fullName>
+                <default>false</default>
+                <label>Packing Slip Billing Error</label>
+            </value>
+            <value>
+                <fullName>Pricing - Billing Error</fullName>
+                <default>false</default>
+                <label>Pricing - Billing Error</label>
+            </value>
+            <value>
+                <fullName>Sales Tax Billing Error</fullName>
+                <default>false</default>
+                <label>Sales Tax Billing Error</label>
+            </value>
+            <value>
+                <fullName>Order Configurator Issue</fullName>
+                <default>false</default>
+                <label>Order Configurator Issue</label>
+            </value>
+            <value>
+                <fullName>Order Customer Error</fullName>
+                <default>false</default>
+                <label>Order Customer Error</label>
+            </value>
+            <value>
+                <fullName>Order Catalog/Internet Error</fullName>
+                <default>false</default>
+                <label>Order Catalog/Internet Error</label>
+            </value>
+            <value>
+                <fullName>Order Entry (PO# Issue)</fullName>
+                <default>false</default>
+                <label>Order Entry (PO# Issue)</label>
+            </value>
+            <value>
+                <fullName>Order Entry (Qty Issue)</fullName>
+                <default>false</default>
+                <label>Order Entry (Qty Issue)</label>
+            </value>
+            <value>
+                <fullName>Order Entry (Scott Error)</fullName>
+                <default>false</default>
+                <label>Order Entry (Scott Error)</label>
+            </value>
+            <value>
+                <fullName>Unit of Measure (Review)</fullName>
+                <default>false</default>
+                <label>Unit of Measure (Review)</label>
+            </value>
+            <value>
+                <fullName>CSR Order Entry Error</fullName>
+                <default>false</default>
+                <label>CSR Order Entry Error</label>
+            </value>
+            <value>
+                <fullName>They Don't Call Me Back</fullName>
+                <default>false</default>
+                <label>They Don't Call Me Back</label>
+            </value>
+            <value>
+                <fullName>Catalog/Internet Difficult</fullName>
+                <default>false</default>
+                <label>Catalog/Internet Difficult</label>
+            </value>
+            <value>
+                <fullName>Phone &amp; Vmail Tree Difficult</fullName>
+                <default>false</default>
+                <label>Phone &amp; Vmail Tree Difficult</label>
+            </value>
+            <value>
+                <fullName>On Hold Too Long</fullName>
+                <default>false</default>
+                <label>On Hold Too Long</label>
+            </value>
+            <value>
+                <fullName>Poor Turnaround</fullName>
+                <default>false</default>
+                <label>Poor Turnaround</label>
+            </value>
+            <value>
+                <fullName>Literature/Mailer Complaint</fullName>
+                <default>false</default>
+                <label>Literature/Mailer Complaint</label>
+            </value>
+            <value>
+                <fullName>Scott Employee Training</fullName>
+                <default>false</default>
+                <label>Scott Employee Training</label>
+            </value>
+            <value>
+                <fullName>Employee Discourteous</fullName>
+                <default>false</default>
+                <label>Employee Discourteous</label>
+            </value>
+            <value>
+                <fullName>Distributor Complaint</fullName>
+                <default>false</default>
+                <label>Distributor Complaint</label>
+            </value>
+            <value>
+                <fullName>Demo Return</fullName>
+                <default>false</default>
+                <label>Demo Return</label>
+            </value>
+            <value>
+                <fullName>Goodwill/Customer Convenience</fullName>
+                <default>false</default>
+                <label>Goodwill/Customer Convenience</label>
+            </value>
+            <value>
+                <fullName>Wrong Parts on Product</fullName>
+                <default>false</default>
+                <label>Wrong Parts on Product</label>
+            </value>
+            <value>
+                <fullName>Missing Parts on Product</fullName>
+                <default>false</default>
+                <label>Missing Parts on Product</label>
+            </value>
+            <value>
+                <fullName>Out-Dated Product</fullName>
+                <default>false</default>
+                <label>Out-Dated Product</label>
+            </value>
+            <value>
+                <fullName>Faulty Part or Product</fullName>
+                <default>false</default>
+                <label>Faulty Part or Product</label>
+            </value>
+            <value>
+                <fullName>Misconfigured Product</fullName>
+                <default>false</default>
+                <label>Misconfigured Product</label>
+            </value>
+            <value>
+                <fullName>Component Part Issue</fullName>
+                <default>false</default>
+                <label>Component Part Issue</label>
+            </value>
+            <value>
+                <fullName>Packaging/labeling Issue</fullName>
+                <default>false</default>
+                <label>Packaging/labeling Issue</label>
+            </value>
+            <value>
+                <fullName>Metals/Composites</fullName>
+                <default>false</default>
+                <label>Metals/Composites</label>
+            </value>
+            <value>
+                <fullName>Electrical/Charging</fullName>
+                <default>false</default>
+                <label>Electrical/Charging</label>
+            </value>
+            <value>
+                <fullName>Contamination</fullName>
+                <default>false</default>
+                <label>Contamination</label>
+            </value>
+            <value>
+                <fullName>Plastics/Paint</fullName>
+                <default>false</default>
+                <label>Plastics/Paint</label>
+            </value>
+            <value>
+                <fullName>Wrong Part(s) Shipped</fullName>
+                <default>false</default>
+                <label>Wrong Part(s) Shipped</label>
+            </value>
+            <value>
+                <fullName>Short Shipment</fullName>
+                <default>false</default>
+                <label>Short Shipment</label>
+            </value>
+            <value>
+                <fullName>Over Shipment</fullName>
+                <default>false</default>
+                <label>Over Shipment</label>
+            </value>
+            <value>
+                <fullName>Lost Shipment</fullName>
+                <default>false</default>
+                <label>Lost Shipment</label>
+            </value>
+            <value>
+                <fullName>Transit Routing Issue</fullName>
+                <default>false</default>
+                <label>Transit Routing Issue</label>
+            </value>
+            <value>
+                <fullName>Damaged in Transit</fullName>
+                <default>false</default>
+                <label>Damaged in Transit</label>
+            </value>
+            <value>
+                <fullName>Freight Routing Error</fullName>
+                <default>false</default>
+                <label>Freight Routing Error</label>
+            </value>
+            <value>
+                <fullName>Wrong Information Given (Undocumented)</fullName>
+                <default>false</default>
+                <label>Wrong Information Given (Undocumented)</label>
+            </value>
+            <value>
+                <fullName>Wrong Information Given (Documented/email)</fullName>
+                <default>false</default>
+                <label>Wrong Information Given (Documented/email)</label>
+            </value>
+            <value>
+                <fullName>Quality Hold</fullName>
+                <default>false</default>
+                <label>Quality Hold</label>
+            </value>
+            <value>
+                <fullName>Item Arrived Early</fullName>
+                <default>false</default>
+                <label>Item Arrived Early</label>
+            </value>
+            <value>
+                <fullName>Cancelled Non-Delivery</fullName>
+                <default>false</default>
+                <label>Cancelled Non-Delivery</label>
+            </value>
+            <value>
+                <fullName>Cancel Customer Convenience</fullName>
+                <default>false</default>
+                <label>Cancel Customer Convenience</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Freight Billing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Order Credit/Billing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Packing Slip Billing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Pricing - Billing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billing/Pricing Errors</controllingFieldValue>
+            <valueName>Sales Tax Billing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Configurator Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Customer Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Catalog/Internet Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Entry (PO# Issue)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Entry (Qty Issue)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Order Entry (Scott Error)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>Unit of Measure (Review)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order/Booking Errors</controllingFieldValue>
+            <valueName>CSR Order Entry Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Wrong Parts on Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Missing Parts on Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Out-Dated Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Faulty Part or Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Misconfigured Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Component Part Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Packaging/labeling Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Metals/Composites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Electrical/Charging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Plastics/Paint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Wrong Part(s) Shipped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Short Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Over Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Lost Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Transit Routing Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Damaged in Transit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shipments</controllingFieldValue>
+            <valueName>Freight Routing Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>They Don't Call Me Back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Catalog/Internet Difficult</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Phone &amp; Vmail Tree Difficult</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>On Hold Too Long</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Poor Turnaround</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Literature/Mailer Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Scott Employee Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Employee Discourteous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Distributor Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Demo Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Feedback</controllingFieldValue>
+            <valueName>Goodwill/Customer Convenience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support – Information Error</controllingFieldValue>
+            <valueName>Wrong Information Given (Undocumented)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support – Information Error</controllingFieldValue>
+            <valueName>Wrong Information Given (Documented/email)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery</controllingFieldValue>
+            <valueName>Quality Hold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery</controllingFieldValue>
+            <valueName>Item Arrived Early</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery</controllingFieldValue>
+            <valueName>Cancelled Non-Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery</controllingFieldValue>
+            <valueName>Cancel Customer Convenience</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

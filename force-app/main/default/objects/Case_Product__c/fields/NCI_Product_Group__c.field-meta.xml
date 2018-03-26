@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCI_Product_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Product Group of product purchased</inlineHelpText>
+    <label>NCI Product Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3M Adhesive Sealants</fullName>
+                <default>false</default>
+                <label>3M Adhesive Sealants</label>
+            </value>
+            <value>
+                <fullName>3M Hot Melt Adhesives</fullName>
+                <default>false</default>
+                <label>3M Hot Melt Adhesives</label>
+            </value>
+            <value>
+                <fullName>3M Scotch-Weld Instant Adhesives</fullName>
+                <default>false</default>
+                <label>3M Scotch-Weld Instant Adhesives</label>
+            </value>
+            <value>
+                <fullName>3M Scotch-Weld PUR Adhesives</fullName>
+                <default>false</default>
+                <label>3M Scotch-Weld PUR Adhesives</label>
+            </value>
+            <value>
+                <fullName>3M Scotch-Weld Structural Adhesives</fullName>
+                <default>false</default>
+                <label>3M Scotch-Weld Structural Adhesives</label>
+            </value>
+            <value>
+                <fullName>3M Spray Adhesives</fullName>
+                <default>false</default>
+                <label>3M Spray Adhesives</label>
+            </value>
+            <value>
+                <fullName>3M Vinyl Lane Marking Tapes</fullName>
+                <default>false</default>
+                <label>3M Vinyl Lane Marking Tapes</label>
+            </value>
+            <value>
+                <fullName>North Star Cylinder Adhesive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>North Star Cylinder Adhesive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

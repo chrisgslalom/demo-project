@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Age_of_Product__c</fullName>
+    <description>Scott Safety field - How long has the customer had this product?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How long has the customer had this product?</inlineHelpText>
+    <label>SS-Age of Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OBF- 30 Days</fullName>
+                <default>false</default>
+                <label>OBF- 30 Days</label>
+            </value>
+            <value>
+                <fullName>1 - 30 Days</fullName>
+                <default>false</default>
+                <label>1 - 30 Days</label>
+            </value>
+            <value>
+                <fullName>31 - 60 Days</fullName>
+                <default>false</default>
+                <label>31 - 60 Days</label>
+            </value>
+            <value>
+                <fullName>61 - 90 Days</fullName>
+                <default>false</default>
+                <label>61 - 90 Days</label>
+            </value>
+            <value>
+                <fullName>91 - 180 Days</fullName>
+                <default>false</default>
+                <label>91 - 180 Days</label>
+            </value>
+            <value>
+                <fullName>181 - 1 yrs</fullName>
+                <default>false</default>
+                <label>181 - 1 yrs</label>
+            </value>
+            <value>
+                <fullName>1 - 2 yrs</fullName>
+                <default>false</default>
+                <label>1 - 2 yrs</label>
+            </value>
+            <value>
+                <fullName>> 2 yrs</fullName>
+                <default>false</default>
+                <label>> 2 yrs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

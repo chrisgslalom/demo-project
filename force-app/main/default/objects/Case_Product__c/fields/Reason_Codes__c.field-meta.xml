@@ -1,0 +1,2516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Codes__c</fullName>
+    <description>PAS Product Reason Codes which are available to select for a particular product.</description>
+    <externalId>false</externalId>
+    <label>Reason Codes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>600 Tape Construction Change</fullName>
+                <default>false</default>
+                <label>600 Tape Construction Change</label>
+            </value>
+            <value>
+                <fullName>Accessory Failure</fullName>
+                <default>false</default>
+                <label>Accessory Failure</label>
+            </value>
+            <value>
+                <fullName>Activation Issue</fullName>
+                <default>false</default>
+                <label>Activation Issue</label>
+            </value>
+            <value>
+                <fullName>Additional Information Needed</fullName>
+                <default>false</default>
+                <label>Additional Information Needed</label>
+            </value>
+            <value>
+                <fullName>Adhesion</fullName>
+                <default>false</default>
+                <label>Adhesion</label>
+            </value>
+            <value>
+                <fullName>Adhesion - Adh Back</fullName>
+                <default>false</default>
+                <label>Adhesion - Adh Back</label>
+            </value>
+            <value>
+                <fullName>Adhesion - High</fullName>
+                <default>false</default>
+                <label>Adhesion - High</label>
+            </value>
+            <value>
+                <fullName>Adhesion - Hook/Loop</fullName>
+                <default>false</default>
+                <label>Adhesion - Hook/Loop</label>
+            </value>
+            <value>
+                <fullName>Adhesion Loss - Hollow Arrow</fullName>
+                <default>false</default>
+                <label>Adhesion Loss - Hollow Arrow</label>
+            </value>
+            <value>
+                <fullName>Adhesion Lost With Damage</fullName>
+                <default>false</default>
+                <label>Adhesion Lost With Damage</label>
+            </value>
+            <value>
+                <fullName>Adhesion - Low</fullName>
+                <default>false</default>
+                <label>Adhesion - Low</label>
+            </value>
+            <value>
+                <fullName>Adhesion Low - Home Depot Boxes</fullName>
+                <default>false</default>
+                <label>Adhesion Low - Home Depot Boxes</label>
+            </value>
+            <value>
+                <fullName>Adhesion to Backplate - Hollow Arrow</fullName>
+                <default>false</default>
+                <label>Adhesion to Backplate - Hollow Arrow</label>
+            </value>
+            <value>
+                <fullName>Adhesive Caused Color Change on Surface</fullName>
+                <default>false</default>
+                <label>Adhesive Caused Color Change on Surface</label>
+            </value>
+            <value>
+                <fullName>Adhesive Dried Out</fullName>
+                <default>false</default>
+                <label>Adhesive Dried Out</label>
+            </value>
+            <value>
+                <fullName>Adhesive Residue</fullName>
+                <default>false</default>
+                <label>Adhesive Residue</label>
+            </value>
+            <value>
+                <fullName>Adhesive - Sticky Roller</fullName>
+                <default>false</default>
+                <label>Adhesive - Sticky Roller</label>
+            </value>
+            <value>
+                <fullName>Adhesive Transfer</fullName>
+                <default>false</default>
+                <label>Adhesive Transfer</label>
+            </value>
+            <value>
+                <fullName>ADH Shows thru Vellum</fullName>
+                <default>false</default>
+                <label>ADH Shows thru Vellum</label>
+            </value>
+            <value>
+                <fullName>Adjustability Range</fullName>
+                <default>false</default>
+                <label>Adjustability Range</label>
+            </value>
+            <value>
+                <fullName>Adverse Reaction - Animal</fullName>
+                <default>false</default>
+                <label>Adverse Reaction - Animal</label>
+            </value>
+            <value>
+                <fullName>Air Bubbles/Wrinkles</fullName>
+                <default>false</default>
+                <label>Air Bubbles/Wrinkles</label>
+            </value>
+            <value>
+                <fullName>Air Cushion</fullName>
+                <default>false</default>
+                <label>Air Cushion</label>
+            </value>
+            <value>
+                <fullName>Air Flow Restricted</fullName>
+                <default>false</default>
+                <label>Air Flow Restricted</label>
+            </value>
+            <value>
+                <fullName>Amazon - NO MPR on package</fullName>
+                <default>false</default>
+                <label>Amazon - NO MPR on package</label>
+            </value>
+            <value>
+                <fullName>Appearance</fullName>
+                <default>false</default>
+                <label>Appearance</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+            <value>
+                <fullName>Auto</fullName>
+                <default>false</default>
+                <label>Auto</label>
+            </value>
+            <value>
+                <fullName>Backer Plate Delamination</fullName>
+                <default>false</default>
+                <label>Backer Plate Delamination</label>
+            </value>
+            <value>
+                <fullName>Backer Plate Other</fullName>
+                <default>false</default>
+                <label>Backer Plate Other</label>
+            </value>
+            <value>
+                <fullName>Backing Plate Tip Delamination</fullName>
+                <default>false</default>
+                <label>Backing Plate Tip Delamination</label>
+            </value>
+            <value>
+                <fullName>Ball Bearings Broken</fullName>
+                <default>false</default>
+                <label>Ball Bearings Broken</label>
+            </value>
+            <value>
+                <fullName>Bandage Removal</fullName>
+                <default>false</default>
+                <label>Bandage Removal</label>
+            </value>
+            <value>
+                <fullName>Bandage Stuck to Wrapper</fullName>
+                <default>false</default>
+                <label>Bandage Stuck to Wrapper</label>
+            </value>
+            <value>
+                <fullName>Bare Wood</fullName>
+                <default>false</default>
+                <label>Bare Wood</label>
+            </value>
+            <value>
+                <fullName>Battery Cover</fullName>
+                <default>false</default>
+                <label>Battery Cover</label>
+            </value>
+            <value>
+                <fullName>Battery Life</fullName>
+                <default>false</default>
+                <label>Battery Life</label>
+            </value>
+            <value>
+                <fullName>Bitterent</fullName>
+                <default>false</default>
+                <label>Bitterent</label>
+            </value>
+            <value>
+                <fullName>Black Filter</fullName>
+                <default>false</default>
+                <label>Black Filter</label>
+            </value>
+            <value>
+                <fullName>Bracket Fit</fullName>
+                <default>false</default>
+                <label>Bracket Fit</label>
+            </value>
+            <value>
+                <fullName>Breakage</fullName>
+                <default>false</default>
+                <label>Breakage</label>
+            </value>
+            <value>
+                <fullName>Breaks In Use</fullName>
+                <default>false</default>
+                <label>Breaks In Use</label>
+            </value>
+            <value>
+                <fullName>Broken</fullName>
+                <default>false</default>
+                <label>Broken</label>
+            </value>
+            <value>
+                <fullName>Broken/Chipped Teeth</fullName>
+                <default>false</default>
+                <label>Broken/Chipped Teeth</label>
+            </value>
+            <value>
+                <fullName>Broken Actuator</fullName>
+                <default>false</default>
+                <label>Broken Actuator</label>
+            </value>
+            <value>
+                <fullName>Broken Arm</fullName>
+                <default>false</default>
+                <label>Broken Arm</label>
+            </value>
+            <value>
+                <fullName>Broken Bracket</fullName>
+                <default>false</default>
+                <label>Broken Bracket</label>
+            </value>
+            <value>
+                <fullName>Broken Bubbles</fullName>
+                <default>false</default>
+                <label>Broken Bubbles</label>
+            </value>
+            <value>
+                <fullName>Broken Buffer Ampoule</fullName>
+                <default>false</default>
+                <label>Broken Buffer Ampoule</label>
+            </value>
+            <value>
+                <fullName>Broken Cord/Cable</fullName>
+                <default>false</default>
+                <label>Broken Cord/Cable</label>
+            </value>
+            <value>
+                <fullName>Broken Dispenser</fullName>
+                <default>false</default>
+                <label>Broken Dispenser</label>
+            </value>
+            <value>
+                <fullName>Broken Frame</fullName>
+                <default>false</default>
+                <label>Broken Frame</label>
+            </value>
+            <value>
+                <fullName>Broken Handle</fullName>
+                <default>false</default>
+                <label>Broken Handle</label>
+            </value>
+            <value>
+                <fullName>Broken Nose Piece</fullName>
+                <default>false</default>
+                <label>Broken Nose Piece</label>
+            </value>
+            <value>
+                <fullName>Broken Parts</fullName>
+                <default>false</default>
+                <label>Broken Parts</label>
+            </value>
+            <value>
+                <fullName>Broken Strap</fullName>
+                <default>false</default>
+                <label>Broken Strap</label>
+            </value>
+            <value>
+                <fullName>Broken Track</fullName>
+                <default>false</default>
+                <label>Broken Track</label>
+            </value>
+            <value>
+                <fullName>Broken USB - Physically</fullName>
+                <default>false</default>
+                <label>Broken USB - Physically</label>
+            </value>
+            <value>
+                <fullName>Bulb Burnt Out</fullName>
+                <default>false</default>
+                <label>Bulb Burnt Out</label>
+            </value>
+            <value>
+                <fullName>Bulb Won't Snap in Place</fullName>
+                <default>false</default>
+                <label>Bulb Won't Snap in Place</label>
+            </value>
+            <value>
+                <fullName>Burning/Smoking</fullName>
+                <default>false</default>
+                <label>Burning/Smoking</label>
+            </value>
+            <value>
+                <fullName>Button</fullName>
+                <default>false</default>
+                <label>Button</label>
+            </value>
+            <value>
+                <fullName>Button/Scroll Response</fullName>
+                <default>false</default>
+                <label>Button/Scroll Response</label>
+            </value>
+            <value>
+                <fullName>Button Not Working</fullName>
+                <default>false</default>
+                <label>Button Not Working</label>
+            </value>
+            <value>
+                <fullName>Can't Cut</fullName>
+                <default>false</default>
+                <label>Can't Cut</label>
+            </value>
+            <value>
+                <fullName>Can't Dispense</fullName>
+                <default>false</default>
+                <label>Can't Dispense</label>
+            </value>
+            <value>
+                <fullName>Can't Find Signal</fullName>
+                <default>false</default>
+                <label>Can't Find Signal</label>
+            </value>
+            <value>
+                <fullName>Can't Start Roll</fullName>
+                <default>false</default>
+                <label>Can't Start Roll</label>
+            </value>
+            <value>
+                <fullName>Can't Unwind</fullName>
+                <default>false</default>
+                <label>Can't Unwind</label>
+            </value>
+            <value>
+                <fullName>Cap/Bottle Design</fullName>
+                <default>false</default>
+                <label>Cap/Bottle Design</label>
+            </value>
+            <value>
+                <fullName>Cap Removal</fullName>
+                <default>false</default>
+                <label>Cap Removal</label>
+            </value>
+            <value>
+                <fullName>Carbon Sloughing</fullName>
+                <default>false</default>
+                <label>Carbon Sloughing</label>
+            </value>
+            <value>
+                <fullName>Cartridge Replacement Difficult</fullName>
+                <default>false</default>
+                <label>Cartridge Replacement Difficult</label>
+            </value>
+            <value>
+                <fullName>CEO Issue</fullName>
+                <default>false</default>
+                <label>CEO Issue</label>
+            </value>
+            <value>
+                <fullName>Cleaning</fullName>
+                <default>false</default>
+                <label>Cleaning</label>
+            </value>
+            <value>
+                <fullName>Cleaning Pad Does Not Stick</fullName>
+                <default>false</default>
+                <label>Cleaning Pad Does Not Stick</label>
+            </value>
+            <value>
+                <fullName>Clicking Noise</fullName>
+                <default>false</default>
+                <label>Clicking Noise</label>
+            </value>
+            <value>
+                <fullName>Clock Can't Keep Time</fullName>
+                <default>false</default>
+                <label>Clock Can't Keep Time</label>
+            </value>
+            <value>
+                <fullName>Clogged</fullName>
+                <default>false</default>
+                <label>Clogged</label>
+            </value>
+            <value>
+                <fullName>Clogged Nozzle</fullName>
+                <default>false</default>
+                <label>Clogged Nozzle</label>
+            </value>
+            <value>
+                <fullName>Color Change</fullName>
+                <default>false</default>
+                <label>Color Change</label>
+            </value>
+            <value>
+                <fullName>Color Fastness</fullName>
+                <default>false</default>
+                <label>Color Fastness</label>
+            </value>
+            <value>
+                <fullName>Color Transition</fullName>
+                <default>false</default>
+                <label>Color Transition</label>
+            </value>
+            <value>
+                <fullName>Competitive product - Note in Comments</fullName>
+                <default>false</default>
+                <label>Competitive product - Note in Comments</label>
+            </value>
+            <value>
+                <fullName>Compliment</fullName>
+                <default>false</default>
+                <label>Compliment</label>
+            </value>
+            <value>
+                <fullName>Concaved/Warped Wrist Rest</fullName>
+                <default>false</default>
+                <label>Concaved/Warped Wrist Rest</label>
+            </value>
+            <value>
+                <fullName>Confirmation Card - No Color Change</fullName>
+                <default>false</default>
+                <label>Confirmation Card - No Color Change</label>
+            </value>
+            <value>
+                <fullName>Contamination - Dirt</fullName>
+                <default>false</default>
+                <label>Contamination - Dirt</label>
+            </value>
+            <value>
+                <fullName>Contamination - Foreign Material</fullName>
+                <default>false</default>
+                <label>Contamination - Foreign Material</label>
+            </value>
+            <value>
+                <fullName>Contamination - Insect</fullName>
+                <default>false</default>
+                <label>Contamination - Insect</label>
+            </value>
+            <value>
+                <fullName>Contents/Ingredients/Deet/SPF</fullName>
+                <default>false</default>
+                <label>Contents/Ingredients/Deet/SPF</label>
+            </value>
+            <value>
+                <fullName>Cord Malfunction</fullName>
+                <default>false</default>
+                <label>Cord Malfunction</label>
+            </value>
+            <value>
+                <fullName>Count</fullName>
+                <default>false</default>
+                <label>Count</label>
+            </value>
+            <value>
+                <fullName>Cover</fullName>
+                <default>false</default>
+                <label>Cover</label>
+            </value>
+            <value>
+                <fullName>CPSC (Consumer Product Safety Commission)</fullName>
+                <default>false</default>
+                <label>CPSC (Consumer Product Safety Commission)</label>
+            </value>
+            <value>
+                <fullName>Crack/Scratched</fullName>
+                <default>false</default>
+                <label>Crack/Scratched</label>
+            </value>
+            <value>
+                <fullName>Cracked</fullName>
+                <default>false</default>
+                <label>Cracked</label>
+            </value>
+            <value>
+                <fullName>Cracked Bottle</fullName>
+                <default>false</default>
+                <label>Cracked Bottle</label>
+            </value>
+            <value>
+                <fullName>Cracked Tray</fullName>
+                <default>false</default>
+                <label>Cracked Tray</label>
+            </value>
+            <value>
+                <fullName>Cracking Sponge</fullName>
+                <default>false</default>
+                <label>Cracking Sponge</label>
+            </value>
+            <value>
+                <fullName>Crank Broken</fullName>
+                <default>false</default>
+                <label>Crank Broken</label>
+            </value>
+            <value>
+                <fullName>Crushed Core</fullName>
+                <default>false</default>
+                <label>Crushed Core</label>
+            </value>
+            <value>
+                <fullName>Curl</fullName>
+                <default>false</default>
+                <label>Curl</label>
+            </value>
+            <value>
+                <fullName>Cursor Jumping</fullName>
+                <default>false</default>
+                <label>Cursor Jumping</label>
+            </value>
+            <value>
+                <fullName>Cut</fullName>
+                <default>false</default>
+                <label>Cut</label>
+            </value>
+            <value>
+                <fullName>Cutting, Not Clean Cut, Ragged</fullName>
+                <default>false</default>
+                <label>Cutting, Not Clean Cut, Ragged</label>
+            </value>
+            <value>
+                <fullName>Damage</fullName>
+                <default>false</default>
+                <label>Damage</label>
+            </value>
+            <value>
+                <fullName>Damaged Product</fullName>
+                <default>false</default>
+                <label>Damaged Product</label>
+            </value>
+            <value>
+                <fullName>Damaged Sheet</fullName>
+                <default>false</default>
+                <label>Damaged Sheet</label>
+            </value>
+            <value>
+                <fullName>Damaged Tip</fullName>
+                <default>false</default>
+                <label>Damaged Tip</label>
+            </value>
+            <value>
+                <fullName>Damage to Surface</fullName>
+                <default>false</default>
+                <label>Damage to Surface</label>
+            </value>
+            <value>
+                <fullName>Debris - Black</fullName>
+                <default>false</default>
+                <label>Debris - Black</label>
+            </value>
+            <value>
+                <fullName>Debris - White</fullName>
+                <default>false</default>
+                <label>Debris - White</label>
+            </value>
+            <value>
+                <fullName>Degrading Gel</fullName>
+                <default>false</default>
+                <label>Degrading Gel</label>
+            </value>
+            <value>
+                <fullName>Delamination</fullName>
+                <default>false</default>
+                <label>Delamination</label>
+            </value>
+            <value>
+                <fullName>Delamination - Scrubber</fullName>
+                <default>false</default>
+                <label>Delamination - Scrubber</label>
+            </value>
+            <value>
+                <fullName>Delamination - Shammy</fullName>
+                <default>false</default>
+                <label>Delamination - Shammy</label>
+            </value>
+            <value>
+                <fullName>Delamination - Sponge</fullName>
+                <default>false</default>
+                <label>Delamination - Sponge</label>
+            </value>
+            <value>
+                <fullName>Delamination - Stay Clean</fullName>
+                <default>false</default>
+                <label>Delamination - Stay Clean</label>
+            </value>
+            <value>
+                <fullName>Delamination - Web</fullName>
+                <default>false</default>
+                <label>Delamination - Web</label>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>Design - All others</fullName>
+                <default>false</default>
+                <label>Design - All others</label>
+            </value>
+            <value>
+                <fullName>Design - Application/Applicator</fullName>
+                <default>false</default>
+                <label>Design - Application/Applicator</label>
+            </value>
+            <value>
+                <fullName>Design - Assembly/Application</fullName>
+                <default>false</default>
+                <label>Design - Assembly/Application</label>
+            </value>
+            <value>
+                <fullName>Design - Cap Removal</fullName>
+                <default>false</default>
+                <label>Design - Cap Removal</label>
+            </value>
+            <value>
+                <fullName>Design - Dye Bleed</fullName>
+                <default>false</default>
+                <label>Design - Dye Bleed</label>
+            </value>
+            <value>
+                <fullName>Design - Handle</fullName>
+                <default>false</default>
+                <label>Design - Handle</label>
+            </value>
+            <value>
+                <fullName>Design - Too Big</fullName>
+                <default>false</default>
+                <label>Design - Too Big</label>
+            </value>
+            <value>
+                <fullName>Design - Too Small</fullName>
+                <default>false</default>
+                <label>Design - Too Small</label>
+            </value>
+            <value>
+                <fullName>Didn't Meet Expectations</fullName>
+                <default>false</default>
+                <label>Didn't Meet Expectations</label>
+            </value>
+            <value>
+                <fullName>Difficult to Dispense</fullName>
+                <default>false</default>
+                <label>Difficult to Dispense</label>
+            </value>
+            <value>
+                <fullName>Difficult to Handle</fullName>
+                <default>false</default>
+                <label>Difficult to Handle</label>
+            </value>
+            <value>
+                <fullName>Difficult To Operate</fullName>
+                <default>false</default>
+                <label>Difficult To Operate</label>
+            </value>
+            <value>
+                <fullName>Difficult to Refill</fullName>
+                <default>false</default>
+                <label>Difficult to Refill</label>
+            </value>
+            <value>
+                <fullName>Difficult to Unwind</fullName>
+                <default>false</default>
+                <label>Difficult to Unwind</label>
+            </value>
+            <value>
+                <fullName>Difficult Unfold</fullName>
+                <default>false</default>
+                <label>Difficult Unfold</label>
+            </value>
+            <value>
+                <fullName>Difficulty w/ refill</fullName>
+                <default>false</default>
+                <label>Difficulty w/ refill</label>
+            </value>
+            <value>
+                <fullName>Discoloration</fullName>
+                <default>false</default>
+                <label>Discoloration</label>
+            </value>
+            <value>
+                <fullName>Discoloration/Debris</fullName>
+                <default>false</default>
+                <label>Discoloration/Debris</label>
+            </value>
+            <value>
+                <fullName>Discoloration of Adhesive</fullName>
+                <default>false</default>
+                <label>Discoloration of Adhesive</label>
+            </value>
+            <value>
+                <fullName>Discontinued Product</fullName>
+                <default>false</default>
+                <label>Discontinued Product</label>
+            </value>
+            <value>
+                <fullName>Dislike</fullName>
+                <default>false</default>
+                <label>Dislike</label>
+            </value>
+            <value>
+                <fullName>Dislike - All Others</fullName>
+                <default>false</default>
+                <label>Dislike - All Others</label>
+            </value>
+            <value>
+                <fullName>Dislike - Color</fullName>
+                <default>false</default>
+                <label>Dislike - Color</label>
+            </value>
+            <value>
+                <fullName>Dislike - Odor</fullName>
+                <default>false</default>
+                <label>Dislike - Odor</label>
+            </value>
+            <value>
+                <fullName>Dislike - Texture</fullName>
+                <default>false</default>
+                <label>Dislike - Texture</label>
+            </value>
+            <value>
+                <fullName>Dispensability</fullName>
+                <default>false</default>
+                <label>Dispensability</label>
+            </value>
+            <value>
+                <fullName>Dispenser - All Others</fullName>
+                <default>false</default>
+                <label>Dispenser - All Others</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Backwards</fullName>
+                <default>false</default>
+                <label>Dispenser - Backwards</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Broken</fullName>
+                <default>false</default>
+                <label>Dispenser - Broken</label>
+            </value>
+            <value>
+                <fullName>Dispenser Design</fullName>
+                <default>false</default>
+                <label>Dispenser Design</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Not Dispensing</fullName>
+                <default>false</default>
+                <label>Dispenser - Not Dispensing</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Nozzle broken</fullName>
+                <default>false</default>
+                <label>Dispenser - Nozzle broken</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Openability</fullName>
+                <default>false</default>
+                <label>Dispenser - Openability</label>
+            </value>
+            <value>
+                <fullName>Dispenser - Tips</fullName>
+                <default>false</default>
+                <label>Dispenser - Tips</label>
+            </value>
+            <value>
+                <fullName>Display Error Clock</fullName>
+                <default>false</default>
+                <label>Display Error Clock</label>
+            </value>
+            <value>
+                <fullName>Display Error Sensor</fullName>
+                <default>false</default>
+                <label>Display Error Sensor</label>
+            </value>
+            <value>
+                <fullName>Display Issue</fullName>
+                <default>false</default>
+                <label>Display Issue</label>
+            </value>
+            <value>
+                <fullName>Doesn't Fit Work Station</fullName>
+                <default>false</default>
+                <label>Doesn't Fit Work Station</label>
+            </value>
+            <value>
+                <fullName>Doesn't Shine</fullName>
+                <default>false</default>
+                <label>Doesn't Shine</label>
+            </value>
+            <value>
+                <fullName>Doesn't Stay In Place</fullName>
+                <default>false</default>
+                <label>Doesn't Stay In Place</label>
+            </value>
+            <value>
+                <fullName>Does Not Strip</fullName>
+                <default>false</default>
+                <label>Does Not Strip</label>
+            </value>
+            <value>
+                <fullName>Dried Out</fullName>
+                <default>false</default>
+                <label>Dried Out</label>
+            </value>
+            <value>
+                <fullName>Dried Out When Purchased</fullName>
+                <default>false</default>
+                <label>Dried Out When Purchased</label>
+            </value>
+            <value>
+                <fullName>Drifts Down</fullName>
+                <default>false</default>
+                <label>Drifts Down</label>
+            </value>
+            <value>
+                <fullName>Dull Blade/Can't Cut</fullName>
+                <default>false</default>
+                <label>Dull Blade/Can't Cut</label>
+            </value>
+            <value>
+                <fullName>Dull Blades</fullName>
+                <default>false</default>
+                <label>Dull Blades</label>
+            </value>
+            <value>
+                <fullName>Durability</fullName>
+                <default>false</default>
+                <label>Durability</label>
+            </value>
+            <value>
+                <fullName>Durability - Cloth</fullName>
+                <default>false</default>
+                <label>Durability - Cloth</label>
+            </value>
+            <value>
+                <fullName>Durability - Foam</fullName>
+                <default>false</default>
+                <label>Durability - Foam</label>
+            </value>
+            <value>
+                <fullName>Durability - Mesh</fullName>
+                <default>false</default>
+                <label>Durability - Mesh</label>
+            </value>
+            <value>
+                <fullName>Durability - Shammy</fullName>
+                <default>false</default>
+                <label>Durability - Shammy</label>
+            </value>
+            <value>
+                <fullName>Durability - Sponge</fullName>
+                <default>false</default>
+                <label>Durability - Sponge</label>
+            </value>
+            <value>
+                <fullName>Durability - Stay Clean Dots</fullName>
+                <default>false</default>
+                <label>Durability - Stay Clean Dots</label>
+            </value>
+            <value>
+                <fullName>Durability - Web</fullName>
+                <default>false</default>
+                <label>Durability - Web</label>
+            </value>
+            <value>
+                <fullName>Dye Bleed</fullName>
+                <default>false</default>
+                <label>Dye Bleed</label>
+            </value>
+            <value>
+                <fullName>Elastic Strap</fullName>
+                <default>false</default>
+                <label>Elastic Strap</label>
+            </value>
+            <value>
+                <fullName>Embossing</fullName>
+                <default>false</default>
+                <label>Embossing</label>
+            </value>
+            <value>
+                <fullName>Expiration Date</fullName>
+                <default>false</default>
+                <label>Expiration Date</label>
+            </value>
+            <value>
+                <fullName>Fallback on Roll</fullName>
+                <default>false</default>
+                <label>Fallback on Roll</label>
+            </value>
+            <value>
+                <fullName>Falls Out of Holder</fullName>
+                <default>false</default>
+                <label>Falls Out of Holder</label>
+            </value>
+            <value>
+                <fullName>Film - Bubble / Particle</fullName>
+                <default>false</default>
+                <label>Film - Bubble / Particle</label>
+            </value>
+            <value>
+                <fullName>Film - Cling</fullName>
+                <default>false</default>
+                <label>Film - Cling</label>
+            </value>
+            <value>
+                <fullName>Film - Color</fullName>
+                <default>false</default>
+                <label>Film - Color</label>
+            </value>
+            <value>
+                <fullName>Film - Cracked Finish</fullName>
+                <default>false</default>
+                <label>Film - Cracked Finish</label>
+            </value>
+            <value>
+                <fullName>Film - Delamination/Peeling</fullName>
+                <default>false</default>
+                <label>Film - Delamination/Peeling</label>
+            </value>
+            <value>
+                <fullName>Film Formation of Coating</fullName>
+                <default>false</default>
+                <label>Film Formation of Coating</label>
+            </value>
+            <value>
+                <fullName>Film - Hazy, Milky</fullName>
+                <default>false</default>
+                <label>Film - Hazy, Milky</label>
+            </value>
+            <value>
+                <fullName>Film - Holes, Punctures</fullName>
+                <default>false</default>
+                <label>Film - Holes, Punctures</label>
+            </value>
+            <value>
+                <fullName>Film - Shrinkage</fullName>
+                <default>false</default>
+                <label>Film - Shrinkage</label>
+            </value>
+            <value>
+                <fullName>Film - Streaks / Lines / Wrinkles</fullName>
+                <default>false</default>
+                <label>Film - Streaks / Lines / Wrinkles</label>
+            </value>
+            <value>
+                <fullName>Film - Won't shrink</fullName>
+                <default>false</default>
+                <label>Film - Won't shrink</label>
+            </value>
+            <value>
+                <fullName>Filter Compatibility</fullName>
+                <default>false</default>
+                <label>Filter Compatibility</label>
+            </value>
+            <value>
+                <fullName>Filter Life</fullName>
+                <default>false</default>
+                <label>Filter Life</label>
+            </value>
+            <value>
+                <fullName>Flickering</fullName>
+                <default>false</default>
+                <label>Flickering</label>
+            </value>
+            <value>
+                <fullName>Foreign Material</fullName>
+                <default>false</default>
+                <label>Foreign Material</label>
+            </value>
+            <value>
+                <fullName>Frame</fullName>
+                <default>false</default>
+                <label>Frame</label>
+            </value>
+            <value>
+                <fullName>Frame/Damaged in Shipment</fullName>
+                <default>false</default>
+                <label>Frame/Damaged in Shipment</label>
+            </value>
+            <value>
+                <fullName>Frame/Damaged When Purchased</fullName>
+                <default>false</default>
+                <label>Frame/Damaged When Purchased</label>
+            </value>
+            <value>
+                <fullName>Frame/Folded Or Breaks in Use</fullName>
+                <default>false</default>
+                <label>Frame/Folded Or Breaks in Use</label>
+            </value>
+            <value>
+                <fullName>Frame Appearance</fullName>
+                <default>false</default>
+                <label>Frame Appearance</label>
+            </value>
+            <value>
+                <fullName>Frequency Spacing</fullName>
+                <default>false</default>
+                <label>Frequency Spacing</label>
+            </value>
+            <value>
+                <fullName>Front Stopper Doesn't Fit</fullName>
+                <default>false</default>
+                <label>Front Stopper Doesn't Fit</label>
+            </value>
+            <value>
+                <fullName>Gelcoat/Boats</fullName>
+                <default>false</default>
+                <label>Gelcoat/Boats</label>
+            </value>
+            <value>
+                <fullName>General Dislike</fullName>
+                <default>false</default>
+                <label>General Dislike</label>
+            </value>
+            <value>
+                <fullName>Ghosting After Erase</fullName>
+                <default>false</default>
+                <label>Ghosting After Erase</label>
+            </value>
+            <value>
+                <fullName>Glass Breakage</fullName>
+                <default>false</default>
+                <label>Glass Breakage</label>
+            </value>
+            <value>
+                <fullName>Gluestick Doesn't Advance</fullName>
+                <default>false</default>
+                <label>Gluestick Doesn't Advance</label>
+            </value>
+            <value>
+                <fullName>Green Roll Loose</fullName>
+                <default>false</default>
+                <label>Green Roll Loose</label>
+            </value>
+            <value>
+                <fullName>Guarantee, Warranty</fullName>
+                <default>false</default>
+                <label>Guarantee, Warranty</label>
+            </value>
+            <value>
+                <fullName>Handle</fullName>
+                <default>false</default>
+                <label>Handle</label>
+            </value>
+            <value>
+                <fullName>Hard to Start/Unwind</fullName>
+                <default>false</default>
+                <label>Hard to Start/Unwind</label>
+            </value>
+            <value>
+                <fullName>High Unwind</fullName>
+                <default>false</default>
+                <label>High Unwind</label>
+            </value>
+            <value>
+                <fullName>Hook Breakage</fullName>
+                <default>false</default>
+                <label>Hook Breakage</label>
+            </value>
+            <value>
+                <fullName>Image - All Others</fullName>
+                <default>false</default>
+                <label>Image - All Others</label>
+            </value>
+            <value>
+                <fullName>Image - Hazy</fullName>
+                <default>false</default>
+                <label>Image - Hazy</label>
+            </value>
+            <value>
+                <fullName>Image - Spotty/Mottled</fullName>
+                <default>false</default>
+                <label>Image - Spotty/Mottled</label>
+            </value>
+            <value>
+                <fullName>Image - Too Dark</fullName>
+                <default>false</default>
+                <label>Image - Too Dark</label>
+            </value>
+            <value>
+                <fullName>Image - Too Light</fullName>
+                <default>false</default>
+                <label>Image - Too Light</label>
+            </value>
+            <value>
+                <fullName>Improper Spray</fullName>
+                <default>false</default>
+                <label>Improper Spray</label>
+            </value>
+            <value>
+                <fullName>Incorrect Temp</fullName>
+                <default>false</default>
+                <label>Incorrect Temp</label>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>Ink/Fluid Amount</fullName>
+                <default>false</default>
+                <label>Ink/Fluid Amount</label>
+            </value>
+            <value>
+                <fullName>Ink Smearing (Not Dry)</fullName>
+                <default>false</default>
+                <label>Ink Smearing (Not Dry)</label>
+            </value>
+            <value>
+                <fullName>Ink Transfer - PPL</fullName>
+                <default>false</default>
+                <label>Ink Transfer - PPL</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Instructions</fullName>
+                <default>false</default>
+                <label>Instructions</label>
+            </value>
+            <value>
+                <fullName>Instructions Unclear</fullName>
+                <default>false</default>
+                <label>Instructions Unclear</label>
+            </value>
+            <value>
+                <fullName>Interlocking Failure</fullName>
+                <default>false</default>
+                <label>Interlocking Failure</label>
+            </value>
+            <value>
+                <fullName>Interlocking To Foam Failure</fullName>
+                <default>false</default>
+                <label>Interlocking To Foam Failure</label>
+            </value>
+            <value>
+                <fullName>Known Compatibility Issue</fullName>
+                <default>false</default>
+                <label>Known Compatibility Issue</label>
+            </value>
+            <value>
+                <fullName>Label</fullName>
+                <default>false</default>
+                <label>Label</label>
+            </value>
+            <value>
+                <fullName>Labeling/Packaging</fullName>
+                <default>false</default>
+                <label>Labeling/Packaging</label>
+            </value>
+            <value>
+                <fullName>Lanyard</fullName>
+                <default>false</default>
+                <label>Lanyard</label>
+            </value>
+            <value>
+                <fullName>Leakage - Button</fullName>
+                <default>false</default>
+                <label>Leakage - Button</label>
+            </value>
+            <value>
+                <fullName>Leakage - Cap</fullName>
+                <default>false</default>
+                <label>Leakage - Cap</label>
+            </value>
+            <value>
+                <fullName>Leakage - Head</fullName>
+                <default>false</default>
+                <label>Leakage - Head</label>
+            </value>
+            <value>
+                <fullName>Leakage - Unknown</fullName>
+                <default>false</default>
+                <label>Leakage - Unknown</label>
+            </value>
+            <value>
+                <fullName>Leakage - Valve</fullName>
+                <default>false</default>
+                <label>Leakage - Valve</label>
+            </value>
+            <value>
+                <fullName>Leaked/Heat Microwave</fullName>
+                <default>false</default>
+                <label>Leaked/Heat Microwave</label>
+            </value>
+            <value>
+                <fullName>Leaked/Heat Other</fullName>
+                <default>false</default>
+                <label>Leaked/Heat Other</label>
+            </value>
+            <value>
+                <fullName>Leaking</fullName>
+                <default>false</default>
+                <label>Leaking</label>
+            </value>
+            <value>
+                <fullName>Leaking Bottle</fullName>
+                <default>false</default>
+                <label>Leaking Bottle</label>
+            </value>
+            <value>
+                <fullName>Leaking System</fullName>
+                <default>false</default>
+                <label>Leaking System</label>
+            </value>
+            <value>
+                <fullName>Leaks/Cold</fullName>
+                <default>false</default>
+                <label>Leaks/Cold</label>
+            </value>
+            <value>
+                <fullName>Leaks - No Damage</fullName>
+                <default>false</default>
+                <label>Leaks - No Damage</label>
+            </value>
+            <value>
+                <fullName>Leaks w/ Damage</fullName>
+                <default>false</default>
+                <label>Leaks w/ Damage</label>
+            </value>
+            <value>
+                <fullName>Life</fullName>
+                <default>false</default>
+                <label>Life</label>
+            </value>
+            <value>
+                <fullName>Liner</fullName>
+                <default>false</default>
+                <label>Liner</label>
+            </value>
+            <value>
+                <fullName>Liner - Release</fullName>
+                <default>false</default>
+                <label>Liner - Release</label>
+            </value>
+            <value>
+                <fullName>Liner Removal</fullName>
+                <default>false</default>
+                <label>Liner Removal</label>
+            </value>
+            <value>
+                <fullName>Liner - Tear</fullName>
+                <default>false</default>
+                <label>Liner - Tear</label>
+            </value>
+            <value>
+                <fullName>Longevity</fullName>
+                <default>false</default>
+                <label>Longevity</label>
+            </value>
+            <value>
+                <fullName>Loose Cover</fullName>
+                <default>false</default>
+                <label>Loose Cover</label>
+            </value>
+            <value>
+                <fullName>Loose Hinge</fullName>
+                <default>false</default>
+                <label>Loose Hinge</label>
+            </value>
+            <value>
+                <fullName>Loose Parts</fullName>
+                <default>false</default>
+                <label>Loose Parts</label>
+            </value>
+            <value>
+                <fullName>Loose Screw</fullName>
+                <default>false</default>
+                <label>Loose Screw</label>
+            </value>
+            <value>
+                <fullName>Low Adhesion</fullName>
+                <default>false</default>
+                <label>Low Adhesion</label>
+            </value>
+            <value>
+                <fullName>Lowe's Custom Program</fullName>
+                <default>false</default>
+                <label>Lowe's Custom Program</label>
+            </value>
+            <value>
+                <fullName>Magnet Strength</fullName>
+                <default>false</default>
+                <label>Magnet Strength</label>
+            </value>
+            <value>
+                <fullName>Media/Damaged When Purchased</fullName>
+                <default>false</default>
+                <label>Media/Damaged When Purchased</label>
+            </value>
+            <value>
+                <fullName>Media/Odor, Fumes</fullName>
+                <default>false</default>
+                <label>Media/Odor, Fumes</label>
+            </value>
+            <value>
+                <fullName>Media Appearance</fullName>
+                <default>false</default>
+                <label>Media Appearance</label>
+            </value>
+            <value>
+                <fullName>Media Damaged In Use</fullName>
+                <default>false</default>
+                <label>Media Damaged In Use</label>
+            </value>
+            <value>
+                <fullName>Medical - ESCALATE</fullName>
+                <default>false</default>
+                <label>Medical - ESCALATE</label>
+            </value>
+            <value>
+                <fullName>Metal Nose Clip</fullName>
+                <default>false</default>
+                <label>Metal Nose Clip</label>
+            </value>
+            <value>
+                <fullName>Microwave</fullName>
+                <default>false</default>
+                <label>Microwave</label>
+            </value>
+            <value>
+                <fullName>Mil Thickness Not On Package</fullName>
+                <default>false</default>
+                <label>Mil Thickness Not On Package</label>
+            </value>
+            <value>
+                <fullName>Missing/Replacement Parts</fullName>
+                <default>false</default>
+                <label>Missing/Replacement Parts</label>
+            </value>
+            <value>
+                <fullName>Missing Blade</fullName>
+                <default>false</default>
+                <label>Missing Blade</label>
+            </value>
+            <value>
+                <fullName>Missing Knob</fullName>
+                <default>false</default>
+                <label>Missing Knob</label>
+            </value>
+            <value>
+                <fullName>Missing Mounting Product</fullName>
+                <default>false</default>
+                <label>Missing Mounting Product</label>
+            </value>
+            <value>
+                <fullName>Missing Parts</fullName>
+                <default>false</default>
+                <label>Missing Parts</label>
+            </value>
+            <value>
+                <fullName>Misuse</fullName>
+                <default>false</default>
+                <label>Misuse</label>
+            </value>
+            <value>
+                <fullName>Misuse - All Other</fullName>
+                <default>false</default>
+                <label>Misuse - All Other</label>
+            </value>
+            <value>
+                <fullName>Misuse - Cleaning</fullName>
+                <default>false</default>
+                <label>Misuse - Cleaning</label>
+            </value>
+            <value>
+                <fullName>Misuse - Lacquer / Fresh Paint</fullName>
+                <default>false</default>
+                <label>Misuse - Lacquer / Fresh Paint</label>
+            </value>
+            <value>
+                <fullName>Misuse - Multiple misuses</fullName>
+                <default>false</default>
+                <label>Misuse - Multiple misuses</label>
+            </value>
+            <value>
+                <fullName>Misuse - Overweight</fullName>
+                <default>false</default>
+                <label>Misuse - Overweight</label>
+            </value>
+            <value>
+                <fullName>Misuse - PHS Step 5</fullName>
+                <default>false</default>
+                <label>Misuse - PHS Step 5</label>
+            </value>
+            <value>
+                <fullName>Misuse - Wrong Product</fullName>
+                <default>false</default>
+                <label>Misuse - Wrong Product</label>
+            </value>
+            <value>
+                <fullName>Misuse - Wrong Surface</fullName>
+                <default>false</default>
+                <label>Misuse - Wrong Surface</label>
+            </value>
+            <value>
+                <fullName>Mold</fullName>
+                <default>false</default>
+                <label>Mold</label>
+            </value>
+            <value>
+                <fullName>Motor Quit</fullName>
+                <default>false</default>
+                <label>Motor Quit</label>
+            </value>
+            <value>
+                <fullName>Mounting Product Failure</fullName>
+                <default>false</default>
+                <label>Mounting Product Failure</label>
+            </value>
+            <value>
+                <fullName>Mouse Surface Performance</fullName>
+                <default>false</default>
+                <label>Mouse Surface Performance</label>
+            </value>
+            <value>
+                <fullName>Movement in Arm</fullName>
+                <default>false</default>
+                <label>Movement in Arm</label>
+            </value>
+            <value>
+                <fullName>Muliple Sheets</fullName>
+                <default>false</default>
+                <label>Muliple Sheets</label>
+            </value>
+            <value>
+                <fullName>Multiple Dispensing</fullName>
+                <default>false</default>
+                <label>Multiple Dispensing</label>
+            </value>
+            <value>
+                <fullName>Multiply Dispensing</fullName>
+                <default>false</default>
+                <label>Multiply Dispensing</label>
+            </value>
+            <value>
+                <fullName>No Activation</fullName>
+                <default>false</default>
+                <label>No Activation</label>
+            </value>
+            <value>
+                <fullName>No Adhesive</fullName>
+                <default>false</default>
+                <label>No Adhesive</label>
+            </value>
+            <value>
+                <fullName>No Beep</fullName>
+                <default>false</default>
+                <label>No Beep</label>
+            </value>
+            <value>
+                <fullName>No Edge Bubbles</fullName>
+                <default>false</default>
+                <label>No Edge Bubbles</label>
+            </value>
+            <value>
+                <fullName>Noisy</fullName>
+                <default>false</default>
+                <label>Noisy</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>No Perforations</fullName>
+                <default>false</default>
+                <label>No Perforations</label>
+            </value>
+            <value>
+                <fullName>No Slip Grip - Pad Stick</fullName>
+                <default>false</default>
+                <label>No Slip Grip - Pad Stick</label>
+            </value>
+            <value>
+                <fullName>No Slip Grip - Stick to Self</fullName>
+                <default>false</default>
+                <label>No Slip Grip - Stick to Self</label>
+            </value>
+            <value>
+                <fullName>No Soap</fullName>
+                <default>false</default>
+                <label>No Soap</label>
+            </value>
+            <value>
+                <fullName>No Spray</fullName>
+                <default>false</default>
+                <label>No Spray</label>
+            </value>
+            <value>
+                <fullName>No Tab On End Of Roll</fullName>
+                <default>false</default>
+                <label>No Tab On End Of Roll</label>
+            </value>
+            <value>
+                <fullName>Not Adhering</fullName>
+                <default>false</default>
+                <label>Not Adhering</label>
+            </value>
+            <value>
+                <fullName>Not Durable</fullName>
+                <default>false</default>
+                <label>Not Durable</label>
+            </value>
+            <value>
+                <fullName>Not Feeding</fullName>
+                <default>false</default>
+                <label>Not Feeding</label>
+            </value>
+            <value>
+                <fullName>Not Heating Up</fullName>
+                <default>false</default>
+                <label>Not Heating Up</label>
+            </value>
+            <value>
+                <fullName>Not Self Adherent</fullName>
+                <default>false</default>
+                <label>Not Self Adherent</label>
+            </value>
+            <value>
+                <fullName>Not Uniform</fullName>
+                <default>false</default>
+                <label>Not Uniform</label>
+            </value>
+            <value>
+                <fullName>Not Washable</fullName>
+                <default>false</default>
+                <label>Not Washable</label>
+            </value>
+            <value>
+                <fullName>Nozzle</fullName>
+                <default>false</default>
+                <label>Nozzle</label>
+            </value>
+            <value>
+                <fullName>Nozzle Broken</fullName>
+                <default>false</default>
+                <label>Nozzle Broken</label>
+            </value>
+            <value>
+                <fullName>Odor</fullName>
+                <default>false</default>
+                <label>Odor</label>
+            </value>
+            <value>
+                <fullName>Odor - Initial</fullName>
+                <default>false</default>
+                <label>Odor - Initial</label>
+            </value>
+            <value>
+                <fullName>Odor - In Use</fullName>
+                <default>false</default>
+                <label>Odor - In Use</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other - Note in Comments</fullName>
+                <default>false</default>
+                <label>Other - Note in Comments</label>
+            </value>
+            <value>
+                <fullName>Overtab</fullName>
+                <default>false</default>
+                <label>Overtab</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Packaging Issue</fullName>
+                <default>false</default>
+                <label>Packaging Issue</label>
+            </value>
+            <value>
+                <fullName>Pad Falls Apart</fullName>
+                <default>false</default>
+                <label>Pad Falls Apart</label>
+            </value>
+            <value>
+                <fullName>Pad Falls Off Calendar</fullName>
+                <default>false</default>
+                <label>Pad Falls Off Calendar</label>
+            </value>
+            <value>
+                <fullName>Part Broken</fullName>
+                <default>false</default>
+                <label>Part Broken</label>
+            </value>
+            <value>
+                <fullName>Perforation</fullName>
+                <default>false</default>
+                <label>Perforation</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Performance - All Others</fullName>
+                <default>false</default>
+                <label>Performance - All Others</label>
+            </value>
+            <value>
+                <fullName>Performance - Application</fullName>
+                <default>false</default>
+                <label>Performance - Application</label>
+            </value>
+            <value>
+                <fullName>Performance - Broken Strap</fullName>
+                <default>false</default>
+                <label>Performance - Broken Strap</label>
+            </value>
+            <value>
+                <fullName>Performance - Can not Activate</fullName>
+                <default>false</default>
+                <label>Performance - Can not Activate</label>
+            </value>
+            <value>
+                <fullName>Performance - Cassette</fullName>
+                <default>false</default>
+                <label>Performance - Cassette</label>
+            </value>
+            <value>
+                <fullName>Performance - Chest Piece</fullName>
+                <default>false</default>
+                <label>Performance - Chest Piece</label>
+            </value>
+            <value>
+                <fullName>Performance - Dried out</fullName>
+                <default>false</default>
+                <label>Performance - Dried out</label>
+            </value>
+            <value>
+                <fullName>Performance - Ear Pieces</fullName>
+                <default>false</default>
+                <label>Performance - Ear Pieces</label>
+            </value>
+            <value>
+                <fullName>Performance - Fastener</fullName>
+                <default>false</default>
+                <label>Performance - Fastener</label>
+            </value>
+            <value>
+                <fullName>Performance - High Unwind</fullName>
+                <default>false</default>
+                <label>Performance - High Unwind</label>
+            </value>
+            <value>
+                <fullName>Performance - Leaking</fullName>
+                <default>false</default>
+                <label>Performance - Leaking</label>
+            </value>
+            <value>
+                <fullName>Performance - Leaking gel</fullName>
+                <default>false</default>
+                <label>Performance - Leaking gel</label>
+            </value>
+            <value>
+                <fullName>Performance - Not Self Adherent</fullName>
+                <default>false</default>
+                <label>Performance - Not Self Adherent</label>
+            </value>
+            <value>
+                <fullName>Performance - Remains Tacky</fullName>
+                <default>false</default>
+                <label>Performance - Remains Tacky</label>
+            </value>
+            <value>
+                <fullName>Performance - Residue</fullName>
+                <default>false</default>
+                <label>Performance - Residue</label>
+            </value>
+            <value>
+                <fullName>Performance - Seams Torn</fullName>
+                <default>false</default>
+                <label>Performance - Seams Torn</label>
+            </value>
+            <value>
+                <fullName>Performance - Stuck to package</fullName>
+                <default>false</default>
+                <label>Performance - Stuck to package</label>
+            </value>
+            <value>
+                <fullName>Performance - Tears</fullName>
+                <default>false</default>
+                <label>Performance - Tears</label>
+            </value>
+            <value>
+                <fullName>Performance - Thick</fullName>
+                <default>false</default>
+                <label>Performance - Thick</label>
+            </value>
+            <value>
+                <fullName>Performance  - Tubing</fullName>
+                <default>false</default>
+                <label>Performance  - Tubing</label>
+            </value>
+            <value>
+                <fullName>Performance  - Viscosity</fullName>
+                <default>false</default>
+                <label>Performance  - Viscosity</label>
+            </value>
+            <value>
+                <fullName>Performance - Wads up</fullName>
+                <default>false</default>
+                <label>Performance - Wads up</label>
+            </value>
+            <value>
+                <fullName>Pkg Removal Difficult</fullName>
+                <default>false</default>
+                <label>Pkg Removal Difficult</label>
+            </value>
+            <value>
+                <fullName>Plastic Broke</fullName>
+                <default>false</default>
+                <label>Plastic Broke</label>
+            </value>
+            <value>
+                <fullName>Poor Perforations</fullName>
+                <default>false</default>
+                <label>Poor Perforations</label>
+            </value>
+            <value>
+                <fullName>Pop Up Computer Error</fullName>
+                <default>false</default>
+                <label>Pop Up Computer Error</label>
+            </value>
+            <value>
+                <fullName>Potential Injury</fullName>
+                <default>false</default>
+                <label>Potential Injury</label>
+            </value>
+            <value>
+                <fullName>Pouches Stuck Together</fullName>
+                <default>false</default>
+                <label>Pouches Stuck Together</label>
+            </value>
+            <value>
+                <fullName>Pouch Stuck in Machine</fullName>
+                <default>false</default>
+                <label>Pouch Stuck in Machine</label>
+            </value>
+            <value>
+                <fullName>Precise Mousing Surface Damage</fullName>
+                <default>false</default>
+                <label>Precise Mousing Surface Damage</label>
+            </value>
+            <value>
+                <fullName>Printer Issue (Feeding)</fullName>
+                <default>false</default>
+                <label>Printer Issue (Feeding)</label>
+            </value>
+            <value>
+                <fullName>Printer Issue (Jamming)</fullName>
+                <default>false</default>
+                <label>Printer Issue (Jamming)</label>
+            </value>
+            <value>
+                <fullName>Printing Issue (Image Alignment)</fullName>
+                <default>false</default>
+                <label>Printing Issue (Image Alignment)</label>
+            </value>
+            <value>
+                <fullName>Printing Issue (Image Quality)</fullName>
+                <default>false</default>
+                <label>Printing Issue (Image Quality)</label>
+            </value>
+            <value>
+                <fullName>Product/Hard</fullName>
+                <default>false</default>
+                <label>Product/Hard</label>
+            </value>
+            <value>
+                <fullName>Product/Watery</fullName>
+                <default>false</default>
+                <label>Product/Watery</label>
+            </value>
+            <value>
+                <fullName>Product Appearance</fullName>
+                <default>false</default>
+                <label>Product Appearance</label>
+            </value>
+            <value>
+                <fullName>Product - Appearance-Scratched Metal</fullName>
+                <default>false</default>
+                <label>Product - Appearance-Scratched Metal</label>
+            </value>
+            <value>
+                <fullName>Product Design</fullName>
+                <default>false</default>
+                <label>Product Design</label>
+            </value>
+            <value>
+                <fullName>Product Expired</fullName>
+                <default>false</default>
+                <label>Product Expired</label>
+            </value>
+            <value>
+                <fullName>Product Information</fullName>
+                <default>false</default>
+                <label>Product Information</label>
+            </value>
+            <value>
+                <fullName>Product - Missing Pars/Quantity</fullName>
+                <default>false</default>
+                <label>Product - Missing Pars/Quantity</label>
+            </value>
+            <value>
+                <fullName>Product Misuse</fullName>
+                <default>false</default>
+                <label>Product Misuse</label>
+            </value>
+            <value>
+                <fullName>Product Packaging</fullName>
+                <default>false</default>
+                <label>Product Packaging</label>
+            </value>
+            <value>
+                <fullName>Property Damage</fullName>
+                <default>false</default>
+                <label>Property Damage</label>
+            </value>
+            <value>
+                <fullName>Radio Won't Turn On</fullName>
+                <default>false</default>
+                <label>Radio Won't Turn On</label>
+            </value>
+            <value>
+                <fullName>Ready Light Not Turning On</fullName>
+                <default>false</default>
+                <label>Ready Light Not Turning On</label>
+            </value>
+            <value>
+                <fullName>Recall</fullName>
+                <default>false</default>
+                <label>Recall</label>
+            </value>
+            <value>
+                <fullName>Recall - CL680 Cleaner</fullName>
+                <default>false</default>
+                <label>Recall - CL680 Cleaner</label>
+            </value>
+            <value>
+                <fullName>Refill falls off</fullName>
+                <default>false</default>
+                <label>Refill falls off</label>
+            </value>
+            <value>
+                <fullName>Refills Stuck in Toilet</fullName>
+                <default>false</default>
+                <label>Refills Stuck in Toilet</label>
+            </value>
+            <value>
+                <fullName>Remains Tacky</fullName>
+                <default>false</default>
+                <label>Remains Tacky</label>
+            </value>
+            <value>
+                <fullName>Remote Doesn't Work</fullName>
+                <default>false</default>
+                <label>Remote Doesn't Work</label>
+            </value>
+            <value>
+                <fullName>Removal Damage - Hollow Arrow</fullName>
+                <default>false</default>
+                <label>Removal Damage - Hollow Arrow</label>
+            </value>
+            <value>
+                <fullName>Removal Damage - Surface/Substrate/Property</fullName>
+                <default>false</default>
+                <label>Removal Damage - Surface/Substrate/Property</label>
+            </value>
+            <value>
+                <fullName>Removal From Pad</fullName>
+                <default>false</default>
+                <label>Removal From Pad</label>
+            </value>
+            <value>
+                <fullName>Repellency</fullName>
+                <default>false</default>
+                <label>Repellency</label>
+            </value>
+            <value>
+                <fullName>Replacement Parts</fullName>
+                <default>false</default>
+                <label>Replacement Parts</label>
+            </value>
+            <value>
+                <fullName>Reverse Wound</fullName>
+                <default>false</default>
+                <label>Reverse Wound</label>
+            </value>
+            <value>
+                <fullName>Satisfaction Guarantee</fullName>
+                <default>false</default>
+                <label>Satisfaction Guarantee</label>
+            </value>
+            <value>
+                <fullName>Scent</fullName>
+                <default>false</default>
+                <label>Scent</label>
+            </value>
+            <value>
+                <fullName>Scents: Adverse Reaction to Product</fullName>
+                <default>false</default>
+                <label>Scents: Adverse Reaction to Product</label>
+            </value>
+            <value>
+                <fullName>Scents: Command Strip</fullName>
+                <default>false</default>
+                <label>Scents: Command Strip</label>
+            </value>
+            <value>
+                <fullName>Scents: Damaged Container</fullName>
+                <default>false</default>
+                <label>Scents: Damaged Container</label>
+            </value>
+            <value>
+                <fullName>Scents: Defective Clear Liner</fullName>
+                <default>false</default>
+                <label>Scents: Defective Clear Liner</label>
+            </value>
+            <value>
+                <fullName>Scents: Didn't Meet Expectations</fullName>
+                <default>false</default>
+                <label>Scents: Didn't Meet Expectations</label>
+            </value>
+            <value>
+                <fullName>Scents: Does Not Fit Filter Slot</fullName>
+                <default>false</default>
+                <label>Scents: Does Not Fit Filter Slot</label>
+            </value>
+            <value>
+                <fullName>Scents: Fragrance Too Strong</fullName>
+                <default>false</default>
+                <label>Scents: Fragrance Too Strong</label>
+            </value>
+            <value>
+                <fullName>Scents: Fragrance Too Weak</fullName>
+                <default>false</default>
+                <label>Scents: Fragrance Too Weak</label>
+            </value>
+            <value>
+                <fullName>Scratched Lens</fullName>
+                <default>false</default>
+                <label>Scratched Lens</label>
+            </value>
+            <value>
+                <fullName>Scrub Heads - Low Soap</fullName>
+                <default>false</default>
+                <label>Scrub Heads - Low Soap</label>
+            </value>
+            <value>
+                <fullName>Scrub Heads - No Slit</fullName>
+                <default>false</default>
+                <label>Scrub Heads - No Slit</label>
+            </value>
+            <value>
+                <fullName>Scrub Heads - Other</fullName>
+                <default>false</default>
+                <label>Scrub Heads - Other</label>
+            </value>
+            <value>
+                <fullName>Seal Failure (Foggy Windows)</fullName>
+                <default>false</default>
+                <label>Seal Failure (Foggy Windows)</label>
+            </value>
+            <value>
+                <fullName>Seams</fullName>
+                <default>false</default>
+                <label>Seams</label>
+            </value>
+            <value>
+                <fullName>Seam Split</fullName>
+                <default>false</default>
+                <label>Seam Split</label>
+            </value>
+            <value>
+                <fullName>Seepage</fullName>
+                <default>false</default>
+                <label>Seepage</label>
+            </value>
+            <value>
+                <fullName>Sensor Error</fullName>
+                <default>false</default>
+                <label>Sensor Error</label>
+            </value>
+            <value>
+                <fullName>Sensor Missing</fullName>
+                <default>false</default>
+                <label>Sensor Missing</label>
+            </value>
+            <value>
+                <fullName>Shelling</fullName>
+                <default>false</default>
+                <label>Shelling</label>
+            </value>
+            <value>
+                <fullName>Shock</fullName>
+                <default>false</default>
+                <label>Shock</label>
+            </value>
+            <value>
+                <fullName>Shortage</fullName>
+                <default>false</default>
+                <label>Shortage</label>
+            </value>
+            <value>
+                <fullName>Shortage - All Others</fullName>
+                <default>false</default>
+                <label>Shortage - All Others</label>
+            </value>
+            <value>
+                <fullName>Shortage Handle</fullName>
+                <default>false</default>
+                <label>Shortage Handle</label>
+            </value>
+            <value>
+                <fullName>Shortage - Scrub Head</fullName>
+                <default>false</default>
+                <label>Shortage - Scrub Head</label>
+            </value>
+            <value>
+                <fullName>Shortage - Short Count</fullName>
+                <default>false</default>
+                <label>Shortage - Short Count</label>
+            </value>
+            <value>
+                <fullName>Shortage - Suction Cups</fullName>
+                <default>false</default>
+                <label>Shortage - Suction Cups</label>
+            </value>
+            <value>
+                <fullName>Shortage - Tips</fullName>
+                <default>false</default>
+                <label>Shortage - Tips</label>
+            </value>
+            <value>
+                <fullName>Size Too Big</fullName>
+                <default>false</default>
+                <label>Size Too Big</label>
+            </value>
+            <value>
+                <fullName>Size Too Small</fullName>
+                <default>false</default>
+                <label>Size Too Small</label>
+            </value>
+            <value>
+                <fullName>Size Too Thick</fullName>
+                <default>false</default>
+                <label>Size Too Thick</label>
+            </value>
+            <value>
+                <fullName>Slivering</fullName>
+                <default>false</default>
+                <label>Slivering</label>
+            </value>
+            <value>
+                <fullName>Slivers off Roll</fullName>
+                <default>false</default>
+                <label>Slivers off Roll</label>
+            </value>
+            <value>
+                <fullName>Slivers On Removal</fullName>
+                <default>false</default>
+                <label>Slivers On Removal</label>
+            </value>
+            <value>
+                <fullName>Slow Flow</fullName>
+                <default>false</default>
+                <label>Slow Flow</label>
+            </value>
+            <value>
+                <fullName>Slow Flow Rate</fullName>
+                <default>false</default>
+                <label>Slow Flow Rate</label>
+            </value>
+            <value>
+                <fullName>Slump/Falls</fullName>
+                <default>false</default>
+                <label>Slump/Falls</label>
+            </value>
+            <value>
+                <fullName>Slumping/Tips/Turns</fullName>
+                <default>false</default>
+                <label>Slumping/Tips/Turns</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Software Compatible</fullName>
+                <default>false</default>
+                <label>Software Compatible</label>
+            </value>
+            <value>
+                <fullName>Software Issue</fullName>
+                <default>false</default>
+                <label>Software Issue</label>
+            </value>
+            <value>
+                <fullName>Speaker-Out 1 Side - (Note which Side)</fullName>
+                <default>false</default>
+                <label>Speaker-Out 1 Side - (Note which Side)</label>
+            </value>
+            <value>
+                <fullName>Splints</fullName>
+                <default>false</default>
+                <label>Splints</label>
+            </value>
+            <value>
+                <fullName>Split/Hole in Sponge</fullName>
+                <default>false</default>
+                <label>Split/Hole in Sponge</label>
+            </value>
+            <value>
+                <fullName>Splitting</fullName>
+                <default>false</default>
+                <label>Splitting</label>
+            </value>
+            <value>
+                <fullName>Spray</fullName>
+                <default>false</default>
+                <label>Spray</label>
+            </value>
+            <value>
+                <fullName>Spray Pattern</fullName>
+                <default>false</default>
+                <label>Spray Pattern</label>
+            </value>
+            <value>
+                <fullName>Static Shock</fullName>
+                <default>false</default>
+                <label>Static Shock</label>
+            </value>
+            <value>
+                <fullName>Sticking Drain Valve</fullName>
+                <default>false</default>
+                <label>Sticking Drain Valve</label>
+            </value>
+            <value>
+                <fullName>Streaking/Clouding</fullName>
+                <default>false</default>
+                <label>Streaking/Clouding</label>
+            </value>
+            <value>
+                <fullName>Streaking - Over Applied</fullName>
+                <default>false</default>
+                <label>Streaking - Over Applied</label>
+            </value>
+            <value>
+                <fullName>Streaking Pouches</fullName>
+                <default>false</default>
+                <label>Streaking Pouches</label>
+            </value>
+            <value>
+                <fullName>Stuck - Won't Move</fullName>
+                <default>false</default>
+                <label>Stuck - Won't Move</label>
+            </value>
+            <value>
+                <fullName>Substrate Damage</fullName>
+                <default>false</default>
+                <label>Substrate Damage</label>
+            </value>
+            <value>
+                <fullName>Substrate Damage - Drywall</fullName>
+                <default>false</default>
+                <label>Substrate Damage - Drywall</label>
+            </value>
+            <value>
+                <fullName>Substrate Damage - Wood</fullName>
+                <default>false</default>
+                <label>Substrate Damage - Wood</label>
+            </value>
+            <value>
+                <fullName>Substrate Damage - Wood  Floor</fullName>
+                <default>false</default>
+                <label>Substrate Damage - Wood  Floor</label>
+            </value>
+            <value>
+                <fullName>Suction Cups Not Sticking</fullName>
+                <default>false</default>
+                <label>Suction Cups Not Sticking</label>
+            </value>
+            <value>
+                <fullName>Surface Performance</fullName>
+                <default>false</default>
+                <label>Surface Performance</label>
+            </value>
+            <value>
+                <fullName>Tab Tear</fullName>
+                <default>false</default>
+                <label>Tab Tear</label>
+            </value>
+            <value>
+                <fullName>Tape - Adhesive Transfer</fullName>
+                <default>false</default>
+                <label>Tape - Adhesive Transfer</label>
+            </value>
+            <value>
+                <fullName>Tape Binding</fullName>
+                <default>false</default>
+                <label>Tape Binding</label>
+            </value>
+            <value>
+                <fullName>Tape Falls Off Roller</fullName>
+                <default>false</default>
+                <label>Tape Falls Off Roller</label>
+            </value>
+            <value>
+                <fullName>Tape - Liner</fullName>
+                <default>false</default>
+                <label>Tape - Liner</label>
+            </value>
+            <value>
+                <fullName>Tape - Low Adhesion Film to Tape</fullName>
+                <default>false</default>
+                <label>Tape - Low Adhesion Film to Tape</label>
+            </value>
+            <value>
+                <fullName>Tape - Low Adhesion Tape to Substrate</fullName>
+                <default>false</default>
+                <label>Tape - Low Adhesion Tape to Substrate</label>
+            </value>
+            <value>
+                <fullName>Tape - Reverse Wound</fullName>
+                <default>false</default>
+                <label>Tape - Reverse Wound</label>
+            </value>
+            <value>
+                <fullName>Tape - Shortage</fullName>
+                <default>false</default>
+                <label>Tape - Shortage</label>
+            </value>
+            <value>
+                <fullName>Tape - Substrate Damage</fullName>
+                <default>false</default>
+                <label>Tape - Substrate Damage</label>
+            </value>
+            <value>
+                <fullName>Taste</fullName>
+                <default>false</default>
+                <label>Taste</label>
+            </value>
+            <value>
+                <fullName>Taste/Texture</fullName>
+                <default>false</default>
+                <label>Taste/Texture</label>
+            </value>
+            <value>
+                <fullName>Taste &amp; Odor</fullName>
+                <default>false</default>
+                <label>Taste &amp; Odor</label>
+            </value>
+            <value>
+                <fullName>Tears</fullName>
+                <default>false</default>
+                <label>Tears</label>
+            </value>
+            <value>
+                <fullName>Tear Strips</fullName>
+                <default>false</default>
+                <label>Tear Strips</label>
+            </value>
+            <value>
+                <fullName>Technical Inquiry</fullName>
+                <default>false</default>
+                <label>Technical Inquiry</label>
+            </value>
+            <value>
+                <fullName>Tension</fullName>
+                <default>false</default>
+                <label>Tension</label>
+            </value>
+            <value>
+                <fullName>Texture</fullName>
+                <default>false</default>
+                <label>Texture</label>
+            </value>
+            <value>
+                <fullName>Thermostat</fullName>
+                <default>false</default>
+                <label>Thermostat</label>
+            </value>
+            <value>
+                <fullName>Thick</fullName>
+                <default>false</default>
+                <label>Thick</label>
+            </value>
+            <value>
+                <fullName>Tight Blades</fullName>
+                <default>false</default>
+                <label>Tight Blades</label>
+            </value>
+            <value>
+                <fullName>Time Strip</fullName>
+                <default>false</default>
+                <label>Time Strip</label>
+            </value>
+            <value>
+                <fullName>Tip Clogged</fullName>
+                <default>false</default>
+                <label>Tip Clogged</label>
+            </value>
+            <value>
+                <fullName>Tip Ejects</fullName>
+                <default>false</default>
+                <label>Tip Ejects</label>
+            </value>
+            <value>
+                <fullName>Tool/Back up pad</fullName>
+                <default>false</default>
+                <label>Tool/Back up pad</label>
+            </value>
+            <value>
+                <fullName>Top Button Broke Physically</fullName>
+                <default>false</default>
+                <label>Top Button Broke Physically</label>
+            </value>
+            <value>
+                <fullName>Totally Unresponsive</fullName>
+                <default>false</default>
+                <label>Totally Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Tray Moves/Floats</fullName>
+                <default>false</default>
+                <label>Tray Moves/Floats</label>
+            </value>
+            <value>
+                <fullName>TreasureChest Variety</fullName>
+                <default>false</default>
+                <label>TreasureChest Variety</label>
+            </value>
+            <value>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+                <label>Trigger</label>
+            </value>
+            <value>
+                <fullName>Tube Leaks</fullName>
+                <default>false</default>
+                <label>Tube Leaks</label>
+            </value>
+            <value>
+                <fullName>Turbidity / Cloudy</fullName>
+                <default>false</default>
+                <label>Turbidity / Cloudy</label>
+            </value>
+            <value>
+                <fullName>Unwinds Too Easily</fullName>
+                <default>false</default>
+                <label>Unwinds Too Easily</label>
+            </value>
+            <value>
+                <fullName>USB Communication</fullName>
+                <default>false</default>
+                <label>USB Communication</label>
+            </value>
+            <value>
+                <fullName>Warped</fullName>
+                <default>false</default>
+                <label>Warped</label>
+            </value>
+            <value>
+                <fullName>Warped Board</fullName>
+                <default>false</default>
+                <label>Warped Board</label>
+            </value>
+            <value>
+                <fullName>Warped Wrist Rest/Base Plate</fullName>
+                <default>false</default>
+                <label>Warped Wrist Rest/Base Plate</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Washes/Wears Off</fullName>
+                <default>false</default>
+                <label>Washes/Wears Off</label>
+            </value>
+            <value>
+                <fullName>Weak Bubbles</fullName>
+                <default>false</default>
+                <label>Weak Bubbles</label>
+            </value>
+            <value>
+                <fullName>Weak Radio Frequency</fullName>
+                <default>false</default>
+                <label>Weak Radio Frequency</label>
+            </value>
+            <value>
+                <fullName>Where To Buy</fullName>
+                <default>false</default>
+                <label>Where To Buy</label>
+            </value>
+            <value>
+                <fullName>White Dust</fullName>
+                <default>false</default>
+                <label>White Dust</label>
+            </value>
+            <value>
+                <fullName>White Overspray</fullName>
+                <default>false</default>
+                <label>White Overspray</label>
+            </value>
+            <value>
+                <fullName>Won't Cut</fullName>
+                <default>false</default>
+                <label>Won't Cut</label>
+            </value>
+            <value>
+                <fullName>Won't Cut Full Length</fullName>
+                <default>false</default>
+                <label>Won't Cut Full Length</label>
+            </value>
+            <value>
+                <fullName>Won't Erase</fullName>
+                <default>false</default>
+                <label>Won't Erase</label>
+            </value>
+            <value>
+                <fullName>Won't Turn Off</fullName>
+                <default>false</default>
+                <label>Won't Turn Off</label>
+            </value>
+            <value>
+                <fullName>Won't Turn On</fullName>
+                <default>false</default>
+                <label>Won't Turn On</label>
+            </value>
+            <value>
+                <fullName>Workmanship - All Others</fullName>
+                <default>false</default>
+                <label>Workmanship - All Others</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Color Fade</fullName>
+                <default>false</default>
+                <label>Workmanship - Color Fade</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Folded Bandage</fullName>
+                <default>false</default>
+                <label>Workmanship - Folded Bandage</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Frame Failure</fullName>
+                <default>false</default>
+                <label>Workmanship - Frame Failure</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Off Center Pad</fullName>
+                <default>false</default>
+                <label>Workmanship - Off Center Pad</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Splice Tape</fullName>
+                <default>false</default>
+                <label>Workmanship - Splice Tape</label>
+            </value>
+            <value>
+                <fullName>Workmanship - Visual Defect</fullName>
+                <default>false</default>
+                <label>Workmanship - Visual Defect</label>
+            </value>
+            <value>
+                <fullName>Wrapper</fullName>
+                <default>false</default>
+                <label>Wrapper</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

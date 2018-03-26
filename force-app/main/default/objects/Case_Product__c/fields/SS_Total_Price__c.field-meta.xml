@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Total_Price__c</fullName>
+    <description>Scott Safety field - What is the total price (qty*Price) for this RMA line?</description>
+    <externalId>false</externalId>
+    <formula>Quantity__c  *  Price__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>What is the total price (qty*Price) for this RMA line?</inlineHelpText>
+    <label>SS-Total Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

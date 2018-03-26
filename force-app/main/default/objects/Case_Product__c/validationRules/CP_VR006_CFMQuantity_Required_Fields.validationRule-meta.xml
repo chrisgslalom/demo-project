@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR006_CFMQuantity_Required_Fields</fullName>
+    <active>false</active>
+    <description>'Anticipated First order Quantity' and 'Anticipated Annual Quantity' are required once Anticipated type is 'Quantity'.</description>
+    <errorConditionFormula>AND(
+   ISPICKVAL( Anticipated_Type__c , 'Quantity') ,
+   OR(
+       ISNULL( Anticipated_First_Order_Volume__c ),
+       ISBLANK( Anticipated_First_Order_Volume__c ),
+       ISNULL( Anticipated_Annual_Volume__c ),
+       ISBlank( Anticipated_Annual_Volume__c )
+     ),
+   OR(
+      RecordType.DeveloperName = 'CFM_Listed_Case_Product', RecordType.DeveloperName = 'CFM_Unlisted_Case_Product' )
+)</errorConditionFormula>
+    <errorMessage>'Anticipated First order Quantity' and 'Anticipated Annual Quantity' are required once Anticipated type is 'Quantity'.</errorMessage>
+</ValidationRule>

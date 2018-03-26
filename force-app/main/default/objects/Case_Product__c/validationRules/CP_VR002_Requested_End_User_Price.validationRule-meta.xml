@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR002_Requested_End_User_Price</fullName>
+    <active>true</active>
+    <description>Required - if Channel Partner/End User Type equals End User Only</description>
+    <errorConditionFormula>AND( 
+Case__r.RecordType.DeveloperName = 'Deviated_Pricing',
+TEXT(Case__r.Channel_End_User_Type__c) = 'End User Only' ,    ISBLANK(Requested_End_User_Price__c) )</errorConditionFormula>
+    <errorDisplayField>Requested_End_User_Price__c</errorDisplayField>
+    <errorMessage>Requested End User Price is Required - if Channel Partner/End User Type equals End User Only</errorMessage>
+</ValidationRule>

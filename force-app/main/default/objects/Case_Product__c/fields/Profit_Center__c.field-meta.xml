@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profit_Center__c</fullName>
+    <externalId>false</externalId>
+    <label>Profit Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1020-OLED Films</fullName>
+                <default>false</default>
+                <label>1020-OLED Films</label>
+            </value>
+            <value>
+                <fullName>1030-OLED OCA</fullName>
+                <default>false</default>
+                <label>1030-OLED OCA</label>
+            </value>
+            <value>
+                <fullName>1040-Priv Lab Notes Flags</fullName>
+                <default>false</default>
+                <label>1040-Priv Lab Notes Flags</label>
+            </value>
+            <value>
+                <fullName>1050-Private Label HOT &amp;</fullName>
+                <default>false</default>
+                <label>1050-Private Label HOT &amp;</label>
+            </value>
+            <value>
+                <fullName>1060-Sample Handling</fullName>
+                <default>false</default>
+                <label>1060-Sample Handling</label>
+            </value>
+            <value>
+                <fullName>1070-Pathogen Detection</fullName>
+                <default>false</default>
+                <label>1070-Pathogen Detection</label>
+            </value>
+            <value>
+                <fullName>1080-CMP Pad Bonding</fullName>
+                <default>false</default>
+                <label>1080-CMP Pad Bonding</label>
+            </value>
+            <value>
+                <fullName>1100-Conv Bonded Primary</fullName>
+                <default>false</default>
+                <label>1100-Conv Bonded Primary</label>
+            </value>
+            <value>
+                <fullName>1110-Coated Abrasives non</fullName>
+                <default>false</default>
+                <label>1110-Coated Abrasives non</label>
+            </value>
+            <value>
+                <fullName>1110-Micro Replicated Pro</fullName>
+                <default>false</default>
+                <label>1110-Micro Replicated Pro</label>
+            </value>
+            <value>
+                <fullName>1130-Industrial Minerals</fullName>
+                <default>false</default>
+                <label>1130-Industrial Minerals</label>
+            </value>
+            <value>
+                <fullName>1140-Ceramic Fibers Compo</fullName>
+                <default>false</default>
+                <label>1140-Ceramic Fibers Compo</label>
+            </value>
+            <value>
+                <fullName>1150-Surface Cond Prod</fullName>
+                <default>false</default>
+                <label>1150-Surface Cond Prod</label>
+            </value>
+            <value>
+                <fullName>1170-GTA Private Label Se</fullName>
+                <default>false</default>
+                <label>1170-GTA Private Label Se</label>
+            </value>
+            <value>
+                <fullName>1190-Aerospace Adhesives</fullName>
+                <default>false</default>
+                <label>1190-Aerospace Adhesives</label>
+            </value>
+            <value>
+                <fullName>1200-Incavas</fullName>
+                <default>false</default>
+                <label>1200-Incavas</label>
+            </value>
+            <value>
+                <fullName>1210-Assembly Materials</fullName>
+                <default>false</default>
+                <label>1210-Assembly Materials</label>
+            </value>
+            <value>
+                <fullName>1220-Industrial</fullName>
+                <default>false</default>
+                <label>1220-Industrial</label>
+            </value>
+            <value>
+                <fullName>1230-Perf Label Material</fullName>
+                <default>false</default>
+                <label>1230-Perf Label Material</label>
+            </value>
+            <value>
+                <fullName>1260-Struct &amp; Composites</fullName>
+                <default>false</default>
+                <label>1260-Struct &amp; Composites</label>
+            </value>
+            <value>
+                <fullName>1290-Residential Water</fullName>
+                <default>false</default>
+                <label>1290-Residential Water</label>
+            </value>
+            <value>
+                <fullName>1300-GTA Trading Packagin</fullName>
+                <default>false</default>
+                <label>1300-GTA Trading Packagin</label>
+            </value>
+            <value>
+                <fullName>1330-Electronics Abrasive</fullName>
+                <default>false</default>
+                <label>1330-Electronics Abrasive</label>
+            </value>
+            <value>
+                <fullName>1380-Specialty Chemicals</fullName>
+                <default>false</default>
+                <label>1380-Specialty Chemicals</label>
+            </value>
+            <value>
+                <fullName>1400-A-one Solutions</fullName>
+                <default>false</default>
+                <label>1400-A-one Solutions</label>
+            </value>
+            <value>
+                <fullName>1410-Specialty Fluids</fullName>
+                <default>false</default>
+                <label>1410-Specialty Fluids</label>
+            </value>
+            <value>
+                <fullName>1420-AAD Abrasives</fullName>
+                <default>false</default>
+                <label>1420-AAD Abrasives</label>
+            </value>
+            <value>
+                <fullName>1430-Filing Solutions</fullName>
+                <default>false</default>
+                <label>1430-Filing Solutions</label>
+            </value>
+            <value>
+                <fullName>1430-Promotional Markets</fullName>
+                <default>false</default>
+                <label>1430-Promotional Markets</label>
+            </value>
+            <value>
+                <fullName>1440-Package Protect</fullName>
+                <default>false</default>
+                <label>1440-Package Protect</label>
+            </value>
+            <value>
+                <fullName>1450-Home &amp; Office Tapes</fullName>
+                <default>false</default>
+                <label>1450-Home &amp; Office Tapes</label>
+            </value>
+            <value>
+                <fullName>1460-Flags and Filing</fullName>
+                <default>false</default>
+                <label>1460-Flags and Filing</label>
+            </value>
+            <value>
+                <fullName>1470-Communication Solut</fullName>
+                <default>false</default>
+                <label>1470-Communication Solut</label>
+            </value>
+            <value>
+                <fullName>1480-Cutting Adhesives</fullName>
+                <default>false</default>
+                <label>1480-Cutting Adhesives</label>
+            </value>
+            <value>
+                <fullName>1490-Workspace Solutions</fullName>
+                <default>false</default>
+                <label>1490-Workspace Solutions</label>
+            </value>
+            <value>
+                <fullName>1500-LCD OCA</fullName>
+                <default>false</default>
+                <label>1500-LCD OCA</label>
+            </value>
+            <value>
+                <fullName>1520-Collaborative Solutn</fullName>
+                <default>false</default>
+                <label>1520-Collaborative Solutn</label>
+            </value>
+            <value>
+                <fullName>1540-Standard Abrasives N</fullName>
+                <default>false</default>
+                <label>1540-Standard Abrasives N</label>
+            </value>
+            <value>
+                <fullName>1550-Filler&amp;Related Prod</fullName>
+                <default>false</default>
+                <label>1550-Filler&amp;Related Prod</label>
+            </value>
+            <value>
+                <fullName>1570-B&amp;CSD Fire Prot Prod</fullName>
+                <default>false</default>
+                <label>1570-B&amp;CSD Fire Prot Prod</label>
+            </value>
+            <value>
+                <fullName>1620-Structural Adhesives</fullName>
+                <default>false</default>
+                <label>1620-Structural Adhesives</label>
+            </value>
+            <value>
+                <fullName>1650-Transport</fullName>
+                <default>false</default>
+                <label>1650-Transport</label>
+            </value>
+            <value>
+                <fullName>1660-Glass Bubbles</fullName>
+                <default>false</default>
+                <label>1660-Glass Bubbles</label>
+            </value>
+            <value>
+                <fullName>1700-Corporate Ventures</fullName>
+                <default>false</default>
+                <label>1700-Corporate Ventures</label>
+            </value>
+            <value>
+                <fullName>1700-3M Ventures</fullName>
+                <default>false</default>
+                <label>1700-3M Ventures</label>
+            </value>
+            <value>
+                <fullName>1710-Battery Materials</fullName>
+                <default>false</default>
+                <label>1710-Battery Materials</label>
+            </value>
+            <value>
+                <fullName>1720-Detection Solutions</fullName>
+                <default>false</default>
+                <label>1720-Detection Solutions</label>
+            </value>
+            <value>
+                <fullName>1750-VAM Pads</fullName>
+                <default>false</default>
+                <label>1750-VAM Pads</label>
+            </value>
+            <value>
+                <fullName>1770-3M Branded Sealants</fullName>
+                <default>false</default>
+                <label>1770-3M Branded Sealants</label>
+            </value>
+            <value>
+                <fullName>1780-SOSD Misc</fullName>
+                <default>false</default>
+                <label>1780-SOSD Misc</label>
+            </value>
+            <value>
+                <fullName>1790-Meguiars</fullName>
+                <default>false</default>
+                <label>1790-Meguiars</label>
+            </value>
+            <value>
+                <fullName>1810-Mounting Fastening P</fullName>
+                <default>false</default>
+                <label>1810-Mounting Fastening P</label>
+            </value>
+            <value>
+                <fullName>1850-HCC Power Trans</fullName>
+                <default>false</default>
+                <label>1850-HCC Power Trans</label>
+            </value>
+            <value>
+                <fullName>1910-Floor Care</fullName>
+                <default>false</default>
+                <label>1910-Floor Care</label>
+            </value>
+            <value>
+                <fullName>1920-Superabrasive Wheels</fullName>
+                <default>false</default>
+                <label>1920-Superabrasive Wheels</label>
+            </value>
+            <value>
+                <fullName>1940-Precision Grinding</fullName>
+                <default>false</default>
+                <label>1940-Precision Grinding</label>
+            </value>
+            <value>
+                <fullName>1960-ASD Bonded Super Abr</fullName>
+                <default>false</default>
+                <label>1960-ASD Bonded Super Abr</label>
+            </value>
+            <value>
+                <fullName>2000-GTA Trading Masking</fullName>
+                <default>false</default>
+                <label>2000-GTA Trading Masking</label>
+            </value>
+            <value>
+                <fullName>2010-New Business Venture</fullName>
+                <default>false</default>
+                <label>2010-New Business Venture</label>
+            </value>
+            <value>
+                <fullName>2100-GTA - BST &amp; MSK</fullName>
+                <default>false</default>
+                <label>2100-GTA - BST &amp; MSK</label>
+            </value>
+            <value>
+                <fullName>2120-Splicing and Repulpa</fullName>
+                <default>false</default>
+                <label>2120-Splicing and Repulpa</label>
+            </value>
+            <value>
+                <fullName>2190-2190 GDP</fullName>
+                <default>false</default>
+                <label>2190-2190 GDP</label>
+            </value>
+            <value>
+                <fullName>2200-GTA VEC Venture</fullName>
+                <default>false</default>
+                <label>2200-GTA VEC Venture</label>
+            </value>
+            <value>
+                <fullName>2230-Locating &amp; Marking</fullName>
+                <default>false</default>
+                <label>2230-Locating &amp; Marking</label>
+            </value>
+            <value>
+                <fullName>2260-High Jump (History)</fullName>
+                <default>false</default>
+                <label>2260-High Jump (History)</label>
+            </value>
+            <value>
+                <fullName>2280-EMSD Sponsored</fullName>
+                <default>false</default>
+                <label>2280-EMSD Sponsored</label>
+            </value>
+            <value>
+                <fullName>2310-OEM Electrical</fullName>
+                <default>false</default>
+                <label>2310-OEM Electrical</label>
+            </value>
+            <value>
+                <fullName>2320-Cable Accessories</fullName>
+                <default>false</default>
+                <label>2320-Cable Accessories</label>
+            </value>
+            <value>
+                <fullName>2330-Vinyl &amp; MRO Tapes</fullName>
+                <default>false</default>
+                <label>2330-Vinyl &amp; MRO Tapes</label>
+            </value>
+            <value>
+                <fullName>2340-Electrical Supplies</fullName>
+                <default>false</default>
+                <label>2340-Electrical Supplies</label>
+            </value>
+            <value>
+                <fullName>2370-Flex</fullName>
+                <default>false</default>
+                <label>2370-Flex</label>
+            </value>
+            <value>
+                <fullName>2400-Polyfoam</fullName>
+                <default>false</default>
+                <label>2400-Polyfoam</label>
+            </value>
+            <value>
+                <fullName>2410-DSL Copper</fullName>
+                <default>false</default>
+                <label>2410-DSL Copper</label>
+            </value>
+            <value>
+                <fullName>2470-Laminating Adhesives</fullName>
+                <default>false</default>
+                <label>2470-Laminating Adhesives</label>
+            </value>
+            <value>
+                <fullName>2490-Surface Protection P</fullName>
+                <default>false</default>
+                <label>2490-Surface Protection P</label>
+            </value>
+            <value>
+                <fullName>2500-Wireless Access</fullName>
+                <default>false</default>
+                <label>2500-Wireless Access</label>
+            </value>
+            <value>
+                <fullName>2570-Tot Special Project</fullName>
+                <default>false</default>
+                <label>2570-Tot Special Project</label>
+            </value>
+            <value>
+                <fullName>2620-SCS Data Center</fullName>
+                <default>false</default>
+                <label>2620-SCS Data Center</label>
+            </value>
+            <value>
+                <fullName>2630-CMP Materials</fullName>
+                <default>false</default>
+                <label>2630-CMP Materials</label>
+            </value>
+            <value>
+                <fullName>2640-IATD New Prod &amp; Mkts</fullName>
+                <default>false</default>
+                <label>2640-IATD New Prod &amp; Mkts</label>
+            </value>
+            <value>
+                <fullName>2650-Box Sealing Tape</fullName>
+                <default>false</default>
+                <label>2650-Box Sealing Tape</label>
+            </value>
+            <value>
+                <fullName>2660-Flexographic Systems</fullName>
+                <default>false</default>
+                <label>2660-Flexographic Systems</label>
+            </value>
+            <value>
+                <fullName>2680-Packaging Equipment</fullName>
+                <default>false</default>
+                <label>2680-Packaging Equipment</label>
+            </value>
+            <value>
+                <fullName>2690-Custom Packaging Sol</fullName>
+                <default>false</default>
+                <label>2690-Custom Packaging Sol</label>
+            </value>
+            <value>
+                <fullName>2700-Color Systems</fullName>
+                <default>false</default>
+                <label>2700-Color Systems</label>
+            </value>
+            <value>
+                <fullName>2730-Enhanc &amp; Shield Tape</fullName>
+                <default>false</default>
+                <label>2730-Enhanc &amp; Shield Tape</label>
+            </value>
+            <value>
+                <fullName>2740-Specialty Mask Sys</fullName>
+                <default>false</default>
+                <label>2740-Specialty Mask Sys</label>
+            </value>
+            <value>
+                <fullName>2760-AAD Masking Solut</fullName>
+                <default>false</default>
+                <label>2760-AAD Masking Solut</label>
+            </value>
+            <value>
+                <fullName>2780-Specialty Solutions</fullName>
+                <default>false</default>
+                <label>2780-Specialty Solutions</label>
+            </value>
+            <value>
+                <fullName>2790-Foam Tapes</fullName>
+                <default>false</default>
+                <label>2790-Foam Tapes</label>
+            </value>
+            <value>
+                <fullName>2800-Auto Care Fillers</fullName>
+                <default>false</default>
+                <label>2800-Auto Care Fillers</label>
+            </value>
+            <value>
+                <fullName>2810-Vehicle Appear Mkt</fullName>
+                <default>false</default>
+                <label>2810-Vehicle Appear Mkt</label>
+            </value>
+            <value>
+                <fullName>2820-AC&amp;S Refinish</fullName>
+                <default>false</default>
+                <label>2820-AC&amp;S Refinish</label>
+            </value>
+            <value>
+                <fullName>2830-Auto Care</fullName>
+                <default>false</default>
+                <label>2830-Auto Care</label>
+            </value>
+            <value>
+                <fullName>2840-Industrial Business</fullName>
+                <default>false</default>
+                <label>2840-Industrial Business</label>
+            </value>
+            <value>
+                <fullName>2850-Spray Guns</fullName>
+                <default>false</default>
+                <label>2850-Spray Guns</label>
+            </value>
+            <value>
+                <fullName>2860-High Strength Tapes</fullName>
+                <default>false</default>
+                <label>2860-High Strength Tapes</label>
+            </value>
+            <value>
+                <fullName>2870-Home Environment</fullName>
+                <default>false</default>
+                <label>2870-Home Environment</label>
+            </value>
+            <value>
+                <fullName>2880-Command Products</fullName>
+                <default>false</default>
+                <label>2880-Command Products</label>
+            </value>
+            <value>
+                <fullName>2890-Tapes and Masking Sy</fullName>
+                <default>false</default>
+                <label>2890-Tapes and Masking Sy</label>
+            </value>
+            <value>
+                <fullName>2910-Surface Restoration</fullName>
+                <default>false</default>
+                <label>2910-Surface Restoration</label>
+            </value>
+            <value>
+                <fullName>2950-Scouring Products</fullName>
+                <default>false</default>
+                <label>2950-Scouring Products</label>
+            </value>
+            <value>
+                <fullName>2960-Adhesive Cleaning So</fullName>
+                <default>false</default>
+                <label>2960-Adhesive Cleaning So</label>
+            </value>
+            <value>
+                <fullName>2970-Retail Chemicals</fullName>
+                <default>false</default>
+                <label>2970-Retail Chemicals</label>
+            </value>
+            <value>
+                <fullName>2980-Bath</fullName>
+                <default>false</default>
+                <label>2980-Bath</label>
+            </value>
+            <value>
+                <fullName>3000-Insect Repellents</fullName>
+                <default>false</default>
+                <label>3000-Insect Repellents</label>
+            </value>
+            <value>
+                <fullName>3010-Floor Safety</fullName>
+                <default>false</default>
+                <label>3010-Floor Safety</label>
+            </value>
+            <value>
+                <fullName>3020-Floor Care</fullName>
+                <default>false</default>
+                <label>3020-Floor Care</label>
+            </value>
+            <value>
+                <fullName>3030-Food Service</fullName>
+                <default>false</default>
+                <label>3030-Food Service</label>
+            </value>
+            <value>
+                <fullName>3040-Cons&amp;Office Bus Spon</fullName>
+                <default>false</default>
+                <label>3040-Cons&amp;Office Bus Spon</label>
+            </value>
+            <value>
+                <fullName>3080-Coding, Compl</fullName>
+                <default>false</default>
+                <label>3080-Coding, Compl</label>
+            </value>
+            <value>
+                <fullName>3110-Clinical Terminology</fullName>
+                <default>false</default>
+                <label>3110-Clinical Terminology</label>
+            </value>
+            <value>
+                <fullName>3130-HIS Sponsored</fullName>
+                <default>false</default>
+                <label>3130-HIS Sponsored</label>
+            </value>
+            <value>
+                <fullName>3140-Restoratives</fullName>
+                <default>false</default>
+                <label>3140-Restoratives</label>
+            </value>
+            <value>
+                <fullName>3160-Consulting Services</fullName>
+                <default>false</default>
+                <label>3160-Consulting Services</label>
+            </value>
+            <value>
+                <fullName>3170-Prosthodontics</fullName>
+                <default>false</default>
+                <label>3170-Prosthodontics</label>
+            </value>
+            <value>
+                <fullName>3180-Local Anesthetics</fullName>
+                <default>false</default>
+                <label>3180-Local Anesthetics</label>
+            </value>
+            <value>
+                <fullName>3210-Fasteners Hook</fullName>
+                <default>false</default>
+                <label>3210-Fasteners Hook</label>
+            </value>
+            <value>
+                <fullName>3220-Elastics</fullName>
+                <default>false</default>
+                <label>3220-Elastics</label>
+            </value>
+            <value>
+                <fullName>3240-HCB Tech Centers</fullName>
+                <default>false</default>
+                <label>3240-HCB Tech Centers</label>
+            </value>
+            <value>
+                <fullName>3260-Porous Film</fullName>
+                <default>false</default>
+                <label>3260-Porous Film</label>
+            </value>
+            <value>
+                <fullName>3270-Advanced Wound Care</fullName>
+                <default>false</default>
+                <label>3270-Advanced Wound Care</label>
+            </value>
+            <value>
+                <fullName>3280-Solvent &amp; Water</fullName>
+                <default>false</default>
+                <label>3280-Solvent &amp; Water</label>
+            </value>
+            <value>
+                <fullName>3300-Illum Sign Matls</fullName>
+                <default>false</default>
+                <label>3300-Illum Sign Matls</label>
+            </value>
+            <value>
+                <fullName>3310-Fasteners Loop</fullName>
+                <default>false</default>
+                <label>3310-Fasteners Loop</label>
+            </value>
+            <value>
+                <fullName>3320-Digital Systems</fullName>
+                <default>false</default>
+                <label>3320-Digital Systems</label>
+            </value>
+            <value>
+                <fullName>3340-PPS</fullName>
+                <default>false</default>
+                <label>3340-PPS</label>
+            </value>
+            <value>
+                <fullName>3360-Core and Comfort</fullName>
+                <default>false</default>
+                <label>3360-Core and Comfort</label>
+            </value>
+            <value>
+                <fullName>3460-Dig Dental Materials</fullName>
+                <default>false</default>
+                <label>3460-Dig Dental Materials</label>
+            </value>
+            <value>
+                <fullName>3470-Premium Films</fullName>
+                <default>false</default>
+                <label>3470-Premium Films</label>
+            </value>
+            <value>
+                <fullName>3490-Architectural Market</fullName>
+                <default>false</default>
+                <label>3490-Architectural Market</label>
+            </value>
+            <value>
+                <fullName>3500-Specialty Films</fullName>
+                <default>false</default>
+                <label>3500-Specialty Films</label>
+            </value>
+            <value>
+                <fullName>3590-Prevention</fullName>
+                <default>false</default>
+                <label>3590-Prevention</label>
+            </value>
+            <value>
+                <fullName>3610-OCSD Sponsored</fullName>
+                <default>false</default>
+                <label>3610-OCSD Sponsored</label>
+            </value>
+            <value>
+                <fullName>3660-Film Manufacturing</fullName>
+                <default>false</default>
+                <label>3660-Film Manufacturing</label>
+            </value>
+            <value>
+                <fullName>3680-HCC Power Transmissi</fullName>
+                <default>false</default>
+                <label>3680-HCC Power Transmissi</label>
+            </value>
+            <value>
+                <fullName>3690-Static</fullName>
+                <default>false</default>
+                <label>3690-Static</label>
+            </value>
+            <value>
+                <fullName>3700-Ambulatory Care Prod</fullName>
+                <default>false</default>
+                <label>3700-Ambulatory Care Prod</label>
+            </value>
+            <value>
+                <fullName>3710-Materials Res Div</fullName>
+                <default>false</default>
+                <label>3710-Materials Res Div</label>
+            </value>
+            <value>
+                <fullName>3720-Fluoroelastomers</fullName>
+                <default>false</default>
+                <label>3720-Fluoroelastomers</label>
+            </value>
+            <value>
+                <fullName>3730-Polymer Proc Additiv</fullName>
+                <default>false</default>
+                <label>3730-Polymer Proc Additiv</label>
+            </value>
+            <value>
+                <fullName>3740-PTFE, Polymer Compou</fullName>
+                <default>false</default>
+                <label>3740-PTFE, Polymer Compou</label>
+            </value>
+            <value>
+                <fullName>3790-Pharma Transit Svcs</fullName>
+                <default>false</default>
+                <label>3790-Pharma Transit Svcs</label>
+            </value>
+            <value>
+                <fullName>3810-PM-Ingredient</fullName>
+                <default>false</default>
+                <label>3810-PM-Ingredient</label>
+            </value>
+            <value>
+                <fullName>3840-CHC/Neoplast</fullName>
+                <default>false</default>
+                <label>3840-CHC/Neoplast</label>
+            </value>
+            <value>
+                <fullName>3850-Sfty Sec &amp; Prot Bus</fullName>
+                <default>false</default>
+                <label>3850-Sfty Sec &amp; Prot Bus</label>
+            </value>
+            <value>
+                <fullName>3860-DO NOT USE- I&amp;TB ADJ</fullName>
+                <default>false</default>
+                <label>3860-DO NOT USE- I&amp;TB ADJ</label>
+            </value>
+            <value>
+                <fullName>3880-Intermediate</fullName>
+                <default>false</default>
+                <label>3880-Intermediate</label>
+            </value>
+            <value>
+                <fullName>3900-New Platform Develop</fullName>
+                <default>false</default>
+                <label>3900-New Platform Develop</label>
+            </value>
+            <value>
+                <fullName>3910-Wipes</fullName>
+                <default>false</default>
+                <label>3910-Wipes</label>
+            </value>
+            <value>
+                <fullName>3930-Acoustic</fullName>
+                <default>false</default>
+                <label>3930-Acoustic</label>
+            </value>
+            <value>
+                <fullName>3940-Attachment</fullName>
+                <default>false</default>
+                <label>3940-Attachment</label>
+            </value>
+            <value>
+                <fullName>3950-Emission Solutions</fullName>
+                <default>false</default>
+                <label>3950-Emission Solutions</label>
+            </value>
+            <value>
+                <fullName>3960-Light Management</fullName>
+                <default>false</default>
+                <label>3960-Light Management</label>
+            </value>
+            <value>
+                <fullName>3980-Engineered Films</fullName>
+                <default>false</default>
+                <label>3980-Engineered Films</label>
+            </value>
+            <value>
+                <fullName>4000-Bumpons</fullName>
+                <default>false</default>
+                <label>4000-Bumpons</label>
+            </value>
+            <value>
+                <fullName>4030-Hot Melt Adhesives</fullName>
+                <default>false</default>
+                <label>4030-Hot Melt Adhesives</label>
+            </value>
+            <value>
+                <fullName>4040-Conductives</fullName>
+                <default>false</default>
+                <label>4040-Conductives</label>
+            </value>
+            <value>
+                <fullName>4050-SVN Materials</fullName>
+                <default>false</default>
+                <label>4050-SVN Materials</label>
+            </value>
+            <value>
+                <fullName>4060-Alternative Products</fullName>
+                <default>false</default>
+                <label>4060-Alternative Products</label>
+            </value>
+            <value>
+                <fullName>4070-Composite &amp; Eng Prod</fullName>
+                <default>false</default>
+                <label>4070-Composite &amp; Eng Prod</label>
+            </value>
+            <value>
+                <fullName>4080-Mexico Maquila</fullName>
+                <default>false</default>
+                <label>4080-Mexico Maquila</label>
+            </value>
+            <value>
+                <fullName>4100-Protective Coveralls</fullName>
+                <default>false</default>
+                <label>4100-Protective Coveralls</label>
+            </value>
+            <value>
+                <fullName>4110-NidaCore</fullName>
+                <default>false</default>
+                <label>4110-NidaCore</label>
+            </value>
+            <value>
+                <fullName>4120-Branded Pckg - AB</fullName>
+                <default>false</default>
+                <label>4120-Branded Pckg - AB</label>
+            </value>
+            <value>
+                <fullName>4130-Branded Masking - AB</fullName>
+                <default>false</default>
+                <label>4130-Branded Masking - AB</label>
+            </value>
+            <value>
+                <fullName>4140-Parking Markets</fullName>
+                <default>false</default>
+                <label>4140-Parking Markets</label>
+            </value>
+            <value>
+                <fullName>4150-Tolling Markets</fullName>
+                <default>false</default>
+                <label>4150-Tolling Markets</label>
+            </value>
+            <value>
+                <fullName>4160-ALPR Systems</fullName>
+                <default>false</default>
+                <label>4160-ALPR Systems</label>
+            </value>
+            <value>
+                <fullName>4190-Surface Protection &amp;</fullName>
+                <default>false</default>
+                <label>4190-Surface Protection &amp;</label>
+            </value>
+            <value>
+                <fullName>4210-EAR Thermal Acoustic</fullName>
+                <default>false</default>
+                <label>4210-EAR Thermal Acoustic</label>
+            </value>
+            <value>
+                <fullName>4220-Safety &amp; Electrical</fullName>
+                <default>false</default>
+                <label>4220-Safety &amp; Electrical</label>
+            </value>
+            <value>
+                <fullName>4230-Eng Grade Signing</fullName>
+                <default>false</default>
+                <label>4230-Eng Grade Signing</label>
+            </value>
+            <value>
+                <fullName>4240-Hi Intensity Signing</fullName>
+                <default>false</default>
+                <label>4240-Hi Intensity Signing</label>
+            </value>
+            <value>
+                <fullName>4250-Diamond Grade Sign</fullName>
+                <default>false</default>
+                <label>4250-Diamond Grade Sign</label>
+            </value>
+            <value>
+                <fullName>4270-Motor Vehicle Sys</fullName>
+                <default>false</default>
+                <label>4270-Motor Vehicle Sys</label>
+            </value>
+            <value>
+                <fullName>4280-Disp&amp;Graph Bus Spon</fullName>
+                <default>false</default>
+                <label>4280-Disp&amp;Graph Bus Spon</label>
+            </value>
+            <value>
+                <fullName>4290-Hearing Protection</fullName>
+                <default>false</default>
+                <label>4290-Hearing Protection</label>
+            </value>
+            <value>
+                <fullName>4300-QD Applications</fullName>
+                <default>false</default>
+                <label>4300-QD Applications</label>
+            </value>
+            <value>
+                <fullName>4300-Quantum Dots &amp; Barri</fullName>
+                <default>false</default>
+                <label>4300-Quantum Dots &amp; Barri</label>
+            </value>
+            <value>
+                <fullName>4310-Welding</fullName>
+                <default>false</default>
+                <label>4310-Welding</label>
+            </value>
+            <value>
+                <fullName>4330-Eye Protection</fullName>
+                <default>false</default>
+                <label>4330-Eye Protection</label>
+            </value>
+            <value>
+                <fullName>4340-Head&amp;Face Protection</fullName>
+                <default>false</default>
+                <label>4340-Head&amp;Face Protection</label>
+            </value>
+            <value>
+                <fullName>4350-Disposable Resp</fullName>
+                <default>false</default>
+                <label>4350-Disposable Resp</label>
+            </value>
+            <value>
+                <fullName>4360-Fall Protection Misc</fullName>
+                <default>false</default>
+                <label>4360-Fall Protection Misc</label>
+            </value>
+            <value>
+                <fullName>4370-SRx</fullName>
+                <default>false</default>
+                <label>4370-SRx</label>
+            </value>
+            <value>
+                <fullName>4380-Communication Soluti</fullName>
+                <default>false</default>
+                <label>4380-Communication Soluti</label>
+            </value>
+            <value>
+                <fullName>4410-TDD Components</fullName>
+                <default>false</default>
+                <label>4410-TDD Components</label>
+            </value>
+            <value>
+                <fullName>4430-TDD R&amp;D</fullName>
+                <default>false</default>
+                <label>4430-TDD R&amp;D</label>
+            </value>
+            <value>
+                <fullName>4440-Aearo Miscellaneous</fullName>
+                <default>false</default>
+                <label>4440-Aearo Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>4450-Hand &amp; Foot Protecti</fullName>
+                <default>false</default>
+                <label>4450-Hand &amp; Foot Protecti</label>
+            </value>
+            <value>
+                <fullName>4470-Personal Safety Divi</fullName>
+                <default>false</default>
+                <label>4470-Personal Safety Divi</label>
+            </value>
+            <value>
+                <fullName>4490-Implants</fullName>
+                <default>false</default>
+                <label>4490-Implants</label>
+            </value>
+            <value>
+                <fullName>4510-Reusable Respirators</fullName>
+                <default>false</default>
+                <label>4510-Reusable Respirators</label>
+            </value>
+            <value>
+                <fullName>4520-Powered and Supp Air</fullName>
+                <default>false</default>
+                <label>4520-Powered and Supp Air</label>
+            </value>
+            <value>
+                <fullName>4540-Privacy &amp; Protection</fullName>
+                <default>false</default>
+                <label>4540-Privacy &amp; Protection</label>
+            </value>
+            <value>
+                <fullName>4550-Touch</fullName>
+                <default>false</default>
+                <label>4550-Touch</label>
+            </value>
+            <value>
+                <fullName>4570-LCD Films</fullName>
+                <default>false</default>
+                <label>4570-LCD Films</label>
+            </value>
+            <value>
+                <fullName>4610-Govt R&amp;D Contracts</fullName>
+                <default>false</default>
+                <label>4610-Govt R&amp;D Contracts</label>
+            </value>
+            <value>
+                <fullName>4650-Corporate Ventures</fullName>
+                <default>false</default>
+                <label>4650-Corporate Ventures</label>
+            </value>
+            <value>
+                <fullName>4750-OUS RM Purchases</fullName>
+                <default>false</default>
+                <label>4750-OUS RM Purchases</label>
+            </value>
+            <value>
+                <fullName>4760-Seaside Ins</fullName>
+                <default>false</default>
+                <label>4760-Seaside Ins</label>
+            </value>
+            <value>
+                <fullName>4770-Corporate Funded Lab</fullName>
+                <default>false</default>
+                <label>4770-Corporate Funded Lab</label>
+            </value>
+            <value>
+                <fullName>4780-Derivat &amp; Curr Trans</fullName>
+                <default>false</default>
+                <label>4780-Derivat &amp; Curr Trans</label>
+            </value>
+            <value>
+                <fullName>4790-ERP Business Trans</fullName>
+                <default>false</default>
+                <label>4790-ERP Business Trans</label>
+            </value>
+            <value>
+                <fullName>4800-Window Films</fullName>
+                <default>false</default>
+                <label>4800-Window Films</label>
+            </value>
+            <value>
+                <fullName>4810-Solar Backsheets</fullName>
+                <default>false</default>
+                <label>4810-Solar Backsheets</label>
+            </value>
+            <value>
+                <fullName>4830-ACTD Sealants</fullName>
+                <default>false</default>
+                <label>4830-ACTD Sealants</label>
+            </value>
+            <value>
+                <fullName>4840-Front Side Films</fullName>
+                <default>false</default>
+                <label>4840-Front Side Films</label>
+            </value>
+            <value>
+                <fullName>4850-ACE(tm) Brand Health</fullName>
+                <default>false</default>
+                <label>4850-ACE(tm) Brand Health</label>
+            </value>
+            <value>
+                <fullName>4860-Plyfab Ther Acous Sy</fullName>
+                <default>false</default>
+                <label>4860-Plyfab Ther Acous Sy</label>
+            </value>
+            <value>
+                <fullName>4900-Corporate Special</fullName>
+                <default>false</default>
+                <label>4900-Corporate Special</label>
+            </value>
+            <value>
+                <fullName>4910-Wind Energy</fullName>
+                <default>false</default>
+                <label>4910-Wind Energy</label>
+            </value>
+            <value>
+                <fullName>4920-Acute Wound Care</fullName>
+                <default>false</default>
+                <label>4920-Acute Wound Care</label>
+            </value>
+            <value>
+                <fullName>4930-Skin Integrity</fullName>
+                <default>false</default>
+                <label>4930-Skin Integrity</label>
+            </value>
+            <value>
+                <fullName>4940-Solar Light Manag</fullName>
+                <default>false</default>
+                <label>4940-Solar Light Manag</label>
+            </value>
+            <value>
+                <fullName>4950-Abrasivos SA</fullName>
+                <default>false</default>
+                <label>4950-Abrasivos SA</label>
+            </value>
+            <value>
+                <fullName>4960-Futuro(tm) Brand Hea</fullName>
+                <default>false</default>
+                <label>4960-Futuro(tm) Brand Hea</label>
+            </value>
+            <value>
+                <fullName>4990-Encapsulants</fullName>
+                <default>false</default>
+                <label>4990-Encapsulants</label>
+            </value>
+            <value>
+                <fullName>5000-Fluids</fullName>
+                <default>false</default>
+                <label>5000-Fluids</label>
+            </value>
+            <value>
+                <fullName>5020-Macon &amp; Bourg</fullName>
+                <default>false</default>
+                <label>5020-Macon &amp; Bourg</label>
+            </value>
+            <value>
+                <fullName>5030-Custom Orthodontics</fullName>
+                <default>false</default>
+                <label>5030-Custom Orthodontics</label>
+            </value>
+            <value>
+                <fullName>5030-Digital Orthodontics</fullName>
+                <default>false</default>
+                <label>5030-Digital Orthodontics</label>
+            </value>
+            <value>
+                <fullName>5070-3M Membranes</fullName>
+                <default>false</default>
+                <label>5070-3M Membranes</label>
+            </value>
+            <value>
+                <fullName>5100-Cogent</fullName>
+                <default>false</default>
+                <label>5100-Cogent</label>
+            </value>
+            <value>
+                <fullName>5120-Traditional Orthodon</fullName>
+                <default>false</default>
+                <label>5120-Traditional Orthodon</label>
+            </value>
+            <value>
+                <fullName>5200-OEM BLOCK</fullName>
+                <default>false</default>
+                <label>5200-OEM BLOCK</label>
+            </value>
+            <value>
+                <fullName>5210-PAFMC Reflective Mat</fullName>
+                <default>false</default>
+                <label>5210-PAFMC Reflective Mat</label>
+            </value>
+            <value>
+                <fullName>5210-PSM Reflective Matls</fullName>
+                <default>false</default>
+                <label>5210-PSM Reflective Matls</label>
+            </value>
+            <value>
+                <fullName>5220-Tape Products</fullName>
+                <default>false</default>
+                <label>5220-Tape Products</label>
+            </value>
+            <value>
+                <fullName>5230-Beauty Care DO NOT U</fullName>
+                <default>false</default>
+                <label>5230-Beauty Care DO NOT U</label>
+            </value>
+            <value>
+                <fullName>5260-Thermal Insulation</fullName>
+                <default>false</default>
+                <label>5260-Thermal Insulation</label>
+            </value>
+            <value>
+                <fullName>5300-Veh Reg Systems &amp; Se</fullName>
+                <default>false</default>
+                <label>5300-Veh Reg Systems &amp; Se</label>
+            </value>
+            <value>
+                <fullName>5310-Vehicle Reg Matls</fullName>
+                <default>false</default>
+                <label>5310-Vehicle Reg Matls</label>
+            </value>
+            <value>
+                <fullName>5320-Pavement Markings</fullName>
+                <default>false</default>
+                <label>5320-Pavement Markings</label>
+            </value>
+            <value>
+                <fullName>5330-Conspicuity</fullName>
+                <default>false</default>
+                <label>5330-Conspicuity</label>
+            </value>
+            <value>
+                <fullName>5350-Medical Components</fullName>
+                <default>false</default>
+                <label>5350-Medical Components</label>
+            </value>
+            <value>
+                <fullName>5380-Document Readers</fullName>
+                <default>false</default>
+                <label>5380-Document Readers</label>
+            </value>
+            <value>
+                <fullName>5400-Dishwand and Smallwa</fullName>
+                <default>false</default>
+                <label>5400-Dishwand and Smallwa</label>
+            </value>
+            <value>
+                <fullName>5410-Trnsdermal Drug Delv</fullName>
+                <default>false</default>
+                <label>5410-Trnsdermal Drug Delv</label>
+            </value>
+            <value>
+                <fullName>5420-IDD R&amp;D</fullName>
+                <default>false</default>
+                <label>5420-IDD R&amp;D</label>
+            </value>
+            <value>
+                <fullName>5450-Temp Traffic Control</fullName>
+                <default>false</default>
+                <label>5450-Temp Traffic Control</label>
+            </value>
+            <value>
+                <fullName>5470-Pharma CDD</fullName>
+                <default>false</default>
+                <label>5470-Pharma CDD</label>
+            </value>
+            <value>
+                <fullName>5500-3M Elec Monitoring</fullName>
+                <default>false</default>
+                <label>5500-3M Elec Monitoring</label>
+            </value>
+            <value>
+                <fullName>5510-Animal Wellness</fullName>
+                <default>false</default>
+                <label>5510-Animal Wellness</label>
+            </value>
+            <value>
+                <fullName>5520-Secure Materials</fullName>
+                <default>false</default>
+                <label>5520-Secure Materials</label>
+            </value>
+            <value>
+                <fullName>5530-Library Service</fullName>
+                <default>false</default>
+                <label>5530-Library Service</label>
+            </value>
+            <value>
+                <fullName>5540-Inhalation Drug Delv</fullName>
+                <default>false</default>
+                <label>5540-Inhalation Drug Delv</label>
+            </value>
+            <value>
+                <fullName>5560-Librar Hdw Sftw Mrkr</fullName>
+                <default>false</default>
+                <label>5560-Librar Hdw Sftw Mrkr</label>
+            </value>
+            <value>
+                <fullName>5570-Acute Care</fullName>
+                <default>false</default>
+                <label>5570-Acute Care</label>
+            </value>
+            <value>
+                <fullName>5570-Securement</fullName>
+                <default>false</default>
+                <label>5570-Securement</label>
+            </value>
+            <value>
+                <fullName>5590-Peri-Operative</fullName>
+                <default>false</default>
+                <label>5590-Peri-Operative</label>
+            </value>
+            <value>
+                <fullName>5600-Sterilize &amp; Monitor</fullName>
+                <default>false</default>
+                <label>5600-Sterilize &amp; Monitor</label>
+            </value>
+            <value>
+                <fullName>5610-Indicators</fullName>
+                <default>false</default>
+                <label>5610-Indicators</label>
+            </value>
+            <value>
+                <fullName>5620-Auscultation</fullName>
+                <default>false</default>
+                <label>5620-Auscultation</label>
+            </value>
+            <value>
+                <fullName>5640-Immobilization</fullName>
+                <default>false</default>
+                <label>5640-Immobilization</label>
+            </value>
+            <value>
+                <fullName>5690-Bio-Med Electrodes</fullName>
+                <default>false</default>
+                <label>5690-Bio-Med Electrodes</label>
+            </value>
+            <value>
+                <fullName>5700-Cloud Library</fullName>
+                <default>false</default>
+                <label>5700-Cloud Library</label>
+            </value>
+            <value>
+                <fullName>5710-Vascular Access Solu</fullName>
+                <default>false</default>
+                <label>5710-Vascular Access Solu</label>
+            </value>
+            <value>
+                <fullName>5730-Cabin Air Filter</fullName>
+                <default>false</default>
+                <label>5730-Cabin Air Filter</label>
+            </value>
+            <value>
+                <fullName>5750-IPD Diagnostics</fullName>
+                <default>false</default>
+                <label>5750-IPD Diagnostics</label>
+            </value>
+            <value>
+                <fullName>5780-Hygiene Monitoring</fullName>
+                <default>false</default>
+                <label>5780-Hygiene Monitoring</label>
+            </value>
+            <value>
+                <fullName>5790-Manufactured Solutio</fullName>
+                <default>false</default>
+                <label>5790-Manufactured Solutio</label>
+            </value>
+            <value>
+                <fullName>5800-Vitrified PSG</fullName>
+                <default>false</default>
+                <label>5800-Vitrified PSG</label>
+            </value>
+            <value>
+                <fullName>5800-Conv Bonded PSG</fullName>
+                <default>false</default>
+                <label>5800-Conv Bonded PSG</label>
+            </value>
+            <value>
+                <fullName>5810-Patient Warming</fullName>
+                <default>false</default>
+                <label>5810-Patient Warming</label>
+            </value>
+            <value>
+                <fullName>5820-Resin Manufacturing</fullName>
+                <default>false</default>
+                <label>5820-Resin Manufacturing</label>
+            </value>
+            <value>
+                <fullName>5830-MOF Manufacturing</fullName>
+                <default>false</default>
+                <label>5830-MOF Manufacturing</label>
+            </value>
+            <value>
+                <fullName>5860-Vitrified non PSG</fullName>
+                <default>false</default>
+                <label>5860-Vitrified non PSG</label>
+            </value>
+            <value>
+                <fullName>5860-Conv Bonded Non PSG</fullName>
+                <default>false</default>
+                <label>5860-Conv Bonded Non PSG</label>
+            </value>
+            <value>
+                <fullName>5890-Ceramic Grain Non PS</fullName>
+                <default>false</default>
+                <label>5890-Ceramic Grain Non PS</label>
+            </value>
+            <value>
+                <fullName>5900-Biopharmaceutical Pu</fullName>
+                <default>false</default>
+                <label>5900-Biopharmaceutical Pu</label>
+            </value>
+            <value>
+                <fullName>5910-Skin Care and Other</fullName>
+                <default>false</default>
+                <label>5910-Skin Care and Other</label>
+            </value>
+            <value>
+                <fullName>5950-Refrigerator</fullName>
+                <default>false</default>
+                <label>5950-Refrigerator</label>
+            </value>
+            <value>
+                <fullName>5960-Adhesive Bandages</fullName>
+                <default>false</default>
+                <label>5960-Adhesive Bandages</label>
+            </value>
+            <value>
+                <fullName>5970-First Aid Tapes and</fullName>
+                <default>false</default>
+                <label>5970-First Aid Tapes and</label>
+            </value>
+            <value>
+                <fullName>5980-Curos</fullName>
+                <default>false</default>
+                <label>5980-Curos</label>
+            </value>
+            <value>
+                <fullName>5990-Health Care Business</fullName>
+                <default>false</default>
+                <label>5990-Health Care Business</label>
+            </value>
+            <value>
+                <fullName>6000-Ceramic Grain PSG</fullName>
+                <default>false</default>
+                <label>6000-Ceramic Grain PSG</label>
+            </value>
+            <value>
+                <fullName>6020-Coated PSG</fullName>
+                <default>false</default>
+                <label>6020-Coated PSG</label>
+            </value>
+            <value>
+                <fullName>6030-Standard Abr Coated</fullName>
+                <default>false</default>
+                <label>6030-Standard Abr Coated</label>
+            </value>
+            <value>
+                <fullName>6050-Portable Bnd Wheels</fullName>
+                <default>false</default>
+                <label>6050-Portable Bnd Wheels</label>
+            </value>
+            <value>
+                <fullName>6060-WTG Portable Bnd (no</fullName>
+                <default>false</default>
+                <label>6060-WTG Portable Bnd (no</label>
+            </value>
+            <value>
+                <fullName>6070-Portable PSG</fullName>
+                <default>false</default>
+                <label>6070-Portable PSG</label>
+            </value>
+            <value>
+                <fullName>6080-Tools, Compounds &amp; A</fullName>
+                <default>false</default>
+                <label>6080-Tools, Compounds &amp; A</label>
+            </value>
+            <value>
+                <fullName>6090-Fall Protection Solu</fullName>
+                <default>false</default>
+                <label>6090-Fall Protection Solu</label>
+            </value>
+            <value>
+                <fullName>6100-Electronics Bonding</fullName>
+                <default>false</default>
+                <label>6100-Electronics Bonding</label>
+            </value>
+            <value>
+                <fullName>6110-Respiratory Health</fullName>
+                <default>false</default>
+                <label>6110-Respiratory Health</label>
+            </value>
+            <value>
+                <fullName>6110-Respirators</fullName>
+                <default>false</default>
+                <label>6110-Respirators</label>
+            </value>
+            <value>
+                <fullName>6120-Gloves &amp; HCD Other</fullName>
+                <default>false</default>
+                <label>6120-Gloves &amp; HCD Other</label>
+            </value>
+            <value>
+                <fullName>6130-Masks</fullName>
+                <default>false</default>
+                <label>6130-Masks</label>
+            </value>
+            <value>
+                <fullName>6140-Pro PPF</fullName>
+                <default>false</default>
+                <label>6140-Pro PPF</label>
+            </value>
+            <value>
+                <fullName>6220-Building Envelope</fullName>
+                <default>false</default>
+                <label>6220-Building Envelope</label>
+            </value>
+            <value>
+                <fullName>6610-Food Service</fullName>
+                <default>false</default>
+                <label>6610-Food Service</label>
+            </value>
+            <value>
+                <fullName>6620-Air Management</fullName>
+                <default>false</default>
+                <label>6620-Air Management</label>
+            </value>
+            <value>
+                <fullName>6650-Fabric Drapes Gowns</fullName>
+                <default>false</default>
+                <label>6650-Fabric Drapes Gowns</label>
+            </value>
+            <value>
+                <fullName>6670-FTTX</fullName>
+                <default>false</default>
+                <label>6670-FTTX</label>
+            </value>
+            <value>
+                <fullName>7000-Treo Solutions</fullName>
+                <default>false</default>
+                <label>7000-Treo Solutions</label>
+            </value>
+            <value>
+                <fullName>7040-Analytics</fullName>
+                <default>false</default>
+                <label>7040-Analytics</label>
+            </value>
+            <value>
+                <fullName>7050-eHDS</fullName>
+                <default>false</default>
+                <label>7050-eHDS</label>
+            </value>
+            <value>
+                <fullName>7060-360e</fullName>
+                <default>false</default>
+                <label>7060-360e</label>
+            </value>
+            <value>
+                <fullName>7070-Grouper Apps MNC</fullName>
+                <default>false</default>
+                <label>7070-Grouper Apps MNC</label>
+            </value>
+            <value>
+                <fullName>7100-Library Close Out</fullName>
+                <default>false</default>
+                <label>7100-Library Close Out</label>
+            </value>
+            <value>
+                <fullName>7120-Project Packard</fullName>
+                <default>false</default>
+                <label>7120-Project Packard</label>
+            </value>
+            <value>
+                <fullName>7130-InterConnect</fullName>
+                <default>false</default>
+                <label>7130-InterConnect</label>
+            </value>
+            <value>
+                <fullName>7200-Heatshrink, Resins &amp;</fullName>
+                <default>false</default>
+                <label>7200-Heatshrink, Resins &amp;</label>
+            </value>
+            <value>
+                <fullName>7210-Corrosion Protection</fullName>
+                <default>false</default>
+                <label>7210-Corrosion Protection</label>
+            </value>
+            <value>
+                <fullName>7260-Flexible Insulation</fullName>
+                <default>false</default>
+                <label>7260-Flexible Insulation</label>
+            </value>
+            <value>
+                <fullName>7270-WIRE ID</fullName>
+                <default>false</default>
+                <label>7270-WIRE ID</label>
+            </value>
+            <value>
+                <fullName>7290-Infrastructure Coati</fullName>
+                <default>false</default>
+                <label>7290-Infrastructure Coati</label>
+            </value>
+            <value>
+                <fullName>7300-Water Renewal</fullName>
+                <default>false</default>
+                <label>7300-Water Renewal</label>
+            </value>
+            <value>
+                <fullName>7330-ACO Adv Ceramics</fullName>
+                <default>false</default>
+                <label>7330-ACO Adv Ceramics</label>
+            </value>
+            <value>
+                <fullName>7330-Adv Ceram Sp Glass P</fullName>
+                <default>false</default>
+                <label>7330-Adv Ceram Sp Glass P</label>
+            </value>
+            <value>
+                <fullName>7340-ESK Adv Ceramic</fullName>
+                <default>false</default>
+                <label>7340-ESK Adv Ceramic</label>
+            </value>
+            <value>
+                <fullName>7340-Technical Ceramics K</fullName>
+                <default>false</default>
+                <label>7340-Technical Ceramics K</label>
+            </value>
+            <value>
+                <fullName>7350-Thermo Adv Ceramics</fullName>
+                <default>false</default>
+                <label>7350-Thermo Adv Ceramics</label>
+            </value>
+            <value>
+                <fullName>7360-BORON</fullName>
+                <default>false</default>
+                <label>7360-BORON</label>
+            </value>
+            <value>
+                <fullName>7360-Stable Isotopes</fullName>
+                <default>false</default>
+                <label>7360-Stable Isotopes</label>
+            </value>
+            <value>
+                <fullName>7370-Fluorothermoplastics</fullName>
+                <default>false</default>
+                <label>7370-Fluorothermoplastics</label>
+            </value>
+            <value>
+                <fullName>7380-Monomers</fullName>
+                <default>false</default>
+                <label>7380-Monomers</label>
+            </value>
+            <value>
+                <fullName>7390-Fall Amortization</fullName>
+                <default>false</default>
+                <label>7390-Fall Amortization</label>
+            </value>
+            <value>
+                <fullName>7400-Data Informatics</fullName>
+                <default>false</default>
+                <label>7400-Data Informatics</label>
+            </value>
+            <value>
+                <fullName>7410-Adv Ceramics Defense</fullName>
+                <default>false</default>
+                <label>7410-Adv Ceramics Defense</label>
+            </value>
+            <value>
+                <fullName>7410-Advanced ceramics De</fullName>
+                <default>false</default>
+                <label>7410-Advanced ceramics De</label>
+            </value>
+            <value>
+                <fullName>7420-Clear Tray Aligners</fullName>
+                <default>false</default>
+                <label>7420-Clear Tray Aligners</label>
+            </value>
+            <value>
+                <fullName>7430-Automotive Films</fullName>
+                <default>false</default>
+                <label>7430-Automotive Films</label>
+            </value>
+            <value>
+                <fullName>7440-Disp Resp Air Poll</fullName>
+                <default>false</default>
+                <label>7440-Disp Resp Air Poll</label>
+            </value>
+            <value>
+                <fullName>7440-Disposable Respirato</fullName>
+                <default>false</default>
+                <label>7440-Disposable Respirato</label>
+            </value>
+            <value>
+                <fullName>7570-Specialty Media Prod</fullName>
+                <default>false</default>
+                <label>7570-Specialty Media Prod</label>
+            </value>
+            <value>
+                <fullName>7610-Food Diagnostics</fullName>
+                <default>false</default>
+                <label>7610-Food Diagnostics</label>
+            </value>
+            <value>
+                <fullName>8910-IT Service Business</fullName>
+                <default>false</default>
+                <label>8910-IT Service Business</label>
+            </value>
+            <value>
+                <fullName>8950-Fuel Cell</fullName>
+                <default>false</default>
+                <label>8950-Fuel Cell</label>
+            </value>
+            <value>
+                <fullName>8980-Contract Mfg.</fullName>
+                <default>false</default>
+                <label>8980-Contract Mfg.</label>
+            </value>
+            <value>
+                <fullName>9110-Corporate Misc</fullName>
+                <default>false</default>
+                <label>9110-Corporate Misc</label>
+            </value>
+            <value>
+                <fullName>9130-Global Trading Comp</fullName>
+                <default>false</default>
+                <label>9130-Global Trading Comp</label>
+            </value>
+            <value>
+                <fullName>9170-Corporate Shared Svs</fullName>
+                <default>false</default>
+                <label>9170-Corporate Shared Svs</label>
+            </value>
+            <value>
+                <fullName>9190-Balancing Comm</fullName>
+                <default>false</default>
+                <label>9190-Balancing Comm</label>
+            </value>
+            <value>
+                <fullName>9210-Fuel Cell Govt Contr</fullName>
+                <default>false</default>
+                <label>9210-Fuel Cell Govt Contr</label>
+            </value>
+            <value>
+                <fullName>9220-R &amp; D Grants</fullName>
+                <default>false</default>
+                <label>9220-R &amp; D Grants</label>
+            </value>
+            <value>
+                <fullName>TH00-Corp Misc Div Admin</fullName>
+                <default>false</default>
+                <label>TH00-Corp Misc Div Admin</label>
+            </value>
+            <value>
+                <fullName>TH00-Miscellaneous</fullName>
+                <default>false</default>
+                <label>TH00-Miscellaneous</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

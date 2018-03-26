@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCI_Free_Product__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Free Product</inlineHelpText>
+    <label>NCI Free Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NCI_Product_Group__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1 3M™ Accuspray™ 12S-Pro9 HVLP Spray Gun | 60-4550-5014-0</fullName>
+                <default>false</default>
+                <label>1 3M™ Accuspray™ 12S-Pro9 HVLP Spray Gun | 60-4550-5014-0</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ 400 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9148-9930-7, 62-9176-9127-1</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ 400 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9148-9930-7, 62-9176-9127-1</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ 400 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9145-9930-3, 62-9176-9127-1</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ 400 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9145-9930-3, 62-9176-9127-1</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ 490 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62918299306, 62-9158-9136-0</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ 490 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62918299306, 62-9158-9136-0</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ 490 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62-9152-9930-9, 62-9158-9136-0</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ 490 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62-9152-9930-9, 62-9158-9136-0</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ Plus II Applicator and 1 bag of 12 Square Gold Mix Nozzles | 62-9170-9930-1, 62-9171-9153-8</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ Plus II Applicator and 1 bag of 12 Square Gold Mix Nozzles | 62-9170-9930-1, 62-9171-9153-8</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Green 48 mL mixing nozzle | 62-9170-9930-1, 62-9154-9148-4</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Green 48 mL mixing nozzle | 62-9170-9930-1, 62-9154-9148-4</label>
+            </value>
+            <value>
+                <fullName>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Orange 45 mL mixing nozzle | 62-9170-9930-1, 62-9154-9136-9</fullName>
+                <default>false</default>
+                <label>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Orange 45 mL mixing nozzle | 62-9170-9930-1, 62-9154-9136-9</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Hot Melt Applicator LT Q | 62-9281-9950-4</fullName>
+                <default>false</default>
+                <label>1 3M™ Hot Melt Applicator LT Q | 62-9281-9950-4</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Hot Melt Applicator TC Q | 62-9990-9950-0</fullName>
+                <default>false</default>
+                <label>1 3M™ Hot Melt Applicator TC Q | 62-9990-9950-0</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Manual Applicator 310M for 310 mL Cartridges | 62-9890-9930-4</fullName>
+                <default>false</default>
+                <label>1 3M™ Manual Applicator 310M for 310 mL Cartridges | 62-9890-9930-4</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Manual Applicator 400M for 400 mL Sausage Packs | 62-9890-9940-3</fullName>
+                <default>false</default>
+                <label>1 3M™ Manual Applicator 400M for 400 mL Sausage Packs | 62-9890-9940-3</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Manual Applicator 600M for 600 mL Sausage Packs | 62-9890-9950-2</fullName>
+                <default>false</default>
+                <label>1 3M™ Manual Applicator 600M for 600 mL Sausage Packs | 62-9890-9950-2</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Pneumatic Applicator 600A for 600 mL Sausage Packs | 62-9890-9960-1</fullName>
+                <default>false</default>
+                <label>1 3M™ Pneumatic Applicator 600A for 600 mL Sausage Packs | 62-9890-9960-1</label>
+            </value>
+            <value>
+                <fullName>1 3M™ Two-Component Adhesive Sealant Applicator 400A-2K and 5 cases of Nozzles | 62-9890-9990-8, 62-9890-9150-9</fullName>
+                <default>false</default>
+                <label>1 3M™ Two-Component Adhesive Sealant Applicator 400A-2K and 5 cases of Nozzles | 62-9890-9990-8, 62-9890-9150-9</label>
+            </value>
+            <value>
+                <fullName>1 case of 3M™ Sprayable Hot Melt Adhesive 6111 | 62-6111-9335-0</fullName>
+                <default>false</default>
+                <label>1 case of 3M™ Sprayable Hot Melt Adhesive 6111 | 62-6111-9335-0</label>
+            </value>
+            <value>
+                <fullName>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Blue | 62-6115-9335-1</fullName>
+                <default>false</default>
+                <label>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Blue | 62-6115-9335-1</label>
+            </value>
+            <value>
+                <fullName>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Tan | 62-6113-9335-6</fullName>
+                <default>false</default>
+                <label>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Tan | 62-6113-9335-6</label>
+            </value>
+            <value>
+                <fullName>1 case of 3M™ Sprayable Hot Melt Adhesives 6116 | 62-6116-9335-9</fullName>
+                <default>false</default>
+                <label>1 case of 3M™ Sprayable Hot Melt Adhesives 6116 | 62-6116-9335-9</label>
+            </value>
+            <value>
+                <fullName>1 oz. case of 3M™ Scotch-Weld™ Plastic and Rubber Instant AdhesivePR100 | 62616403507</fullName>
+                <default>false</default>
+                <label>1 oz. case of 3M™ Scotch-Weld™ Plastic and Rubber Instant AdhesivePR100 | 62616403507</label>
+            </value>
+            <value>
+                <fullName>3M™ Lane Marking Applicator M-1 | 70-0067-5895-0</fullName>
+                <default>false</default>
+                <label>3M™ Lane Marking Applicator M-1 | 70-0067-5895-0</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6310NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6310NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6330NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6330NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V | 62-9865-9930-6</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V | 62-9865-9930-6</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V and 3M™ Scotch-Weld™ PUR Easy 250 Cartridge Pre-heater, 120V | 62-9865-9930-6/62-9865-9935-5</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V and 3M™ Scotch-Weld™ PUR Easy 250 Cartridge Pre-heater, 120V | 62-9865-9930-6/62-9865-9935-5</label>
+            </value>
+            <value>
+                <fullName>5 AE II LT Applicator | 62979993077</fullName>
+                <default>false</default>
+                <label>5 AE II LT Applicator | 62979993077</label>
+            </value>
+            <value>
+                <fullName>One Large 60 CA Cylinder | 62-4952-8030-7</fullName>
+                <default>false</default>
+                <label>One Large 60 CA Cylinder | 62-4952-8030-7</label>
+            </value>
+            <value>
+                <fullName>One Large 70 Cylinder | 62-4983-8030-2</fullName>
+                <default>false</default>
+                <label>One Large 70 Cylinder | 62-4983-8030-2</label>
+            </value>
+            <value>
+                <fullName>One Large 74 Clear Cylinder | 62-4974-8030-1</fullName>
+                <default>false</default>
+                <label>One Large 74 Clear Cylinder | 62-4974-8030-1</label>
+            </value>
+            <value>
+                <fullName>One Large 74 NF Clear Cylinder | 62-4998-8030-0</fullName>
+                <default>false</default>
+                <label>One Large 74 NF Clear Cylinder | 62-4998-8030-0</label>
+            </value>
+            <value>
+                <fullName>One Large 74 Orange Cylinder | 62-4912-8030-1</fullName>
+                <default>false</default>
+                <label>One Large 74 Orange Cylinder | 62-4912-8030-1</label>
+            </value>
+            <value>
+                <fullName>One Large 77 Cylinder | 62-4979-8030-0</fullName>
+                <default>false</default>
+                <label>One Large 77 Cylinder | 62-4979-8030-0</label>
+            </value>
+            <value>
+                <fullName>One Large 78ET Clear Cylinder | 62-4984-8030-0</fullName>
+                <default>false</default>
+                <label>One Large 78ET Clear Cylinder | 62-4984-8030-0</label>
+            </value>
+            <value>
+                <fullName>One Large 78ET Green Cylinder | 62-4986-8030-5</fullName>
+                <default>false</default>
+                <label>One Large 78ET Green Cylinder | 62-4986-8030-5</label>
+            </value>
+            <value>
+                <fullName>One Large 78HT Cylinder | 62-4928-8030-7</fullName>
+                <default>false</default>
+                <label>One Large 78HT Cylinder | 62-4928-8030-7</label>
+            </value>
+            <value>
+                <fullName>One Large 90 Cylinder | 62-4994-8030-9</fullName>
+                <default>false</default>
+                <label>One Large 90 Cylinder | 62-4994-8030-9</label>
+            </value>
+            <value>
+                <fullName>One Large 92 Clear Cylinder | 62-4956-8030-8</fullName>
+                <default>false</default>
+                <label>One Large 92 Clear Cylinder | 62-4956-8030-8</label>
+            </value>
+            <value>
+                <fullName>One Large 92 Red Cylinder | 62-4958-8030-4</fullName>
+                <default>false</default>
+                <label>One Large 92 Red Cylinder | 62-4958-8030-4</label>
+            </value>
+            <value>
+                <fullName>One Large 94 CA Clear Cylinder | 62-4960-8030-0</fullName>
+                <default>false</default>
+                <label>One Large 94 CA Clear Cylinder | 62-4960-8030-0</label>
+            </value>
+            <value>
+                <fullName>One Large 94 CA Red Cylinder | 62-4970-8010-1</fullName>
+                <default>false</default>
+                <label>One Large 94 CA Red Cylinder | 62-4970-8010-1</label>
+            </value>
+            <value>
+                <fullName>One Large 94 ET Clear Cylinder | 62-4871-8030-9</fullName>
+                <default>false</default>
+                <label>One Large 94 ET Clear Cylinder | 62-4871-8030-9</label>
+            </value>
+            <value>
+                <fullName>One Large 94 ET Red Cylinder | 62-4874-8030-3</fullName>
+                <default>false</default>
+                <label>One Large 94 ET Red Cylinder | 62-4874-8030-3</label>
+            </value>
+            <value>
+                <fullName>One Large 98NF Clear Cylinder | 62-4995-8030-6</fullName>
+                <default>false</default>
+                <label>One Large 98NF Clear Cylinder | 62-4995-8030-6</label>
+            </value>
+            <value>
+                <fullName>One Large 98NF Red Cylinder | 62-4995-8030-6</fullName>
+                <default>false</default>
+                <label>One Large 98NF Red Cylinder | 62-4995-8030-6</label>
+            </value>
+            <value>
+                <fullName>Reduced Flow Applicator/12' Hose | 62-9880-9950-3, 62-9880-0012-1</fullName>
+                <default>false</default>
+                <label>Reduced Flow Applicator/12' Hose | 62-9880-9950-3, 62-9880-0012-1</label>
+            </value>
+            <value>
+                <fullName>Reduced Flow Applicator/25' Hose | 62-9880-9950-3, 62-9880-0025-3</fullName>
+                <default>false</default>
+                <label>Reduced Flow Applicator/25' Hose | 62-9880-9950-3, 62-9880-0025-3</label>
+            </value>
+            <value>
+                <fullName>Standard Applicator/12' Hose (all other cylinders) | 62-9880-9930-5, 62-9880-0012-1</fullName>
+                <default>false</default>
+                <label>Standard Applicator/12' Hose (all other cylinders) | 62-9880-9930-5, 62-9880-0012-1</label>
+            </value>
+            <value>
+                <fullName>Standard Applicator/12' Hose | 62-9880-9930-5, 62-9980-0012-1</fullName>
+                <default>false</default>
+                <label>Standard Applicator/12' Hose | 62-9880-9930-5, 62-9980-0012-1</label>
+            </value>
+            <value>
+                <fullName>Standard Applicator/25' Hose (all other cylinders) With QSS tip for Holdfast 70</fullName>
+                <default>false</default>
+                <label>Standard Applicator/25' Hose (all other cylinders) With QSS tip for Holdfast 70</label>
+            </value>
+            <value>
+                <fullName>Standard Applicator/25' Hose | 62-9880-9930-5,62-9880-0025-3</fullName>
+                <default>false</default>
+                <label>Standard Applicator/25' Hose | 62-9880-9930-5,62-9880-0025-3</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>1 3M™ Manual Applicator 310M for 310 mL Cartridges | 62-9890-9930-4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>1 3M™ Manual Applicator 400M for 400 mL Sausage Packs | 62-9890-9940-3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>1 3M™ Manual Applicator 600M for 600 mL Sausage Packs | 62-9890-9950-2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>1 3M™ Pneumatic Applicator 600A for 600 mL Sausage Packs | 62-9890-9960-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>1 3M™ Two-Component Adhesive Sealant Applicator 400A-2K and 5 cases of Nozzles | 62-9890-9990-8, 62-9890-9150-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 3M™ Hot Melt Applicator LT Q | 62-9281-9950-4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 3M™ Hot Melt Applicator TC Q | 62-9990-9950-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 case of 3M™ Sprayable Hot Melt Adhesive 6111 | 62-6111-9335-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Blue | 62-6115-9335-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 case of 3M™ Sprayable Hot Melt Adhesives 6111HT Tan | 62-6113-9335-6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>1 case of 3M™ Sprayable Hot Melt Adhesives 6116 | 62-6116-9335-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>5 AE II LT Applicator | 62979993077</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Instant Adhesives</controllingFieldValue>
+            <valueName>1 oz. case of 3M™ Scotch-Weld™ Plastic and Rubber Instant AdhesivePR100 | 62616403507</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V | 62-9865-9930-6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Easy 250 Adhesive Applicator Gold, 120V and 3M™ Scotch-Weld™ PUR Easy 250 Cartridge Pre-heater, 120V | 62-9865-9930-6/62-9865-9935-5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ 400 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9148-9930-7, 62-9176-9127-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ 400 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Gold 400 mL mixing nozzle | 62-9145-9930-3, 62-9176-9127-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ 490 mL Manual Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62918299306, 62-9158-9136-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ 490 mL Pneumatic Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Helical Orange 490 mL mixing nozzle | 62-9152-9930-9, 62-9158-9136-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ Plus II Applicator and 1 bag of 12 Square Gold Mix Nozzles | 62-9170-9930-1, 62-9171-9153-8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Green 48 mL mixing nozzle | 62-9170-9930-1, 62-9154-9148-4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>1 3M™ EPX™ Plus II Applicator and 1 bag of 3M™ Scotch-Weld™ EPX™ Square Orange 45 mL mixing nozzle | 62-9170-9930-1, 62-9154-9136-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6310NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Multi-Material Composite Urethane Adhesive DP6330NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>1 3M™ Accuspray™ 12S-Pro9 HVLP Spray Gun | 60-4550-5014-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 60 CA Cylinder | 62-4952-8030-7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 70 Cylinder | 62-4983-8030-2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 74 Clear Cylinder | 62-4974-8030-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 74 NF Clear Cylinder | 62-4998-8030-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 74 Orange Cylinder | 62-4912-8030-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 77 Cylinder | 62-4979-8030-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 78ET Clear Cylinder | 62-4984-8030-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 78ET Green Cylinder | 62-4986-8030-5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 78HT Cylinder | 62-4928-8030-7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 90 Cylinder | 62-4994-8030-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 92 Clear Cylinder | 62-4956-8030-8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 92 Red Cylinder | 62-4958-8030-4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 94 CA Clear Cylinder | 62-4960-8030-0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 94 CA Red Cylinder | 62-4970-8010-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 94 ET Clear Cylinder | 62-4871-8030-9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 94 ET Red Cylinder | 62-4874-8030-3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 98NF Clear Cylinder | 62-4995-8030-6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>One Large 98NF Red Cylinder | 62-4995-8030-6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Reduced Flow Applicator/12' Hose | 62-9880-9950-3, 62-9880-0012-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Reduced Flow Applicator/25' Hose | 62-9880-9950-3, 62-9880-0025-3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Standard Applicator/12' Hose (all other cylinders) | 62-9880-9930-5, 62-9880-0012-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Standard Applicator/12' Hose | 62-9880-9930-5, 62-9980-0012-1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Standard Applicator/25' Hose (all other cylinders) With QSS tip for Holdfast 70</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Standard Applicator/25' Hose | 62-9880-9930-5,62-9880-0025-3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Vinyl Lane Marking Tapes</controllingFieldValue>
+            <valueName>3M™ Lane Marking Applicator M-1 | 70-0067-5895-0</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

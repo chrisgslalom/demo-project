@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR0010_CFM_Unit_of_Measure_Limit</fullName>
+    <active>true</active>
+    <description>If cfm price is not null, unit of measure must have a value.</description>
+    <errorConditionFormula>AND( 
+OR( 
+RecordType.DeveloperName = 'CFM_Listed_Case_Product', 
+RecordType.DeveloperName = 'CFM_Unlisted_Case_Product' 
+), 
+NOT(ISBLANK(CFM_Price__c)), 
+ISBLANK(Unit_of_Measure__c) 
+)</errorConditionFormula>
+    <errorDisplayField>Unit_of_Measure__c</errorDisplayField>
+    <errorMessage>You need to input value to Unit of Measure if CFM Price has a value.</errorMessage>
+</ValidationRule>

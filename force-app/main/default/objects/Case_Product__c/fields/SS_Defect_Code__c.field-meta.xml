@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Defect_Code__c</fullName>
+    <description>Scott Safety field - Enter the defect code for this RMA line</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the defect code for this RMA line</inlineHelpText>
+    <label>SS-Defect Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SS_Defect__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1010 Excessive impact</fullName>
+                <default>false</default>
+                <label>1010 Excessive impact</label>
+            </value>
+            <value>
+                <fullName>1011 Ripped/torn/stripped</fullName>
+                <default>false</default>
+                <label>1011 Ripped/torn/stripped</label>
+            </value>
+            <value>
+                <fullName>1012 Shrink/stretch/distort</fullName>
+                <default>false</default>
+                <label>1012 Shrink/stretch/distort</label>
+            </value>
+            <value>
+                <fullName>1013 Bent/warped/twisted</fullName>
+                <default>false</default>
+                <label>1013 Bent/warped/twisted</label>
+            </value>
+            <value>
+                <fullName>1014 Scored/scratched/cut</fullName>
+                <default>false</default>
+                <label>1014 Scored/scratched/cut</label>
+            </value>
+            <value>
+                <fullName>1015 Puncture/perforated</fullName>
+                <default>false</default>
+                <label>1015 Puncture/perforated</label>
+            </value>
+            <value>
+                <fullName>1016 Broken wire/connector</fullName>
+                <default>false</default>
+                <label>1016 Broken wire/connector</label>
+            </value>
+            <value>
+                <fullName>1017 Overheating/melting</fullName>
+                <default>false</default>
+                <label>1017 Overheating/melting</label>
+            </value>
+            <value>
+                <fullName>1018 Bubbling/crazing</fullName>
+                <default>false</default>
+                <label>1018 Bubbling/crazing</label>
+            </value>
+            <value>
+                <fullName>1019 Cracked/shattered</fullName>
+                <default>false</default>
+                <label>1019 Cracked/shattered</label>
+            </value>
+            <value>
+                <fullName>1020 Crush</fullName>
+                <default>false</default>
+                <label>1020 Crush</label>
+            </value>
+            <value>
+                <fullName>1021 Worn</fullName>
+                <default>false</default>
+                <label>1021 Worn</label>
+            </value>
+            <value>
+                <fullName>1022 Optical distortion</fullName>
+                <default>false</default>
+                <label>1022 Optical distortion</label>
+            </value>
+            <value>
+                <fullName>1023 Split</fullName>
+                <default>false</default>
+                <label>1023 Split</label>
+            </value>
+            <value>
+                <fullName>1024 Discoloured</fullName>
+                <default>false</default>
+                <label>1024 Discoloured</label>
+            </value>
+            <value>
+                <fullName>1025 Colour miss-match</fullName>
+                <default>false</default>
+                <label>1025 Colour miss-match</label>
+            </value>
+            <value>
+                <fullName>1026 Incorrect reading</fullName>
+                <default>false</default>
+                <label>1026 Incorrect reading</label>
+            </value>
+            <value>
+                <fullName>1027 Pressure rupture</fullName>
+                <default>false</default>
+                <label>1027 Pressure rupture</label>
+            </value>
+            <value>
+                <fullName>1028 Contamination</fullName>
+                <default>false</default>
+                <label>1028 Contamination</label>
+            </value>
+            <value>
+                <fullName>1510 Intermittent operation</fullName>
+                <default>false</default>
+                <label>1510 Intermittent operation</label>
+            </value>
+            <value>
+                <fullName>1511 No Reading</fullName>
+                <default>false</default>
+                <label>1511 No Reading</label>
+            </value>
+            <value>
+                <fullName>1512 Reading not level</fullName>
+                <default>false</default>
+                <label>1512 Reading not level</label>
+            </value>
+            <value>
+                <fullName>1513 Incorrect gauge reading</fullName>
+                <default>false</default>
+                <label>1513 Incorrect gauge reading</label>
+            </value>
+            <value>
+                <fullName>1514 Fluctuating reading</fullName>
+                <default>false</default>
+                <label>1514 Fluctuating reading</label>
+            </value>
+            <value>
+                <fullName>1515 Crimp failure</fullName>
+                <default>false</default>
+                <label>1515 Crimp failure</label>
+            </value>
+            <value>
+                <fullName>1516 O ring/seal failure</fullName>
+                <default>false</default>
+                <label>1516 O ring/seal failure</label>
+            </value>
+            <value>
+                <fullName>1517 Glue/epoxy mechanical fail</fullName>
+                <default>false</default>
+                <label>1517 Glue/epoxy mechanical fail</label>
+            </value>
+            <value>
+                <fullName>1518 End of service life</fullName>
+                <default>false</default>
+                <label>1518 End of service life</label>
+            </value>
+            <value>
+                <fullName>1519 Button Inoperable</fullName>
+                <default>false</default>
+                <label>1519 Button Inoperable</label>
+            </value>
+            <value>
+                <fullName>1520 Surface Flaking/lifting</fullName>
+                <default>false</default>
+                <label>1520 Surface Flaking/lifting</label>
+            </value>
+            <value>
+                <fullName>1521 Damage under paint</fullName>
+                <default>false</default>
+                <label>1521 Damage under paint</label>
+            </value>
+            <value>
+                <fullName>1522 Smudging</fullName>
+                <default>false</default>
+                <label>1522 Smudging</label>
+            </value>
+            <value>
+                <fullName>2010 Parts - Missing</fullName>
+                <default>false</default>
+                <label>2010 Parts - Missing</label>
+            </value>
+            <value>
+                <fullName>2011 Excess of material normally allowed</fullName>
+                <default>false</default>
+                <label>2011 Excess of material normally allowed</label>
+            </value>
+            <value>
+                <fullName>2012 Rebranding error or defect</fullName>
+                <default>false</default>
+                <label>2012 Rebranding error or defect</label>
+            </value>
+            <value>
+                <fullName>2013 Deterioration of component</fullName>
+                <default>false</default>
+                <label>2013 Deterioration of component</label>
+            </value>
+            <value>
+                <fullName>2014 Out of date shelf life</fullName>
+                <default>false</default>
+                <label>2014 Out of date shelf life</label>
+            </value>
+            <value>
+                <fullName>2015 Out of date chemical life</fullName>
+                <default>false</default>
+                <label>2015 Out of date chemical life</label>
+            </value>
+            <value>
+                <fullName>2016 Obsolete stock</fullName>
+                <default>false</default>
+                <label>2016 Obsolete stock</label>
+            </value>
+            <value>
+                <fullName>2017 Fit issue</fullName>
+                <default>false</default>
+                <label>2017 Fit issue</label>
+            </value>
+            <value>
+                <fullName>2510 NO FAULT FOUND</fullName>
+                <default>false</default>
+                <label>2510 NO FAULT FOUND</label>
+            </value>
+            <value>
+                <fullName>2511 No Decon notice</fullName>
+                <default>false</default>
+                <label>2511 No Decon notice</label>
+            </value>
+            <value>
+                <fullName>2512 NOT in warranty</fullName>
+                <default>false</default>
+                <label>2512 NOT in warranty</label>
+            </value>
+            <value>
+                <fullName>2513 Documentation incomplete/incorrect</fullName>
+                <default>false</default>
+                <label>2513 Documentation incomplete/incorrect</label>
+            </value>
+            <value>
+                <fullName>2514 Documentation - No C of Analysis</fullName>
+                <default>false</default>
+                <label>2514 Documentation - No C of Analysis</label>
+            </value>
+            <value>
+                <fullName>2515 Documentation - No C of Conformance</fullName>
+                <default>false</default>
+                <label>2515 Documentation - No C of Conformance</label>
+            </value>
+            <value>
+                <fullName>2516 Excess weight issue per cube</fullName>
+                <default>false</default>
+                <label>2516 Excess weight issue per cube</label>
+            </value>
+            <value>
+                <fullName>2517 Parts - Wrong Quantity to order</fullName>
+                <default>false</default>
+                <label>2517 Parts - Wrong Quantity to order</label>
+            </value>
+            <value>
+                <fullName>2518 Parts - Wrong Quantity per package</fullName>
+                <default>false</default>
+                <label>2518 Parts - Wrong Quantity per package</label>
+            </value>
+            <value>
+                <fullName>2519 Packaging - Improper loading/blocking</fullName>
+                <default>false</default>
+                <label>2519 Packaging - Improper loading/blocking</label>
+            </value>
+            <value>
+                <fullName>2520 Packaging - Improper protection</fullName>
+                <default>false</default>
+                <label>2520 Packaging - Improper protection</label>
+            </value>
+            <value>
+                <fullName>2521 Pallet size/condition</fullName>
+                <default>false</default>
+                <label>2521 Pallet size/condition</label>
+            </value>
+            <value>
+                <fullName>2522 Poor service technique</fullName>
+                <default>false</default>
+                <label>2522 Poor service technique</label>
+            </value>
+            <value>
+                <fullName>2523 Wrong part fitted</fullName>
+                <default>false</default>
+                <label>2523 Wrong part fitted</label>
+            </value>
+            <value>
+                <fullName>2524 Incorrect Brand</fullName>
+                <default>false</default>
+                <label>2524 Incorrect Brand</label>
+            </value>
+            <value>
+                <fullName>3010 Out of position</fullName>
+                <default>false</default>
+                <label>3010 Out of position</label>
+            </value>
+            <value>
+                <fullName>3011 Burrs/sharp edges</fullName>
+                <default>false</default>
+                <label>3011 Burrs/sharp edges</label>
+            </value>
+            <value>
+                <fullName>3012 Diameter out of tolerance</fullName>
+                <default>false</default>
+                <label>3012 Diameter out of tolerance</label>
+            </value>
+            <value>
+                <fullName>3013 Rough/uneven surface/poor finish</fullName>
+                <default>false</default>
+                <label>3013 Rough/uneven surface/poor finish</label>
+            </value>
+            <value>
+                <fullName>3014 Drilling error</fullName>
+                <default>false</default>
+                <label>3014 Drilling error</label>
+            </value>
+            <value>
+                <fullName>3015 Thread error</fullName>
+                <default>false</default>
+                <label>3015 Thread error</label>
+            </value>
+            <value>
+                <fullName>3016 Incorrect dimensions</fullName>
+                <default>false</default>
+                <label>3016 Incorrect dimensions</label>
+            </value>
+            <value>
+                <fullName>3017 Valve failure</fullName>
+                <default>false</default>
+                <label>3017 Valve failure</label>
+            </value>
+            <value>
+                <fullName>3018 Too heavy</fullName>
+                <default>false</default>
+                <label>3018 Too heavy</label>
+            </value>
+            <value>
+                <fullName>3019 Seal failure</fullName>
+                <default>false</default>
+                <label>3019 Seal failure</label>
+            </value>
+            <value>
+                <fullName>3020 Vibration</fullName>
+                <default>false</default>
+                <label>3020 Vibration</label>
+            </value>
+            <value>
+                <fullName>3510 PCB failure</fullName>
+                <default>false</default>
+                <label>3510 PCB failure</label>
+            </value>
+            <value>
+                <fullName>3511 PCB - No power up/down</fullName>
+                <default>false</default>
+                <label>3511 PCB - No power up/down</label>
+            </value>
+            <value>
+                <fullName>3512 PCB - Arcing/Short circuit</fullName>
+                <default>false</default>
+                <label>3512 PCB - Arcing/Short circuit</label>
+            </value>
+            <value>
+                <fullName>3513 PCB - Program/memory issues</fullName>
+                <default>false</default>
+                <label>3513 PCB - Program/memory issues</label>
+            </value>
+            <value>
+                <fullName>3514 PCB - Tuning failure</fullName>
+                <default>false</default>
+                <label>3514 PCB - Tuning failure</label>
+            </value>
+            <value>
+                <fullName>3515 Elec - Not charging or holding a charge</fullName>
+                <default>false</default>
+                <label>3515 Elec - Not charging or holding a charge</label>
+            </value>
+            <value>
+                <fullName>3516 Elec - Display failure/blue screen</fullName>
+                <default>false</default>
+                <label>3516 Elec - Display failure/blue screen</label>
+            </value>
+            <value>
+                <fullName>3517 Elec - Docking/power connection</fullName>
+                <default>false</default>
+                <label>3517 Elec - Docking/power connection</label>
+            </value>
+            <value>
+                <fullName>3518 Elec - No/incorrect illumination</fullName>
+                <default>false</default>
+                <label>3518 Elec - No/incorrect illumination</label>
+            </value>
+            <value>
+                <fullName>3519 Elec - Flow test fail</fullName>
+                <default>false</default>
+                <label>3519 Elec - Flow test fail</label>
+            </value>
+            <value>
+                <fullName>3520 Elec - potting failure</fullName>
+                <default>false</default>
+                <label>3520 Elec - potting failure</label>
+            </value>
+            <value>
+                <fullName>3521 Lights on/off/intermittent</fullName>
+                <default>false</default>
+                <label>3521 Lights on/off/intermittent</label>
+            </value>
+            <value>
+                <fullName>3522 Sounder/tone issue</fullName>
+                <default>false</default>
+                <label>3522 Sounder/tone issue</label>
+            </value>
+            <value>
+                <fullName>3523 Battery - drain</fullName>
+                <default>false</default>
+                <label>3523 Battery - drain</label>
+            </value>
+            <value>
+                <fullName>3524 Charging LED issue</fullName>
+                <default>false</default>
+                <label>3524 Charging LED issue</label>
+            </value>
+            <value>
+                <fullName>3525 Charger failure</fullName>
+                <default>false</default>
+                <label>3525 Charger failure</label>
+            </value>
+            <value>
+                <fullName>3526 Alarm - constant or intermittent</fullName>
+                <default>false</default>
+                <label>3526 Alarm - constant or intermittent</label>
+            </value>
+            <value>
+                <fullName>3527 Display failure/blue screen</fullName>
+                <default>false</default>
+                <label>3527 Display failure/blue screen</label>
+            </value>
+            <value>
+                <fullName>4010 Assembled incorrectly by customer</fullName>
+                <default>false</default>
+                <label>4010 Assembled incorrectly by customer</label>
+            </value>
+            <value>
+                <fullName>4011 Assembled incorrectly at manufacture</fullName>
+                <default>false</default>
+                <label>4011 Assembled incorrectly at manufacture</label>
+            </value>
+            <value>
+                <fullName>4012 Assembly - Excess force, customer</fullName>
+                <default>false</default>
+                <label>4012 Assembly - Excess force, customer</label>
+            </value>
+            <value>
+                <fullName>4013 Assembly - Damage by manufacturer</fullName>
+                <default>false</default>
+                <label>4013 Assembly - Damage by manufacturer</label>
+            </value>
+            <value>
+                <fullName>4014 Assembly - Misaligned screws</fullName>
+                <default>false</default>
+                <label>4014 Assembly - Misaligned screws</label>
+            </value>
+            <value>
+                <fullName>4015 Assembly - Misaligned parts</fullName>
+                <default>false</default>
+                <label>4015 Assembly - Misaligned parts</label>
+            </value>
+            <value>
+                <fullName>4016 Assembly - Cross threaded</fullName>
+                <default>false</default>
+                <label>4016 Assembly - Cross threaded</label>
+            </value>
+            <value>
+                <fullName>4017 Assembly - Rattling/vibration/noise</fullName>
+                <default>false</default>
+                <label>4017 Assembly - Rattling/vibration/noise</label>
+            </value>
+            <value>
+                <fullName>4018 Assembly - Pump failure</fullName>
+                <default>false</default>
+                <label>4018 Assembly - Pump failure</label>
+            </value>
+            <value>
+                <fullName>4019 Assembly - Not reset</fullName>
+                <default>false</default>
+                <label>4019 Assembly - Not reset</label>
+            </value>
+            <value>
+                <fullName>4020 Assembly - Poor method</fullName>
+                <default>false</default>
+                <label>4020 Assembly - Poor method</label>
+            </value>
+            <value>
+                <fullName>4021 Assembly - Parts shifted</fullName>
+                <default>false</default>
+                <label>4021 Assembly - Parts shifted</label>
+            </value>
+            <value>
+                <fullName>4022 Assembly - No markings</fullName>
+                <default>false</default>
+                <label>4022 Assembly - No markings</label>
+            </value>
+            <value>
+                <fullName>4023 Assembly - ID/Description missing</fullName>
+                <default>false</default>
+                <label>4023 Assembly - ID/Description missing</label>
+            </value>
+            <value>
+                <fullName>4510 Contamination - Investigation halted</fullName>
+                <default>false</default>
+                <label>4510 Contamination - Investigation halted</label>
+            </value>
+            <value>
+                <fullName>4511 Contamination - Carbon dust</fullName>
+                <default>false</default>
+                <label>4511 Contamination - Carbon dust</label>
+            </value>
+            <value>
+                <fullName>4512 Contamination - Glue</fullName>
+                <default>false</default>
+                <label>4512 Contamination - Glue</label>
+            </value>
+            <value>
+                <fullName>4513 Contamination - Odour/smell</fullName>
+                <default>false</default>
+                <label>4513 Contamination - Odour/smell</label>
+            </value>
+            <value>
+                <fullName>4514 Contamination - Water/moisture</fullName>
+                <default>false</default>
+                <label>4514 Contamination - Water/moisture</label>
+            </value>
+            <value>
+                <fullName>4515 Contamination - Rust/oxidising</fullName>
+                <default>false</default>
+                <label>4515 Contamination - Rust/oxidising</label>
+            </value>
+            <value>
+                <fullName>4516 Contamination - Unknown liquid/debris</fullName>
+                <default>false</default>
+                <label>4516 Contamination - Unknown liquid/debris</label>
+            </value>
+            <value>
+                <fullName>4517 Contamination - Shop soiled</fullName>
+                <default>false</default>
+                <label>4517 Contamination - Shop soiled</label>
+            </value>
+            <value>
+                <fullName>4518 Contamination - Media paper/puck</fullName>
+                <default>false</default>
+                <label>4518 Contamination - Media paper/puck</label>
+            </value>
+            <value>
+                <fullName>5010 Filter - Carbon rattle/loose carbon</fullName>
+                <default>false</default>
+                <label>5010 Filter - Carbon rattle/loose carbon</label>
+            </value>
+            <value>
+                <fullName>5011 Filter - Weld issue</fullName>
+                <default>false</default>
+                <label>5011 Filter - Weld issue</label>
+            </value>
+            <value>
+                <fullName>5012 Filter - Miss-alignment</fullName>
+                <default>false</default>
+                <label>5012 Filter - Miss-alignment</label>
+            </value>
+            <value>
+                <fullName>5013 Filter - Assembly incorrect</fullName>
+                <default>false</default>
+                <label>5013 Filter - Assembly incorrect</label>
+            </value>
+            <value>
+                <fullName>5014 Filter - Penetration Test failure</fullName>
+                <default>false</default>
+                <label>5014 Filter - Penetration Test failure</label>
+            </value>
+            <value>
+                <fullName>5015 Filter - Resistance test failure</fullName>
+                <default>false</default>
+                <label>5015 Filter - Resistance test failure</label>
+            </value>
+            <value>
+                <fullName>5510 Incomplete/short shot</fullName>
+                <default>false</default>
+                <label>5510 Incomplete/short shot</label>
+            </value>
+            <value>
+                <fullName>5511 Cold shot/material weakness</fullName>
+                <default>false</default>
+                <label>5511 Cold shot/material weakness</label>
+            </value>
+            <value>
+                <fullName>5512 Excess flash</fullName>
+                <default>false</default>
+                <label>5512 Excess flash</label>
+            </value>
+            <value>
+                <fullName>5513 Distorted/miss-shaped</fullName>
+                <default>false</default>
+                <label>5513 Distorted/miss-shaped</label>
+            </value>
+            <value>
+                <fullName>5514 Bubbles</fullName>
+                <default>false</default>
+                <label>5514 Bubbles</label>
+            </value>
+            <value>
+                <fullName>5515 Thin walls</fullName>
+                <default>false</default>
+                <label>5515 Thin walls</label>
+            </value>
+            <value>
+                <fullName>5516 Finger marks/marks in paint</fullName>
+                <default>false</default>
+                <label>5516 Finger marks/marks in paint</label>
+            </value>
+            <value>
+                <fullName>5517 Runs/Drips/Mottle</fullName>
+                <default>false</default>
+                <label>5517 Runs/Drips/Mottle</label>
+            </value>
+            <value>
+                <fullName>5518 Paint overspray</fullName>
+                <default>false</default>
+                <label>5518 Paint overspray</label>
+            </value>
+            <value>
+                <fullName>5519 Paint - pitted/poor finish</fullName>
+                <default>false</default>
+                <label>5519 Paint - pitted/poor finish</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>N/A</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4010 Assembled incorrectly by customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4011 Assembled incorrectly at manufacture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4012 Assembly - Excess force, customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4013 Assembly - Damage by manufacturer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4014 Assembly - Misaligned screws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4015 Assembly - Misaligned parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4016 Assembly - Cross threaded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4017 Assembly - Rattling/vibration/noise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4018 Assembly - Pump failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4019 Assembly - Not reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4020 Assembly - Poor method</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4021 Assembly - Parts shifted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4022 Assembly - No markings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASSEMBLY/SERVICE</controllingFieldValue>
+            <valueName>4023 Assembly - ID/Description missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4510 Contamination - Investigation halted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4511 Contamination - Carbon dust</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4512 Contamination - Glue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4513 Contamination - Odour/smell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4514 Contamination - Water/moisture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4515 Contamination - Rust/oxidising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4516 Contamination - Unknown liquid/debris</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4517 Contamination - Shop soiled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CONTAMINATION</controllingFieldValue>
+            <valueName>4518 Contamination - Media paper/puck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2510 NO FAULT FOUND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2511 No Decon notice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2512 NOT in warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2513 Documentation incomplete/incorrect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2514 Documentation - No C of Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2515 Documentation - No C of Conformance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2516 Excess weight issue per cube</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2517 Parts - Wrong Quantity to order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2518 Parts - Wrong Quantity per package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2519 Packaging - Improper loading/blocking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2520 Packaging - Improper protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2521 Pallet size/condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2522 Poor service technique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2523 Wrong part fitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CUSTOMER ISSUES</controllingFieldValue>
+            <valueName>2524 Incorrect Brand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1010 Excessive impact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1011 Ripped/torn/stripped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1012 Shrink/stretch/distort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1013 Bent/warped/twisted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1014 Scored/scratched/cut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1015 Puncture/perforated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1016 Broken wire/connector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1017 Overheating/melting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1018 Bubbling/crazing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1019 Cracked/shattered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1020 Crush</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1021 Worn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1022 Optical distortion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1023 Split</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1024 Discoloured</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1025 Colour miss-match</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1026 Incorrect reading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1027 Pressure rupture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DAMAGE</controllingFieldValue>
+            <valueName>1028 Contamination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2010 Parts - Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2011 Excess of material normally allowed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2012 Rebranding error or defect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2013 Deterioration of component</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2014 Out of date shelf life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2015 Out of date chemical life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2016 Obsolete stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOCUMENT/PACKAGING</controllingFieldValue>
+            <valueName>2017 Fit issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3510 PCB failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3511 PCB - No power up/down</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3512 PCB - Arcing/Short circuit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3513 PCB - Program/memory issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3514 PCB - Tuning failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3515 Elec - Not charging or holding a charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3516 Elec - Display failure/blue screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3517 Elec - Docking/power connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3518 Elec - No/incorrect illumination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3519 Elec - Flow test fail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3520 Elec - potting failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3521 Lights on/off/intermittent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3522 Sounder/tone issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3523 Battery - drain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3524 Charging LED issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3525 Charger failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3526 Alarm - constant or intermittent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ELECTRICAL/CHARGING</controllingFieldValue>
+            <valueName>3527 Display failure/blue screen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1510 Intermittent operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1511 No Reading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1512 Reading not level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1513 Incorrect gauge reading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1514 Fluctuating reading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1515 Crimp failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1516 O ring/seal failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1517 Glue/epoxy mechanical fail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1518 End of service life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1519 Button Inoperable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1520 Surface Flaking/lifting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1521 Damage under paint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FAILURE</controllingFieldValue>
+            <valueName>1522 Smudging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5010 Filter - Carbon rattle/loose carbon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5011 Filter - Weld issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5012 Filter - Miss-alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5013 Filter - Assembly incorrect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5014 Filter - Penetration Test failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FILTERS</controllingFieldValue>
+            <valueName>5015 Filter - Resistance test failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3010 Out of position</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3011 Burrs/sharp edges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3012 Diameter out of tolerance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3013 Rough/uneven surface/poor finish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3014 Drilling error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3015 Thread error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3016 Incorrect dimensions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3017 Valve failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3018 Too heavy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3019 Seal failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>METALS/COMPOSITES</controllingFieldValue>
+            <valueName>3020 Vibration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5510 Incomplete/short shot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5511 Cold shot/material weakness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5512 Excess flash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5513 Distorted/miss-shaped</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5514 Bubbles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5515 Thin walls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5516 Finger marks/marks in paint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5517 Runs/Drips/Mottle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5518 Paint overspray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PLASTICS/PAINT</controllingFieldValue>
+            <valueName>5519 Paint - pitted/poor finish</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCI_Product_Purchased__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Product Purchased by Customer</inlineHelpText>
+    <label>NCI Product Purchased</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>NCI_Product_Group__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3M™ Adhesive Sealant 760 UV (Black, Gray, White)</fullName>
+                <default>false</default>
+                <label>3M™ Adhesive Sealant 760 UV (Black, Gray, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded Bulk Spray adhesives - any solvent or water based formulation</fullName>
+                <default>false</default>
+                <label>3M™ Branded Bulk Spray adhesives - any solvent or water based formulation</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - 94CA, 94ET - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - 94CA, 94ET - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - 94CA, 94ET - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - 94CA, 94ET - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - 94CA, 94ET - Large cylinder (26 lbs - 37.5 lbs)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - 94CA, 94ET - Large cylinder (26 lbs - 37.5 lbs)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Large cylinder (26lbs - 37.5 lbs)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Large cylinder (26lbs - 37.5 lbs)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - Holdfast 70 - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - Holdfast 70 - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - Holdfast 70 - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - Holdfast 70 - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>3M™ Branded cylinder adhesive - Holdfast 70 - Large cylinder (26lbs - 37.5 lbs)</fullName>
+                <default>false</default>
+                <label>3M™ Branded cylinder adhesive - Holdfast 70 - Large cylinder (26lbs - 37.5 lbs)</label>
+            </value>
+            <value>
+                <fullName>3M™ FoamFast 74 Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ FoamFast 74 Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ FoamFast 74 Cylinder Spray Adhesive- Orange</fullName>
+                <default>false</default>
+                <label>3M™ FoamFast 74 Cylinder Spray Adhesive- Orange</label>
+            </value>
+            <value>
+                <fullName>3M™ General Purpose 60 CA Cylinder Spray Adhesive</fullName>
+                <default>false</default>
+                <label>3M™ General Purpose 60 CA Cylinder Spray Adhesive</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength 90 Cylinder Spray Adhesive</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength 90 Cylinder Spray Adhesive</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Red</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Red</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Red</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Red</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Red</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Red</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Red</fullName>
+                <default>false</default>
+                <label>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Red</label>
+            </value>
+            <value>
+                <fullName>3M™ HoldFast 70 Cylinder Spray Adhesive</fullName>
+                <default>false</default>
+                <label>3M™ HoldFast 70 Cylinder Spray Adhesive</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesive 3750 LM AE</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesive 3750 LM AE</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesive 3762 LM AE</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesive 3762 LM AE</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesive 3776 LM AE</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesive 3776 LM AE</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesive 3792 LM AE</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesive 3792 LM AE</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3731 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3731 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3738 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3738 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3747 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3747 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3748 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3748 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3748 VO Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3748 VO Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3762 LM Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3762 LM Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3762 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3762 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3764 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3764 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3776 LM Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3776 LM Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3779 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3779 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3789 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3789 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3792 LM Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3792 LM Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hot Melt Adhesives 3792 Q</fullName>
+                <default>false</default>
+                <label>3M™ Hot Melt Adhesives 3792 Q</label>
+            </value>
+            <value>
+                <fullName>3M™ Hybrid Adhesive Sealant Fast Cure 4000 UV (Black, White)</fullName>
+                <default>false</default>
+                <label>3M™ Hybrid Adhesive Sealant Fast Cure 4000 UV (Black, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Non-Flammable FoamFast 74 NF Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Non-Flammable FoamFast 74 NF Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ OEM Polyurethane Glass Adhesive Sealant 590 Black</fullName>
+                <default>false</default>
+                <label>3M™ OEM Polyurethane Glass Adhesive Sealant 590 Black</label>
+            </value>
+            <value>
+                <fullName>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Clear</fullName>
+                <default>false</default>
+                <label>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Green</fullName>
+                <default>false</default>
+                <label>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Green</label>
+            </value>
+            <value>
+                <fullName>3M™ Polystyrene Insulation 78HT Cylinder Spray Adhesive</fullName>
+                <default>false</default>
+                <label>3M™ Polystyrene Insulation 78HT Cylinder Spray Adhesive</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Adhesive Sealant 550 Fast Cure (Black, Gray, White)</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Adhesive Sealant 550 Fast Cure (Black, Gray, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Adhesive Sealant 551 White</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Adhesive Sealant 551 White</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Adhesive Sealant 560 (Black, Gray, White)</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Adhesive Sealant 560 (Black, Gray, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Adhesive Sealant Accelerator AC61 or AC63</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Adhesive Sealant Accelerator AC61 or AC63</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Construction Sealant 525 Gray</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Construction Sealant 525 Gray</label>
+            </value>
+            <value>
+                <fullName>3M™ Polyurethane Sealant 540 (Black, Gray, White)</fullName>
+                <default>false</default>
+                <label>3M™ Polyurethane Sealant 540 (Black, Gray, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Safety Stripe Tape 5700 Black/White</fullName>
+                <default>false</default>
+                <label>3M™ Safety Stripe Tape 5700 Black/White</label>
+            </value>
+            <value>
+                <fullName>3M™ Safety Stripe Tape 5702 Black/Yellow</fullName>
+                <default>false</default>
+                <label>3M™ Safety Stripe Tape 5702 Black/Yellow</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Acrylic Adhesive DP8405NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Acrylic Adhesive DP8405NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Acrylic Adhesive DP8410NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Acrylic Adhesive DP8410NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Acrylic Adhesive DP8425NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Acrylic Adhesive DP8425NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Epoxy Adhesive DP125</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Epoxy Adhesive DP125</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Epoxy Adhesive DP420</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Epoxy Adhesive DP420</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8805NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8805NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8810NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8825NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Metal Bonder Acrylic Adhesive DP8407NS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Metal Bonder Acrylic Adhesive DP8407NS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ Plastic &amp; Rubber Instant Adhesive PR100</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ Plastic &amp; Rubber Instant Adhesive PR100</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250015</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250015</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250030</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250030</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250060</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250060</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250120</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250120</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250150</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250150</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive EZ250200</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive EZ250200</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE015</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE015</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE030</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE030</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE031</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE031</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE031 Black</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE031 Black</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE040</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE040</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE100</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE100</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TE200</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TE200</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TS115 HGS</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TS115 HGS</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TS230</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TS230</label>
+            </value>
+            <value>
+                <fullName>3M™ Scotch-Weld™ PUR Adhesive TS230 Black</fullName>
+                <default>false</default>
+                <label>3M™ Scotch-Weld™ PUR Adhesive TS230 Black</label>
+            </value>
+            <value>
+                <fullName>3M™ Sealant 730 Clear</fullName>
+                <default>false</default>
+                <label>3M™ Sealant 730 Clear</label>
+            </value>
+            <value>
+                <fullName>3M™ Sealant 740 UV (Black, Gray, White)</fullName>
+                <default>false</default>
+                <label>3M™ Sealant 740 UV (Black, Gray, White)</label>
+            </value>
+            <value>
+                <fullName>3M™ Sprayable Hot Melt Adhesive 6111</fullName>
+                <default>false</default>
+                <label>3M™ Sprayable Hot Melt Adhesive 6111</label>
+            </value>
+            <value>
+                <fullName>3M™ Sprayable Hot Melt Adhesive 6111HT Blue</fullName>
+                <default>false</default>
+                <label>3M™ Sprayable Hot Melt Adhesive 6111HT Blue</label>
+            </value>
+            <value>
+                <fullName>3M™ Sprayable Hot Melt Adhesive 6111HT Tan</fullName>
+                <default>false</default>
+                <label>3M™ Sprayable Hot Melt Adhesive 6111HT Tan</label>
+            </value>
+            <value>
+                <fullName>3M™ Sprayable Hot Melt Adhesive 6116</fullName>
+                <default>false</default>
+                <label>3M™ Sprayable Hot Melt Adhesive 6116</label>
+            </value>
+            <value>
+                <fullName>3M™ Super 77™ Cylinder Spray Adhesive</fullName>
+                <default>false</default>
+                <label>3M™ Super 77™ Cylinder Spray Adhesive</label>
+            </value>
+            <value>
+                <fullName>3M™ Vinyl Tape 471</fullName>
+                <default>false</default>
+                <label>3M™ Vinyl Tape 471</label>
+            </value>
+            <value>
+                <fullName>NauticGrip Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>NauticGrip Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>NauticGrip Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>NauticGrip Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>NauticGrip Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</fullName>
+                <default>false</default>
+                <label>NauticGrip Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</label>
+            </value>
+            <value>
+                <fullName>Northstar Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>Northstar Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>Northstar Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>Northstar Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>Northstar Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</fullName>
+                <default>false</default>
+                <label>Northstar Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</label>
+            </value>
+            <value>
+                <fullName>Premier Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>Premier Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>Premier Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>Premier Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>Premier Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</fullName>
+                <default>false</default>
+                <label>Premier Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</label>
+            </value>
+            <value>
+                <fullName>Starstuk Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</fullName>
+                <default>false</default>
+                <label>Starstuk Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</label>
+            </value>
+            <value>
+                <fullName>Starstuk Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</fullName>
+                <default>false</default>
+                <label>Starstuk Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</label>
+            </value>
+            <value>
+                <fullName>Starstuk Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</fullName>
+                <default>false</default>
+                <label>Starstuk Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Adhesive Sealant 760 UV (Black, Gray, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Hybrid Adhesive Sealant Fast Cure 4000 UV (Black, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ OEM Polyurethane Glass Adhesive Sealant 590 Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Adhesive Sealant 550 Fast Cure (Black, Gray, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Adhesive Sealant 551 White</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Adhesive Sealant 560 (Black, Gray, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Adhesive Sealant Accelerator AC61 or AC63</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Construction Sealant 525 Gray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Polyurethane Sealant 540 (Black, Gray, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Sealant 730 Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Adhesive Sealants</controllingFieldValue>
+            <valueName>3M™ Sealant 740 UV (Black, Gray, White)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesive 3750 LM AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesive 3762 LM AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesive 3776 LM AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesive 3792 LM AE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3731 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3738 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3747 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3748 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3748 VO Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3762 LM Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3762 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3764 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3776 LM Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3779 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3792 LM Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Hot Melt Adhesives 3792 Q</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Sprayable Hot Melt Adhesive 6111</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Sprayable Hot Melt Adhesive 6111HT Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Sprayable Hot Melt Adhesive 6111HT Tan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Hot Melt Adhesives</controllingFieldValue>
+            <valueName>3M™ Sprayable Hot Melt Adhesive 6116</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Instant Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Plastic &amp; Rubber Instant Adhesive PR100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250015</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250030</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250060</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250120</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive EZ250200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE015</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE030</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE031</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE031 Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE040</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TE200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TS115 HGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TS230</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld PUR Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ PUR Adhesive TS230 Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Acrylic Adhesive DP8405NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Acrylic Adhesive DP8410NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Acrylic Adhesive DP8425NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Epoxy Adhesive DP100 Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Epoxy Adhesive DP125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Epoxy Adhesive DP420</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Low Odor Acrylic Adhesive DP8805NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Scotch-Weld Structural Adhesives</controllingFieldValue>
+            <valueName>3M™ Scotch-Weld™ Metal Bonder Acrylic Adhesive DP8407NS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded Bulk Spray adhesives - any solvent or water based formulation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - 94CA, 94ET - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - 94CA, 94ET - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - 94CA, 94ET - Large cylinder (26 lbs - 37.5 lbs)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - all formulations other than 94CA, 94ET, HF70) - Large cylinder (26lbs - 37.5 lbs)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - Holdfast 70 - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - Holdfast 70 - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Branded cylinder adhesive - Holdfast 70 - Large cylinder (26lbs - 37.5 lbs)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ FoamFast 74 Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ FoamFast 74 Cylinder Spray Adhesive- Orange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ General Purpose 60 CA Cylinder Spray Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength 90 Cylinder Spray Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength 94 ET Cylinder Spray Adhesive- Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Laminating 92 Cylinder Spray Adhesive- Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Red</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ HoldFast 70 Cylinder Spray Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Non-Flammable FoamFast 74 NF Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Clear</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Polystyrene Insulation 78ET Cylinder Spray Adhesive- Green</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Polystyrene Insulation 78HT Cylinder Spray Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>3M™ Super 77™ Cylinder Spray Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>NauticGrip Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>NauticGrip Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>NauticGrip Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Northstar Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Northstar Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Northstar Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Premier Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Premier Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Premier Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Starstuk Branded cylinder adhesive - any formulation - Intermediate cylinder (125# - 187.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Starstuk Branded cylinder adhesive - any formulation - Jumbo cylinder (260# - 375#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Spray Adhesives</controllingFieldValue>
+            <valueName>Starstuk Branded cylinder adhesive - any formulation - Large cylinder (26# - 37.5#)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Vinyl Lane Marking Tapes</controllingFieldValue>
+            <valueName>3M™ Safety Stripe Tape 5700 Black/White</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Vinyl Lane Marking Tapes</controllingFieldValue>
+            <valueName>3M™ Safety Stripe Tape 5702 Black/Yellow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3M Vinyl Lane Marking Tapes</controllingFieldValue>
+            <valueName>3M™ Vinyl Tape 471</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

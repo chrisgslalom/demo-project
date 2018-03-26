@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_LineStatus__c</fullName>
+    <description>Scott Safety field - What is the status of this RMA line?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the status of this RMA line?</inlineHelpText>
+    <label>SS-LineStatus</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Investigation</fullName>
+                <default>false</default>
+                <label>Pending Investigation</label>
+            </value>
+            <value>
+                <fullName>Under Investigation</fullName>
+                <default>false</default>
+                <label>Under Investigation</label>
+            </value>
+            <value>
+                <fullName>Complaint Escalated</fullName>
+                <default>false</default>
+                <label>Complaint Escalated</label>
+            </value>
+            <value>
+                <fullName>Investigation Completed</fullName>
+                <default>false</default>
+                <label>Investigation Completed</label>
+            </value>
+            <value>
+                <fullName>CPAR Created</fullName>
+                <default>false</default>
+                <label>CPAR Created</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Auto-Close</fullName>
+                <default>false</default>
+                <label>Auto-Close</label>
+            </value>
+            <value>
+                <fullName>Awaiting Goods</fullName>
+                <default>false</default>
+                <label>Awaiting Goods</label>
+            </value>
+            <value>
+                <fullName>Waiting For Product</fullName>
+                <default>false</default>
+                <label>Waiting For Product</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

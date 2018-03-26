@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Incentive</fullName>
+    <active>true</active>
+    <description>Use for Customer Incentive Products</description>
+    <label>Customer Incentive</label>
+    <picklistValues>
+        <picklist>Anticipated_Type__c</picklist>
+        <values>
+            <fullName>Dollar Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quantity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approval_Level__c</picklist>
+        <values>
+            <fullName>Sales District%2FAll Customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This Customer Only %28default%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>This Customer Only - Specific Time Frame</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Picklist__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replacement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCI_Free_Product__c</picklist>
+        <values>
+            <fullName>1 3M%E2%84%A2 Accuspray%E2%84%A2 12S-Pro9 HVLP Spray Gun %7C 60-4550-5014-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 400 mL Manual Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Square Gold 400 mL mixing nozzle %7C 62-9148-9930-7%2C 62-9176-9127-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 400 mL Pneumatic Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Square Gold 400 mL mixing nozzle %7C 62-9145-9930-3%2C 62-9176-9127-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 490 mL Manual Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Helical Orange 490 mL mixing nozzle %7C 62918299306%2C 62-9158-9136-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 490 mL Pneumatic Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Helical Orange 490 mL mixing nozzle %7C 62-9152-9930-9%2C 62-9158-9136-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 Plus II Applicator and 1 bag of 12 Square Gold Mix Nozzles %7C 62-9170-9930-1%2C 62-9171-9153-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 Plus II Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Square Green 48 mL mixing nozzle %7C 62-9170-9930-1%2C 62-9154-9148-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 EPX%E2%84%A2 Plus II Applicator and 1 bag of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 EPX%E2%84%A2 Square Orange 45 mL mixing nozzle %7C 62-9170-9930-1%2C 62-9154-9136-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Hot Melt Applicator LT Q %7C 62-9281-9950-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Hot Melt Applicator TC Q %7C 62-9990-9950-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Manual Applicator 310M for 310 mL Cartridges %7C 62-9890-9930-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Manual Applicator 400M for 400 mL Sausage Packs %7C 62-9890-9940-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Manual Applicator 600M for 600 mL Sausage Packs %7C 62-9890-9950-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Pneumatic Applicator 600A for 600 mL Sausage Packs %7C 62-9890-9960-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 3M%E2%84%A2 Two-Component Adhesive Sealant Applicator 400A-2K and 5 cases of Nozzles %7C 62-9890-9990-8%2C 62-9890-9150-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case of 3M%E2%84%A2 Sprayable Hot Melt Adhesive 6111 %7C 62-6111-9335-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case of 3M%E2%84%A2 Sprayable Hot Melt Adhesives 6111HT Blue %7C 62-6115-9335-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case of 3M%E2%84%A2 Sprayable Hot Melt Adhesives 6111HT Tan %7C 62-6113-9335-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case of 3M%E2%84%A2 Sprayable Hot Melt Adhesives 6116 %7C 62-6116-9335-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 oz%2E case of 3M%E2%84%A2 Scotch-Weld%E2%84%A2 Plastic and Rubber Instant AdhesivePR100 %7C 62616403507</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Lane Marking Applicator M-1 %7C 70-0067-5895-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Multi-Material Composite Urethane Adhesive DP6310NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Multi-Material Composite Urethane Adhesive DP6330NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Easy 250 Adhesive Applicator Gold%2C 120V %7C 62-9865-9930-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Easy 250 Adhesive Applicator Gold%2C 120V and 3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Easy 250 Cartridge Pre-heater%2C 120V %7C 62-9865-9930-6%2F62-9865-9935-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 AE II LT Applicator %7C 62979993077</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 60 CA Cylinder %7C 62-4952-8030-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 70 Cylinder %7C 62-4983-8030-2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 74 Clear Cylinder %7C 62-4974-8030-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 74 NF Clear Cylinder %7C 62-4998-8030-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 74 Orange Cylinder %7C 62-4912-8030-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 77 Cylinder %7C 62-4979-8030-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 78ET Clear Cylinder %7C 62-4984-8030-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 78ET Green Cylinder %7C 62-4986-8030-5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 78HT Cylinder %7C 62-4928-8030-7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 90 Cylinder %7C 62-4994-8030-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 92 Clear Cylinder %7C 62-4956-8030-8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 92 Red Cylinder %7C 62-4958-8030-4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 94 CA Clear Cylinder %7C 62-4960-8030-0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 94 CA Red Cylinder %7C 62-4970-8010-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 94 ET Clear Cylinder %7C 62-4871-8030-9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 94 ET Red Cylinder %7C 62-4874-8030-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 98NF Clear Cylinder %7C 62-4995-8030-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Large 98NF Red Cylinder %7C 62-4995-8030-6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduced Flow Applicator%2F12%27 Hose %7C 62-9880-9950-3%2C 62-9880-0012-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduced Flow Applicator%2F25%27 Hose %7C 62-9880-9950-3%2C 62-9880-0025-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Applicator%2F12%27 Hose %28all other cylinders%29 %7C 62-9880-9930-5%2C 62-9880-0012-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Applicator%2F12%27 Hose %7C 62-9880-9930-5%2C 62-9980-0012-1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Applicator%2F25%27 Hose %28all other cylinders%29 With QSS tip for Holdfast 70</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Applicator%2F25%27 Hose %7C 62-9880-9930-5%2C62-9880-0025-3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCI_Product_Group__c</picklist>
+        <values>
+            <fullName>3M Adhesive Sealants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Hot Melt Adhesives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Scotch-Weld Instant Adhesives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Scotch-Weld PUR Adhesives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Scotch-Weld Structural Adhesives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Spray Adhesives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M Vinyl Lane Marking Tapes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCI_Product_Purchased__c</picklist>
+        <values>
+            <fullName>3M%E2%84%A2 Adhesive Sealant 760 UV %28Black%2C Gray%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded Bulk Spray adhesives - any solvent or water based formulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - 94CA%2C 94ET - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - 94CA%2C 94ET - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - 94CA%2C 94ET - Large cylinder %2826 lbs - 37%2E5 lbs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - Holdfast 70 - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - Holdfast 70 - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - Holdfast 70 - Large cylinder %2826lbs - 37%2E5 lbs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - all formulations other than 94CA%2C 94ET%2C HF70%29 - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - all formulations other than 94CA%2C 94ET%2C HF70%29 - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Branded cylinder adhesive - all formulations other than 94CA%2C 94ET%2C HF70%29 - Large cylinder %2826lbs - 37%2E5 lbs%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 FoamFast 74 Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 FoamFast 74 Cylinder Spray Adhesive- Orange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 General Purpose 60 CA Cylinder Spray Adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength 90 Cylinder Spray Adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength 94 ET Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength 94 ET Cylinder Spray Adhesive- Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Laminating 92 Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Laminating 92 Cylinder Spray Adhesive- Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Non-Flammable 98NF Cylinder Spray Adhesive- Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hi-Strength Postforming 94 CA Cylinder Spray Adhesive- Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 HoldFast 70 Cylinder Spray Adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesive 3750 LM AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesive 3762 LM AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesive 3776 LM AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesive 3792 LM AE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3731 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3738 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3747 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3748 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3748 VO Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3762 LM Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3762 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3764 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3776 LM Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3779 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3789 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3792 LM Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hot Melt Adhesives 3792 Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Hybrid Adhesive Sealant Fast Cure 4000 UV %28Black%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Non-Flammable FoamFast 74 NF Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 OEM Polyurethane Glass Adhesive Sealant 590 Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polystyrene Insulation 78ET Cylinder Spray Adhesive- Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polystyrene Insulation 78ET Cylinder Spray Adhesive- Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polystyrene Insulation 78HT Cylinder Spray Adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Adhesive Sealant 550 Fast Cure %28Black%2C Gray%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Adhesive Sealant 551 White</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Adhesive Sealant 560 %28Black%2C Gray%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Adhesive Sealant Accelerator AC61 or AC63</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Construction Sealant 525 Gray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Polyurethane Sealant 540 %28Black%2C Gray%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Safety Stripe Tape 5700 Black%2FWhite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Safety Stripe Tape 5702 Black%2FYellow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Acrylic Adhesive DP8405NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Acrylic Adhesive DP8410NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Acrylic Adhesive DP8425NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Epoxy Adhesive DP100 Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Epoxy Adhesive DP125</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Epoxy Adhesive DP420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Low Odor Acrylic Adhesive DP8805NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Low Odor Acrylic Adhesive DP8810NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Low Odor Acrylic Adhesive DP8825NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Metal Bonder Acrylic Adhesive DP8407NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250030</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250120</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive EZ250200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE030</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE031</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE031 Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TE200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TS115 HGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TS230</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 PUR Adhesive TS230 Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Scotch-Weld%E2%84%A2 Plastic %26 Rubber Instant Adhesive PR100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sealant 730 Clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sealant 740 UV %28Black%2C Gray%2C White%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sprayable Hot Melt Adhesive 6111</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sprayable Hot Melt Adhesive 6111HT Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sprayable Hot Melt Adhesive 6111HT Tan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Sprayable Hot Melt Adhesive 6116</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Super 77%E2%84%A2 Cylinder Spray Adhesive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3M%E2%84%A2 Vinyl Tape 471</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NauticGrip Branded cylinder adhesive - any formulation - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NauticGrip Branded cylinder adhesive - any formulation - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NauticGrip Branded cylinder adhesive - any formulation - Large cylinder %2826%23 - 37%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northstar Branded cylinder adhesive - any formulation - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northstar Branded cylinder adhesive - any formulation - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northstar Branded cylinder adhesive - any formulation - Large cylinder %2826%23 - 37%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Branded cylinder adhesive - any formulation - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Branded cylinder adhesive - any formulation - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Branded cylinder adhesive - any formulation - Large cylinder %2826%23 - 37%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starstuk Branded cylinder adhesive - any formulation - Intermediate cylinder %28125%23 - 187%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starstuk Branded cylinder adhesive - any formulation - Jumbo cylinder %28260%23 - 375%23%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starstuk Branded cylinder adhesive - any formulation - Large cylinder %2826%23 - 37%2E5%23%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCI_Quantity_Purchased__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Cases</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NCI_Size_Purchased__c</picklist>
+        <values>
+            <fullName>1 case 2 %22 width</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case 3%22 width</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 case 4%22 width</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>290 mL cartridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 mL cartridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>305 mL cartridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310 ml cartridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>37 ml Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>400 mL Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>400 ml sausage pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 ml</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45 ml Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48%2E5 mL Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>490 ml Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 gal pail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 ml Duo-pak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55 Gal Drum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 ml sausage pack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cylinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PAS_Reason_Code__c</picklist>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Where To Buy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PW_Hardware__c</picklist>
+        <values>
+            <fullName>Bair Hugger 50577 %28Vet%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bair Hugger 775</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bair Paws 875</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranger Fluid Warming 245</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranger Irrigation Warming 245</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranger Irrigation Warming 247</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spot-On 3700</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Owning_Division_Sales_District__c</picklist>
+        <values>
+            <fullName>No value for now</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Request_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_Age_of_Product__c</picklist>
+        <values>
+            <fullName>%3E 2 yrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 - 2 yrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 - 30 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>181 - 1 yrs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31 - 60 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61 - 90 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>91 - 180 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBF- 30 Days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_Case_Reason__c</picklist>
+        <values>
+            <fullName>Billing%2FPricing Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order%2FBooking Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Support %E2%80%93 Information Error</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_Defect_Code__c</picklist>
+        <values>
+            <fullName>1010 Excessive impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1011 Ripped%2Ftorn%2Fstripped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1012 Shrink%2Fstretch%2Fdistort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1013 Bent%2Fwarped%2Ftwisted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1014 Scored%2Fscratched%2Fcut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1015 Puncture%2Fperforated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1016 Broken wire%2Fconnector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1017 Overheating%2Fmelting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1018 Bubbling%2Fcrazing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1019 Cracked%2Fshattered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1020 Crush</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1021 Worn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1022 Optical distortion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1023 Split</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1024 Discoloured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1025 Colour miss-match</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1026 Incorrect reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1027 Pressure rupture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1028 Contamination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1510 Intermittent operation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1511 No Reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1512 Reading not level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1513 Incorrect gauge reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1514 Fluctuating reading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1515 Crimp failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1516 O ring%2Fseal failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1517 Glue%2Fepoxy mechanical fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1518 End of service life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1519 Button Inoperable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1520 Surface Flaking%2Flifting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1521 Damage under paint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1522 Smudging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2010 Parts - Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011 Excess of material normally allowed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012 Rebranding error or defect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013 Deterioration of component</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014 Out of date shelf life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015 Out of date chemical life</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016 Obsolete stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017 Fit issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2510 NO FAULT FOUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2511 No Decon notice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2512 NOT in warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2513 Documentation incomplete%2Fincorrect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2514 Documentation - No C of Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2515 Documentation - No C of Conformance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2516 Excess weight issue per cube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2517 Parts - Wrong Quantity to order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2518 Parts - Wrong Quantity per package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2519 Packaging - Improper loading%2Fblocking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2520 Packaging - Improper protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2521 Pallet size%2Fcondition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2522 Poor service technique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2523 Wrong part fitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2524 Incorrect Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3010 Out of position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3011 Burrs%2Fsharp edges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3012 Diameter out of tolerance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3013 Rough%2Funeven surface%2Fpoor finish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3014 Drilling error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3015 Thread error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3016 Incorrect dimensions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3017 Valve failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3018 Too heavy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3019 Seal failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3020 Vibration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3510 PCB failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3511 PCB - No power up%2Fdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3512 PCB - Arcing%2FShort circuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3513 PCB - Program%2Fmemory issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3514 PCB - Tuning failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3515 Elec - Not charging or holding a charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3516 Elec - Display failure%2Fblue screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3517 Elec - Docking%2Fpower connection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3518 Elec - No%2Fincorrect illumination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3519 Elec - Flow test fail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3520 Elec - potting failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3521 Lights on%2Foff%2Fintermittent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3522 Sounder%2Ftone issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3523 Battery - drain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3524 Charging LED issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3525 Charger failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3526 Alarm - constant or intermittent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3527 Display failure%2Fblue screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4010 Assembled incorrectly by customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4011 Assembled incorrectly at manufacture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4012 Assembly - Excess force%2C customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4013 Assembly - Damage by manufacturer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4014 Assembly - Misaligned screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4015 Assembly - Misaligned parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4016 Assembly - Cross threaded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4017 Assembly - Rattling%2Fvibration%2Fnoise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4018 Assembly - Pump failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4019 Assembly - Not reset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4020 Assembly - Poor method</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4021 Assembly - Parts shifted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4022 Assembly - No markings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4023 Assembly - ID%2FDescription missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4510 Contamination - Investigation halted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4511 Contamination - Carbon dust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4512 Contamination - Glue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4513 Contamination - Odour%2Fsmell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4514 Contamination - Water%2Fmoisture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4515 Contamination - Rust%2Foxidising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4516 Contamination - Unknown liquid%2Fdebris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4517 Contamination - Shop soiled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4518 Contamination - Media paper%2Fpuck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5010 Filter - Carbon rattle%2Floose carbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5011 Filter - Weld issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5012 Filter - Miss-alignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5013 Filter - Assembly incorrect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5014 Filter - Penetration Test failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5015 Filter - Resistance test failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5510 Incomplete%2Fshort shot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5511 Cold shot%2Fmaterial weakness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5512 Excess flash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5513 Distorted%2Fmiss-shaped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5514 Bubbles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5515 Thin walls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5516 Finger marks%2Fmarks in paint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5517 Runs%2FDrips%2FMottle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5518 Paint overspray</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5519 Paint - pitted%2Fpoor finish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_Defect__c</picklist>
+        <values>
+            <fullName>ASSEMBLY%2FSERVICE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTAMINATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUSTOMER ISSUES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAMAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOCUMENT%2FPACKAGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELECTRICAL%2FCHARGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAILURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FILTERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>METALS%2FCOMPOSITES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLASTICS%2FPAINT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_LineStatus__c</picklist>
+        <values>
+            <fullName>Auto-Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPAR Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complaint Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigation Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting For Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_Product_Family__c</picklist>
+        <values>
+            <fullName>Accountability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cameras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compressors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locators%2FTracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mask Or Filters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc%2E Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portable Instruments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEM%27s%2FPass Console</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SS_RMA_Reason__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSR Order Entry Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel Customer Convenience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Non-Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalog%2FInternet Difficult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Component Part Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contamination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged in Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo Return</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical%2FCharging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Discourteous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faulty Part or Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freight Billing Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freight Routing Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goodwill%2FCustomer Convenience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Arrived Early</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Literature%2FMailer Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metals%2FComposites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misconfigured Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Parts on Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold Too Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Catalog%2FInternet Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Configurator Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Credit%2FBilling Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Customer Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry %28PO%23 Issue%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry %28Qty Issue%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Entry %28Scott Error%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out-Dated Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging%2Flabeling Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packing Slip Billing Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone %26 Vmail Tree Difficult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastics%2FPaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Turnaround</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing - Billing Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Tax Billing Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scott Employee Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They Don%27t Call Me Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transit Routing Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit of Measure %28Review%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Information Given %28Documented%2Femail%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Information Given %28Undocumented%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Part%28s%29 Shipped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Parts on Product</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

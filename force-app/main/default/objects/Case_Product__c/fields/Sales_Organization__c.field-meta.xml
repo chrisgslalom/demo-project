@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Organization__c</fullName>
+    <description>Values taken from SAP 8/4/17</description>
+    <externalId>false</externalId>
+    <label>Sales Organization</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Legacy Pre-SAP Deployment</fullName>
+                <default>false</default>
+                <label>Legacy Pre-SAP Deployment</label>
+            </value>
+            <value>
+                <fullName>1000 3M US</fullName>
+                <default>false</default>
+                <label>1000 3M US</label>
+            </value>
+            <value>
+                <fullName>1100 Global Channel Services</fullName>
+                <default>false</default>
+                <label>1100 Global Channel Services</label>
+            </value>
+            <value>
+                <fullName>2000 3M Canada</fullName>
+                <default>false</default>
+                <label>2000 3M Canada</label>
+            </value>
+            <value>
+                <fullName>3111 3M Chile S.A.</fullName>
+                <default>false</default>
+                <label>3111 3M Chile S.A.</label>
+            </value>
+            <value>
+                <fullName>3117 3M Colombia SA</fullName>
+                <default>false</default>
+                <label>3117 3M Colombia SA</label>
+            </value>
+            <value>
+                <fullName>4005 3M Ireland Limited</fullName>
+                <default>false</default>
+                <label>4005 3M Ireland Limited</label>
+            </value>
+            <value>
+                <fullName>4007 3M United Kingdom PL</fullName>
+                <default>false</default>
+                <label>4007 3M United Kingdom PL</label>
+            </value>
+            <value>
+                <fullName>4020 3M France S.A.S.</fullName>
+                <default>false</default>
+                <label>4020 3M France S.A.S.</label>
+            </value>
+            <value>
+                <fullName>4022 Winterthur Technolog</fullName>
+                <default>false</default>
+                <label>4022 Winterthur Technolog</label>
+            </value>
+            <value>
+                <fullName>4024 Pouyet 3M Télécommun</fullName>
+                <default>false</default>
+                <label>4024 Pouyet 3M Télécommun</label>
+            </value>
+            <value>
+                <fullName>4029 3M Purification</fullName>
+                <default>false</default>
+                <label>4029 3M Purification</label>
+            </value>
+            <value>
+                <fullName>4033 3M Deutschland GMBH</fullName>
+                <default>false</default>
+                <label>4033 3M Deutschland GMBH</label>
+            </value>
+            <value>
+                <fullName>4041 3M España S.L.</fullName>
+                <default>false</default>
+                <label>4041 3M España S.L.</label>
+            </value>
+            <value>
+                <fullName>4045 3M España S.L. Sucur</fullName>
+                <default>false</default>
+                <label>4045 3M España S.L. Sucur</label>
+            </value>
+            <value>
+                <fullName>4046 3M a/s</fullName>
+                <default>false</default>
+                <label>4046 3M a/s</label>
+            </value>
+            <value>
+                <fullName>4049 Suomen 3M Oy</fullName>
+                <default>false</default>
+                <label>4049 Suomen 3M Oy</label>
+            </value>
+            <value>
+                <fullName>4053 3M Norge A/S</fullName>
+                <default>false</default>
+                <label>4053 3M Norge A/S</label>
+            </value>
+            <value>
+                <fullName>4054 3M Svenska AB</fullName>
+                <default>false</default>
+                <label>4054 3M Svenska AB</label>
+            </value>
+            <value>
+                <fullName>4058 Eknas IndustristadAB</fullName>
+                <default>false</default>
+                <label>4058 Eknas IndustristadAB</label>
+            </value>
+            <value>
+                <fullName>4059 3M Belgium BVBA/SPRL</fullName>
+                <default>false</default>
+                <label>4059 3M Belgium BVBA/SPRL</label>
+            </value>
+            <value>
+                <fullName>4060 Wendt Boart S.A.</fullName>
+                <default>false</default>
+                <label>4060 Wendt Boart S.A.</label>
+            </value>
+            <value>
+                <fullName>4069 3M Nederland B.V.</fullName>
+                <default>false</default>
+                <label>4069 3M Nederland B.V.</label>
+            </value>
+            <value>
+                <fullName>4073 3M (Schweiz) GmbH</fullName>
+                <default>false</default>
+                <label>4073 3M (Schweiz) GmbH</label>
+            </value>
+            <value>
+                <fullName>4079 3M Oesterreich GmbH</fullName>
+                <default>false</default>
+                <label>4079 3M Oesterreich GmbH</label>
+            </value>
+            <value>
+                <fullName>4100 3M Poland Sp. z o.o.</fullName>
+                <default>false</default>
+                <label>4100 3M Poland Sp. z o.o.</label>
+            </value>
+            <value>
+                <fullName>4108 3M Russia</fullName>
+                <default>false</default>
+                <label>4108 3M Russia</label>
+            </value>
+            <value>
+                <fullName>4112 Dyneon GmbH</fullName>
+                <default>false</default>
+                <label>4112 Dyneon GmbH</label>
+            </value>
+            <value>
+                <fullName>4137 EMFI SAS</fullName>
+                <default>false</default>
+                <label>4137 EMFI SAS</label>
+            </value>
+            <value>
+                <fullName>6022 3M Malaysia Sdn. Bhd</fullName>
+                <default>false</default>
+                <label>6022 3M Malaysia Sdn. Bhd</label>
+            </value>
+            <value>
+                <fullName>6070 3M Seremban(Malaysia</fullName>
+                <default>false</default>
+                <label>6070 3M Seremban(Malaysia</label>
+            </value>
+            <value>
+                <fullName>6073 P.T. 3M Indonesia</fullName>
+                <default>false</default>
+                <label>6073 P.T. 3M Indonesia</label>
+            </value>
+            <value>
+                <fullName>6075 3M Philippines Inc.</fullName>
+                <default>false</default>
+                <label>6075 3M Philippines Inc.</label>
+            </value>
+            <value>
+                <fullName>6076 3M Philippines (Exp)</fullName>
+                <default>false</default>
+                <label>6076 3M Philippines (Exp)</label>
+            </value>
+            <value>
+                <fullName>6088 3M Taiwan Limited</fullName>
+                <default>false</default>
+                <label>6088 3M Taiwan Limited</label>
+            </value>
+            <value>
+                <fullName>6089 3M Taiwan Optronics</fullName>
+                <default>false</default>
+                <label>6089 3M Taiwan Optronics</label>
+            </value>
+            <value>
+                <fullName>6099 3M Vietnam Ltd.</fullName>
+                <default>false</default>
+                <label>6099 3M Vietnam Ltd.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

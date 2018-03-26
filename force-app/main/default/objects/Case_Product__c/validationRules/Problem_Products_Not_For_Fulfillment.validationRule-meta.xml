@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_Products_Not_For_Fulfillment</fullName>
+    <active>false</active>
+    <description>Validation Rule to ensure that Problem Products are not sent off for fulfillment</description>
+    <errorConditionFormula>AND ( 
+RecordType.Name = "Pricing Request",
+NOT ( 
+ISPICKVAL ( Reason_Codes__c, "None" )
+),
+ForFullfillment__c = TRUE
+)</errorConditionFormula>
+    <errorDisplayField>ForFullfillment__c</errorDisplayField>
+    <errorMessage>Problem Products cannot be sent for fulfillment.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR008_CFM_Pricing_fields_are_not_null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName = 'CFM_Listed_Case_Product' || RecordType.DeveloperName = 'CFM_Unlisted_Case_Product', 
+OR(
+ISPICKVAL(Case__r.Status, "Draft") ,ISPICKVAL(Case__r.Status, "Unassigned") 
+),
+OR(
+Not(ISBLANK(Approver__c)) , 
+Not(ISBLANK( Text(Approval_Level__c ))), 
+Not(ISBLANK( BSO_Approver_Notes__c )) , 
+Not(ISBLANK( CFM_Price__c )) , 
+Not (ISBLANK( Price_Comments__c ) )
+)
+)</errorConditionFormula>
+    <errorMessage>You don't have access to input value for below fields in current status: 
+Approver,Approval Level,BSO Approver Notes,CFM Price,Price Comments</errorMessage>
+</ValidationRule>

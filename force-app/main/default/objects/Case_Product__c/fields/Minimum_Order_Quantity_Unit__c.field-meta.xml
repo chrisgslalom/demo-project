@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Order_Quantity_Unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Minimum Order Quantity Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activity_unit_AU</fullName>
+                <default>false</default>
+                <label>Activity unit - AU</label>
+            </value>
+            <value>
+                <fullName>Assort - AS</fullName>
+                <default>false</default>
+                <label>Assort - AS</label>
+            </value>
+            <value>
+                <fullName>Bag - BAG</fullName>
+                <default>false</default>
+                <label>Bag - BAG</label>
+            </value>
+            <value>
+                <fullName>Bottle - BT</fullName>
+                <default>false</default>
+                <label>Bottle - BT</label>
+            </value>
+            <value>
+                <fullName>Canister - CAN</fullName>
+                <default>false</default>
+                <label>Canister - CAN</label>
+            </value>
+            <value>
+                <fullName>Carton - CAR</fullName>
+                <default>false</default>
+                <label>Carton - CAR</label>
+            </value>
+            <value>
+                <fullName>Case - CV</fullName>
+                <default>false</default>
+                <label>Case - CV</label>
+            </value>
+            <value>
+                <fullName>Centimeter - CM</fullName>
+                <default>false</default>
+                <label>Centimeter - CM</label>
+            </value>
+            <value>
+                <fullName>Crate - CRT</fullName>
+                <default>false</default>
+                <label>Crate - CRT</label>
+            </value>
+            <value>
+                <fullName>Cubic centimeter - CCM</fullName>
+                <default>false</default>
+                <label>Cubic centimeter - CCM</label>
+            </value>
+            <value>
+                <fullName>Cubic decimeter - CD3</fullName>
+                <default>false</default>
+                <label>Cubic decimeter - CD3</label>
+            </value>
+            <value>
+                <fullName>Cubic foot - FT3</fullName>
+                <default>false</default>
+                <label>Cubic foot - FT3</label>
+            </value>
+            <value>
+                <fullName>Cubic inch - IN3</fullName>
+                <default>false</default>
+                <label>Cubic inch - IN3</label>
+            </value>
+            <value>
+                <fullName>Cubic meter - M3</fullName>
+                <default>false</default>
+                <label>Cubic meter - M3</label>
+            </value>
+            <value>
+                <fullName>Cubic yard - YD3</fullName>
+                <default>false</default>
+                <label>Cubic yard - YD3</label>
+            </value>
+            <value>
+                <fullName>Cylinder - CY</fullName>
+                <default>false</default>
+                <label>Cylinder - CY</label>
+            </value>
+            <value>
+                <fullName>Degree - DEG</fullName>
+                <default>false</default>
+                <label>Degree - DEG</label>
+            </value>
+            <value>
+                <fullName>Dozen - DZ</fullName>
+                <default>false</default>
+                <label>Dozen - DZ</label>
+            </value>
+            <value>
+                <fullName>Drum - DR</fullName>
+                <default>false</default>
+                <label>Drum - DR</label>
+            </value>
+            <value>
+                <fullName>each - EA</fullName>
+                <default>false</default>
+                <label>each - EA</label>
+            </value>
+            <value>
+                <fullName>Foot - FT</fullName>
+                <default>false</default>
+                <label>Foot - FT</label>
+            </value>
+            <value>
+                <fullName>Grain - GR</fullName>
+                <default>false</default>
+                <label>Grain - GR</label>
+            </value>
+            <value>
+                <fullName>Gram - G</fullName>
+                <default>false</default>
+                <label>Gram - G</label>
+            </value>
+            <value>
+                <fullName>Gram/Cubic meter - GM3</fullName>
+                <default>false</default>
+                <label>Gram/Cubic meter - GM3</label>
+            </value>
+            <value>
+                <fullName>Group - PRC</fullName>
+                <default>false</default>
+                <label>Group - PRC</label>
+            </value>
+            <value>
+                <fullName>Hectare - HA</fullName>
+                <default>false</default>
+                <label>Hectare - HA</label>
+            </value>
+            <value>
+                <fullName>Hours - HR</fullName>
+                <default>false</default>
+                <label>Hours - HR</label>
+            </value>
+            <value>
+                <fullName>Inch - IN</fullName>
+                <default>false</default>
+                <label>Inch - IN</label>
+            </value>
+            <value>
+                <fullName>Intermediate Bulk Container - IBC</fullName>
+                <default>false</default>
+                <label>Intermediate Bulk Container - IBC</label>
+            </value>
+            <value>
+                <fullName>Kilogram - KG</fullName>
+                <default>false</default>
+                <label>Kilogram - KG</label>
+            </value>
+            <value>
+                <fullName>Kilometer - KM</fullName>
+                <default>false</default>
+                <label>Kilometer - KM</label>
+            </value>
+            <value>
+                <fullName>Kilotonne - KT</fullName>
+                <default>false</default>
+                <label>Kilotonne - KT</label>
+            </value>
+            <value>
+                <fullName>Kit - KIT</fullName>
+                <default>false</default>
+                <label>Kit - KIT</label>
+            </value>
+            <value>
+                <fullName>Liter - L</fullName>
+                <default>false</default>
+                <label>Liter - L</label>
+            </value>
+            <value>
+                <fullName>Meter - M</fullName>
+                <default>false</default>
+                <label>Meter - M</label>
+            </value>
+            <value>
+                <fullName>Microsecond - MIS</fullName>
+                <default>false</default>
+                <label>Microsecond - MIS</label>
+            </value>
+            <value>
+                <fullName>Milligram - MG</fullName>
+                <default>false</default>
+                <label>Milligram - MG</label>
+            </value>
+            <value>
+                <fullName>Milliliter - ML</fullName>
+                <default>false</default>
+                <label>Milliliter - ML</label>
+            </value>
+            <value>
+                <fullName>Millimeter - MM</fullName>
+                <default>false</default>
+                <label>Millimeter - MM</label>
+            </value>
+            <value>
+                <fullName>Pack - PAC</fullName>
+                <default>false</default>
+                <label>Pack - PAC</label>
+            </value>
+            <value>
+                <fullName>Pair - PAA</fullName>
+                <default>false</default>
+                <label>Pair - PAA</label>
+            </value>
+            <value>
+                <fullName>Pallet - PAL</fullName>
+                <default>false</default>
+                <label>Pallet - PAL</label>
+            </value>
+            <value>
+                <fullName>Piece - PC</fullName>
+                <default>false</default>
+                <label>Piece - PC</label>
+            </value>
+            <value>
+                <fullName>Pint, US liquid - PT</fullName>
+                <default>false</default>
+                <label>Pint, US liquid - PT</label>
+            </value>
+            <value>
+                <fullName>Quart, US liquid - QT</fullName>
+                <default>false</default>
+                <label>Quart, US liquid - QT</label>
+            </value>
+            <value>
+                <fullName>Ream - RM</fullName>
+                <default>false</default>
+                <label>Ream - RM</label>
+            </value>
+            <value>
+                <fullName>Roll - ROL</fullName>
+                <default>false</default>
+                <label>Roll - ROL</label>
+            </value>
+            <value>
+                <fullName>Set - SET</fullName>
+                <default>false</default>
+                <label>Set - SET</label>
+            </value>
+            <value>
+                <fullName>Sheet - ST</fullName>
+                <default>false</default>
+                <label>Sheet - ST</label>
+            </value>
+            <value>
+                <fullName>Square centimeter - CM2</fullName>
+                <default>false</default>
+                <label>Square centimeter - CM2</label>
+            </value>
+            <value>
+                <fullName>Square foot - FT2</fullName>
+                <default>false</default>
+                <label>Square foot - FT2</label>
+            </value>
+            <value>
+                <fullName>Square inch - IN2</fullName>
+                <default>false</default>
+                <label>Square inch - IN2</label>
+            </value>
+            <value>
+                <fullName>Square meter - M2</fullName>
+                <default>false</default>
+                <label>Square meter - M2</label>
+            </value>
+            <value>
+                <fullName>Square Yard - YD2</fullName>
+                <default>false</default>
+                <label>Square Yard - YD2</label>
+            </value>
+            <value>
+                <fullName>Thousand Square Inches - MSI</fullName>
+                <default>false</default>
+                <label>Thousand Square Inches - MSI</label>
+            </value>
+            <value>
+                <fullName>Thousands - TS</fullName>
+                <default>false</default>
+                <label>Thousands - TS</label>
+            </value>
+            <value>
+                <fullName>Tonne - TO</fullName>
+                <default>false</default>
+                <label>Tonne - TO</label>
+            </value>
+            <value>
+                <fullName>US gallon - GAL</fullName>
+                <default>false</default>
+                <label>US gallon - GAL</label>
+            </value>
+            <value>
+                <fullName>US pound - LB</fullName>
+                <default>false</default>
+                <label>US pound - LB</label>
+            </value>
+            <value>
+                <fullName>US ton - TON</fullName>
+                <default>false</default>
+                <label>US ton - TON</label>
+            </value>
+            <value>
+                <fullName>Yards - YD</fullName>
+                <default>false</default>
+                <label>Yards - YD</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

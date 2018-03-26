@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Unlisted_Products_Customer_Incentive</fullName>
+    <availability>online</availability>
+    <description>Add Unlisted Products for Customer Incentive Case</description>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add NCI Product Info</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>var targetURL = '/{!$Label.Case_Product_Obj_Id}/e?{!$Label.CaseProduct_Case_FieldId}={!Case.CaseNumber}&amp;{!$Label.CaseProduct_Case_FieldId}_lkid={!Case.Id}&amp;saveURL={!Case.Id}&amp;retURL={!Case.Id}&amp;RecordType={!$Label.CaseProduct_RecordType_Unlisted_Cust_Incentive_Case}';
+parent.location.href = targetURL ;</url>
+</WebLink>

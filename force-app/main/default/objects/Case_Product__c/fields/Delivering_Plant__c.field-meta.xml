@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivering_Plant__c</fullName>
+    <externalId>false</externalId>
+    <label>Delivering Plant</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1000-3M Alexandria</fullName>
+                <default>false</default>
+                <label>1000-3M Alexandria</label>
+            </value>
+            <value>
+                <fullName>1001-3M Ames</fullName>
+                <default>false</default>
+                <label>1001-3M Ames</label>
+            </value>
+            <value>
+                <fullName>1002-3M Aberdeen</fullName>
+                <default>false</default>
+                <label>1002-3M Aberdeen</label>
+            </value>
+            <value>
+                <fullName>1003-3M Aston</fullName>
+                <default>false</default>
+                <label>1003-3M Aston</label>
+            </value>
+            <value>
+                <fullName>1004-3M Atlanta</fullName>
+                <default>false</default>
+                <label>1004-3M Atlanta</label>
+            </value>
+            <value>
+                <fullName>1005-3M Austin</fullName>
+                <default>false</default>
+                <label>1005-3M Austin</label>
+            </value>
+            <value>
+                <fullName>1007-3M Brookings</fullName>
+                <default>false</default>
+                <label>1007-3M Brookings</label>
+            </value>
+            <value>
+                <fullName>1008-3M Brownwood</fullName>
+                <default>false</default>
+                <label>1008-3M Brownwood</label>
+            </value>
+            <value>
+                <fullName>1009-3M Chelmsford</fullName>
+                <default>false</default>
+                <label>1009-3M Chelmsford</label>
+            </value>
+            <value>
+                <fullName>1010-3M Columbia</fullName>
+                <default>false</default>
+                <label>1010-3M Columbia</label>
+            </value>
+            <value>
+                <fullName>1011-3M Conover</fullName>
+                <default>false</default>
+                <label>1011-3M Conover</label>
+            </value>
+            <value>
+                <fullName>1012-3M Cordova</fullName>
+                <default>false</default>
+                <label>1012-3M Cordova</label>
+            </value>
+            <value>
+                <fullName>1013-3M US-MN Cottage Grove</fullName>
+                <default>false</default>
+                <label>1013-3M US-MN Cottage Grove</label>
+            </value>
+            <value>
+                <fullName>1014-3M Cumberland</fullName>
+                <default>false</default>
+                <label>1014-3M Cumberland</label>
+            </value>
+            <value>
+                <fullName>1015-3M Cynthiana</fullName>
+                <default>false</default>
+                <label>1015-3M Cynthiana</label>
+            </value>
+            <value>
+                <fullName>1018-3M DeKalb (DKC)</fullName>
+                <default>false</default>
+                <label>1018-3M DeKalb (DKC)</label>
+            </value>
+            <value>
+                <fullName>1019-3M Decatur</fullName>
+                <default>false</default>
+                <label>1019-3M Decatur</label>
+            </value>
+            <value>
+                <fullName>1020-3M Eagan</fullName>
+                <default>false</default>
+                <label>1020-3M Eagan</label>
+            </value>
+            <value>
+                <fullName>1021-3M Enfield</fullName>
+                <default>false</default>
+                <label>1021-3M Enfield</label>
+            </value>
+            <value>
+                <fullName>1022-3M Flemington</fullName>
+                <default>false</default>
+                <label>1022-3M Flemington</label>
+            </value>
+            <value>
+                <fullName>1023-3M Fairmont</fullName>
+                <default>false</default>
+                <label>1023-3M Fairmont</label>
+            </value>
+            <value>
+                <fullName>1024-3M US-IA Forest City</fullName>
+                <default>false</default>
+                <label>1024-3M US-IA Forest City</label>
+            </value>
+            <value>
+                <fullName>1025-3M Greenville</fullName>
+                <default>false</default>
+                <label>1025-3M Greenville</label>
+            </value>
+            <value>
+                <fullName>1026-3M Guin</fullName>
+                <default>false</default>
+                <label>1026-3M Guin</label>
+            </value>
+            <value>
+                <fullName>1027-3M Hartford City</fullName>
+                <default>false</default>
+                <label>1027-3M Hartford City</label>
+            </value>
+            <value>
+                <fullName>1028-3M US-MN Hutchinson</fullName>
+                <default>false</default>
+                <label>1028-3M US-MN Hutchinson</label>
+            </value>
+            <value>
+                <fullName>1029-3M Indianapolis</fullName>
+                <default>false</default>
+                <label>1029-3M Indianapolis</label>
+            </value>
+            <value>
+                <fullName>1030-3M US-CA Irvine</fullName>
+                <default>false</default>
+                <label>1030-3M US-CA Irvine</label>
+            </value>
+            <value>
+                <fullName>1031-3M Knoxville IA</fullName>
+                <default>false</default>
+                <label>1031-3M Knoxville IA</label>
+            </value>
+            <value>
+                <fullName>1032-3M Mechanicsburg</fullName>
+                <default>false</default>
+                <label>1032-3M Mechanicsburg</label>
+            </value>
+            <value>
+                <fullName>1033-3M Medina</fullName>
+                <default>false</default>
+                <label>1033-3M Medina</label>
+            </value>
+            <value>
+                <fullName>1034-3M Menomonie</fullName>
+                <default>false</default>
+                <label>1034-3M Menomonie</label>
+            </value>
+            <value>
+                <fullName>1035-3M Meriden</fullName>
+                <default>false</default>
+                <label>1035-3M Meriden</label>
+            </value>
+            <value>
+                <fullName>1036-3M Monrovia</fullName>
+                <default>false</default>
+                <label>1036-3M Monrovia</label>
+            </value>
+            <value>
+                <fullName>1037-3M Nevada</fullName>
+                <default>false</default>
+                <label>1037-3M Nevada</label>
+            </value>
+            <value>
+                <fullName>1038-3M New Ulm</fullName>
+                <default>false</default>
+                <label>1038-3M New Ulm</label>
+            </value>
+            <value>
+                <fullName>1039-3M Oconomowoc</fullName>
+                <default>false</default>
+                <label>1039-3M Oconomowoc</label>
+            </value>
+            <value>
+                <fullName>1040-3M US-CA Ontario</fullName>
+                <default>false</default>
+                <label>1040-3M US-CA Ontario</label>
+            </value>
+            <value>
+                <fullName>1041-3M Prairie Du Chien</fullName>
+                <default>false</default>
+                <label>1041-3M Prairie Du Chien</label>
+            </value>
+            <value>
+                <fullName>1043-3M Springfield</fullName>
+                <default>false</default>
+                <label>1043-3M Springfield</label>
+            </value>
+            <value>
+                <fullName>1044-3M Stafford Springs</fullName>
+                <default>false</default>
+                <label>1044-3M Stafford Springs</label>
+            </value>
+            <value>
+                <fullName>1045-3M Tilton</fullName>
+                <default>false</default>
+                <label>1045-3M Tilton</label>
+            </value>
+            <value>
+                <fullName>1046-3M Tonawanda</fullName>
+                <default>false</default>
+                <label>1046-3M Tonawanda</label>
+            </value>
+            <value>
+                <fullName>1047-3M Valley</fullName>
+                <default>false</default>
+                <label>1047-3M Valley</label>
+            </value>
+            <value>
+                <fullName>1052-3M Rockland</fullName>
+                <default>false</default>
+                <label>1052-3M Rockland</label>
+            </value>
+            <value>
+                <fullName>1053-3M Montrose</fullName>
+                <default>false</default>
+                <label>1053-3M Montrose</label>
+            </value>
+            <value>
+                <fullName>1055-3M Oak Hills</fullName>
+                <default>false</default>
+                <label>1055-3M Oak Hills</label>
+            </value>
+            <value>
+                <fullName>1056-Ceradyne, Inc. HQ</fullName>
+                <default>false</default>
+                <label>1056-Ceradyne, Inc. HQ</label>
+            </value>
+            <value>
+                <fullName>1057-Clarkston</fullName>
+                <default>false</default>
+                <label>1057-Clarkston</label>
+            </value>
+            <value>
+                <fullName>1058-Irvine (AdMD)</fullName>
+                <default>false</default>
+                <label>1058-Irvine (AdMD)</label>
+            </value>
+            <value>
+                <fullName>1059-Lexington North</fullName>
+                <default>false</default>
+                <label>1059-Lexington North</label>
+            </value>
+            <value>
+                <fullName>1060-Lexington South</fullName>
+                <default>false</default>
+                <label>1060-Lexington South</label>
+            </value>
+            <value>
+                <fullName>1061-Midway</fullName>
+                <default>false</default>
+                <label>1061-Midway</label>
+            </value>
+            <value>
+                <fullName>1062-Quapaw</fullName>
+                <default>false</default>
+                <label>1062-Quapaw</label>
+            </value>
+            <value>
+                <fullName>1063-Salem</fullName>
+                <default>false</default>
+                <label>1063-Salem</label>
+            </value>
+            <value>
+                <fullName>1064-Seattle</fullName>
+                <default>false</default>
+                <label>1064-Seattle</label>
+            </value>
+            <value>
+                <fullName>1065-Amware Distribution</fullName>
+                <default>false</default>
+                <label>1065-Amware Distribution</label>
+            </value>
+            <value>
+                <fullName>1066-Commercial Warehouse</fullName>
+                <default>false</default>
+                <label>1066-Commercial Warehouse</label>
+            </value>
+            <value>
+                <fullName>1067-Lindner Logistics</fullName>
+                <default>false</default>
+                <label>1067-Lindner Logistics</label>
+            </value>
+            <value>
+                <fullName>1068-Trailwood Warehouse</fullName>
+                <default>false</default>
+                <label>1068-Trailwood Warehouse</label>
+            </value>
+            <value>
+                <fullName>1069-Wymore Transfer Company, Inc.</fullName>
+                <default>false</default>
+                <label>1069-Wymore Transfer Company, Inc.</label>
+            </value>
+            <value>
+                <fullName>1070-3M Wixom</fullName>
+                <default>false</default>
+                <label>1070-3M Wixom</label>
+            </value>
+            <value>
+                <fullName>1071-3M Little Rock</fullName>
+                <default>false</default>
+                <label>1071-3M Little Rock</label>
+            </value>
+            <value>
+                <fullName>1072-3M Corona</fullName>
+                <default>false</default>
+                <label>1072-3M Corona</label>
+            </value>
+            <value>
+                <fullName>1073-3M Garden Grove</fullName>
+                <default>false</default>
+                <label>1073-3M Garden Grove</label>
+            </value>
+            <value>
+                <fullName>1075-3M HAVERHILL</fullName>
+                <default>false</default>
+                <label>1075-3M HAVERHILL</label>
+            </value>
+            <value>
+                <fullName>1076-3M Eden Prairie</fullName>
+                <default>false</default>
+                <label>1076-3M Eden Prairie</label>
+            </value>
+            <value>
+                <fullName>1077-3M St. Paul DC</fullName>
+                <default>false</default>
+                <label>1077-3M St. Paul DC</label>
+            </value>
+            <value>
+                <fullName>1078-3M St. Paul Center</fullName>
+                <default>false</default>
+                <label>1078-3M St. Paul Center</label>
+            </value>
+            <value>
+                <fullName>1079-3M Saint Charles</fullName>
+                <default>false</default>
+                <label>1079-3M Saint Charles</label>
+            </value>
+            <value>
+                <fullName>1080-Test US Ceradyne Plant</fullName>
+                <default>false</default>
+                <label>1080-Test US Ceradyne Plant</label>
+            </value>
+            <value>
+                <fullName>1081-3M Elyria</fullName>
+                <default>false</default>
+                <label>1081-3M Elyria</label>
+            </value>
+            <value>
+                <fullName>1083-3M Royersford</fullName>
+                <default>false</default>
+                <label>1083-3M Royersford</label>
+            </value>
+            <value>
+                <fullName>1084-3M Angleton</fullName>
+                <default>false</default>
+                <label>1084-3M Angleton</label>
+            </value>
+            <value>
+                <fullName>1085-3M Whippany</fullName>
+                <default>false</default>
+                <label>1085-3M Whippany</label>
+            </value>
+            <value>
+                <fullName>1087-Edumex SA de CV</fullName>
+                <default>false</default>
+                <label>1087-Edumex SA de CV</label>
+            </value>
+            <value>
+                <fullName>1090-3M Anchorage</fullName>
+                <default>false</default>
+                <label>1090-3M Anchorage</label>
+            </value>
+            <value>
+                <fullName>1091-3M Atlanta Fulfillment</fullName>
+                <default>false</default>
+                <label>1091-3M Atlanta Fulfillment</label>
+            </value>
+            <value>
+                <fullName>1092-3M Canoga Park</fullName>
+                <default>false</default>
+                <label>1092-3M Canoga Park</label>
+            </value>
+            <value>
+                <fullName>1093-3M Cartersville</fullName>
+                <default>false</default>
+                <label>1093-3M Cartersville</label>
+            </value>
+            <value>
+                <fullName>1094-3M Detroit</fullName>
+                <default>false</default>
+                <label>1094-3M Detroit</label>
+            </value>
+            <value>
+                <fullName>1095-3M Hebron</fullName>
+                <default>false</default>
+                <label>1095-3M Hebron</label>
+            </value>
+            <value>
+                <fullName>1096-3M Honolulu</fullName>
+                <default>false</default>
+                <label>1096-3M Honolulu</label>
+            </value>
+            <value>
+                <fullName>1098-3M Moncure</fullName>
+                <default>false</default>
+                <label>1098-3M Moncure</label>
+            </value>
+            <value>
+                <fullName>1099-3M Morgan Hill</fullName>
+                <default>false</default>
+                <label>1099-3M Morgan Hill</label>
+            </value>
+            <value>
+                <fullName>1100-3M Northridge</fullName>
+                <default>false</default>
+                <label>1100-3M Northridge</label>
+            </value>
+            <value>
+                <fullName>1101-3M Old Hickory</fullName>
+                <default>false</default>
+                <label>1101-3M Old Hickory</label>
+            </value>
+            <value>
+                <fullName>1102-3M Dallas</fullName>
+                <default>false</default>
+                <label>1102-3M Dallas</label>
+            </value>
+            <value>
+                <fullName>1103-3M Company HQ</fullName>
+                <default>false</default>
+                <label>1103-3M Company HQ</label>
+            </value>
+            <value>
+                <fullName>1104-3M Staples</fullName>
+                <default>false</default>
+                <label>1104-3M Staples</label>
+            </value>
+            <value>
+                <fullName>1105-3M Tamuning</fullName>
+                <default>false</default>
+                <label>1105-3M Tamuning</label>
+            </value>
+            <value>
+                <fullName>1106-3M Wausau</fullName>
+                <default>false</default>
+                <label>1106-3M Wausau</label>
+            </value>
+            <value>
+                <fullName>1107-3M Healthcare Service Center</fullName>
+                <default>false</default>
+                <label>1107-3M Healthcare Service Center</label>
+            </value>
+            <value>
+                <fullName>1108-3M Woodbury Service Center</fullName>
+                <default>false</default>
+                <label>1108-3M Woodbury Service Center</label>
+            </value>
+            <value>
+                <fullName>1109-3M Clinton</fullName>
+                <default>false</default>
+                <label>1109-3M Clinton</label>
+            </value>
+            <value>
+                <fullName>1110-3M Prairie Du Chien WH</fullName>
+                <default>false</default>
+                <label>1110-3M Prairie Du Chien WH</label>
+            </value>
+            <value>
+                <fullName>1111-3M Austin Center</fullName>
+                <default>false</default>
+                <label>1111-3M Austin Center</label>
+            </value>
+            <value>
+                <fullName>1112-3M DeKalb (DK)</fullName>
+                <default>false</default>
+                <label>1112-3M DeKalb (DK)</label>
+            </value>
+            <value>
+                <fullName>1113-3M DeKalb (DK6)</fullName>
+                <default>false</default>
+                <label>1113-3M DeKalb (DK6)</label>
+            </value>
+            <value>
+                <fullName>1200-Amtech</fullName>
+                <default>false</default>
+                <label>1200-Amtech</label>
+            </value>
+            <value>
+                <fullName>1201-COMBI PKG SYS</fullName>
+                <default>false</default>
+                <label>1201-COMBI PKG SYS</label>
+            </value>
+            <value>
+                <fullName>1202-ATSCOTT MANUFACTURING CO</fullName>
+                <default>false</default>
+                <label>1202-ATSCOTT MANUFACTURING CO</label>
+            </value>
+            <value>
+                <fullName>1203-Benchmark Electronics Mfg Inc</fullName>
+                <default>false</default>
+                <label>1203-Benchmark Electronics Mfg Inc</label>
+            </value>
+            <value>
+                <fullName>1204-Iron Mountain</fullName>
+                <default>false</default>
+                <label>1204-Iron Mountain</label>
+            </value>
+            <value>
+                <fullName>1205-Gorecki Mfg Inc</fullName>
+                <default>false</default>
+                <label>1205-Gorecki Mfg Inc</label>
+            </value>
+            <value>
+                <fullName>1206-RR Donnelley</fullName>
+                <default>false</default>
+                <label>1206-RR Donnelley</label>
+            </value>
+            <value>
+                <fullName>1207-Prairie Industries</fullName>
+                <default>false</default>
+                <label>1207-Prairie Industries</label>
+            </value>
+            <value>
+                <fullName>1208-Aerofil Technology Inc</fullName>
+                <default>false</default>
+                <label>1208-Aerofil Technology Inc</label>
+            </value>
+            <value>
+                <fullName>1209-Algus Packaging Inc</fullName>
+                <default>false</default>
+                <label>1209-Algus Packaging Inc</label>
+            </value>
+            <value>
+                <fullName>1210-American Custom Converting</fullName>
+                <default>false</default>
+                <label>1210-American Custom Converting</label>
+            </value>
+            <value>
+                <fullName>1211-Aphena Pharma Solutions</fullName>
+                <default>false</default>
+                <label>1211-Aphena Pharma Solutions</label>
+            </value>
+            <value>
+                <fullName>1212-AWT Labels &amp; Packaging</fullName>
+                <default>false</default>
+                <label>1212-AWT Labels &amp; Packaging</label>
+            </value>
+            <value>
+                <fullName>1213-Ceramic Industrial Coatings</fullName>
+                <default>false</default>
+                <label>1213-Ceramic Industrial Coatings</label>
+            </value>
+            <value>
+                <fullName>1214-Coating Excellence Intl</fullName>
+                <default>false</default>
+                <label>1214-Coating Excellence Intl</label>
+            </value>
+            <value>
+                <fullName>1215-Comdel Innovation Inc</fullName>
+                <default>false</default>
+                <label>1215-Comdel Innovation Inc</label>
+            </value>
+            <value>
+                <fullName>1216-Concepts West Corp</fullName>
+                <default>false</default>
+                <label>1216-Concepts West Corp</label>
+            </value>
+            <value>
+                <fullName>1217-Contract Production Services I</fullName>
+                <default>false</default>
+                <label>1217-Contract Production Services I</label>
+            </value>
+            <value>
+                <fullName>1218-Converted Products Inc</fullName>
+                <default>false</default>
+                <label>1218-Converted Products Inc</label>
+            </value>
+            <value>
+                <fullName>1219-Custom Pak Illinois Inc</fullName>
+                <default>false</default>
+                <label>1219-Custom Pak Illinois Inc</label>
+            </value>
+            <value>
+                <fullName>1220-Dittrich Specialties Inc</fullName>
+                <default>false</default>
+                <label>1220-Dittrich Specialties Inc</label>
+            </value>
+            <value>
+                <fullName>1221-Even Cut Abrasive Company</fullName>
+                <default>false</default>
+                <label>1221-Even Cut Abrasive Company</label>
+            </value>
+            <value>
+                <fullName>1222-Filtros Y Mallas Industrialies</fullName>
+                <default>false</default>
+                <label>1222-Filtros Y Mallas Industrialies</label>
+            </value>
+            <value>
+                <fullName>1223-Forest City Technologies Inc</fullName>
+                <default>false</default>
+                <label>1223-Forest City Technologies Inc</label>
+            </value>
+            <value>
+                <fullName>1224-Great Northern Corp</fullName>
+                <default>false</default>
+                <label>1224-Great Northern Corp</label>
+            </value>
+            <value>
+                <fullName>1225-ICO Polymers North America</fullName>
+                <default>false</default>
+                <label>1225-ICO Polymers North America</label>
+            </value>
+            <value>
+                <fullName>1226-IKI Manufacturing Co Inc</fullName>
+                <default>false</default>
+                <label>1226-IKI Manufacturing Co Inc</label>
+            </value>
+            <value>
+                <fullName>1227-Impressions Inc</fullName>
+                <default>false</default>
+                <label>1227-Impressions Inc</label>
+            </value>
+            <value>
+                <fullName>1228-Innovize Inc</fullName>
+                <default>false</default>
+                <label>1228-Innovize Inc</label>
+            </value>
+            <value>
+                <fullName>1229-International Packaging Inc</fullName>
+                <default>false</default>
+                <label>1229-International Packaging Inc</label>
+            </value>
+            <value>
+                <fullName>1230-Light Fabrications</fullName>
+                <default>false</default>
+                <label>1230-Light Fabrications</label>
+            </value>
+            <value>
+                <fullName>1231-Little Rapids Corp</fullName>
+                <default>false</default>
+                <label>1231-Little Rapids Corp</label>
+            </value>
+            <value>
+                <fullName>1232-Lohnpack Contract Filling Inc</fullName>
+                <default>false</default>
+                <label>1232-Lohnpack Contract Filling Inc</label>
+            </value>
+            <value>
+                <fullName>1233-Majors Plastics Inc</fullName>
+                <default>false</default>
+                <label>1233-Majors Plastics Inc</label>
+            </value>
+            <value>
+                <fullName>1234-MC Industries Inc</fullName>
+                <default>false</default>
+                <label>1234-MC Industries Inc</label>
+            </value>
+            <value>
+                <fullName>1235-Menasha Packaging Company</fullName>
+                <default>false</default>
+                <label>1235-Menasha Packaging Company</label>
+            </value>
+            <value>
+                <fullName>1236-MGS Plastics Inc</fullName>
+                <default>false</default>
+                <label>1236-MGS Plastics Inc</label>
+            </value>
+            <value>
+                <fullName>1237-MINPACK</fullName>
+                <default>false</default>
+                <label>1237-MINPACK</label>
+            </value>
+            <value>
+                <fullName>1238-Modernistic Inc</fullName>
+                <default>false</default>
+                <label>1238-Modernistic Inc</label>
+            </value>
+            <value>
+                <fullName>1239-Northern Labs Inc</fullName>
+                <default>false</default>
+                <label>1239-Northern Labs Inc</label>
+            </value>
+            <value>
+                <fullName>1240-Opportunity Center</fullName>
+                <default>false</default>
+                <label>1240-Opportunity Center</label>
+            </value>
+            <value>
+                <fullName>1241-Petoskey Plastics Inc</fullName>
+                <default>false</default>
+                <label>1241-Petoskey Plastics Inc</label>
+            </value>
+            <value>
+                <fullName>1242-Pinta Foamtec Inc</fullName>
+                <default>false</default>
+                <label>1242-Pinta Foamtec Inc</label>
+            </value>
+            <value>
+                <fullName>1243-Plastech Corporation</fullName>
+                <default>false</default>
+                <label>1243-Plastech Corporation</label>
+            </value>
+            <value>
+                <fullName>1244-Plastic Products Company Inc</fullName>
+                <default>false</default>
+                <label>1244-Plastic Products Company Inc</label>
+            </value>
+            <value>
+                <fullName>1245-Polyquest Inc</fullName>
+                <default>false</default>
+                <label>1245-Polyquest Inc</label>
+            </value>
+            <value>
+                <fullName>1246-Preco Inc</fullName>
+                <default>false</default>
+                <label>1246-Preco Inc</label>
+            </value>
+            <value>
+                <fullName>1247-Reo Plastics Inc</fullName>
+                <default>false</default>
+                <label>1247-Reo Plastics Inc</label>
+            </value>
+            <value>
+                <fullName>1248-Scientific Plastics Corp</fullName>
+                <default>false</default>
+                <label>1248-Scientific Plastics Corp</label>
+            </value>
+            <value>
+                <fullName>1249-Southwire Co</fullName>
+                <default>false</default>
+                <label>1249-Southwire Co</label>
+            </value>
+            <value>
+                <fullName>1250-Steris Corporation</fullName>
+                <default>false</default>
+                <label>1250-Steris Corporation</label>
+            </value>
+            <value>
+                <fullName>1251-Trient Technologies</fullName>
+                <default>false</default>
+                <label>1251-Trient Technologies</label>
+            </value>
+            <value>
+                <fullName>1252-Tundra Composites</fullName>
+                <default>false</default>
+                <label>1252-Tundra Composites</label>
+            </value>
+            <value>
+                <fullName>1253-UFO Inc</fullName>
+                <default>false</default>
+                <label>1253-UFO Inc</label>
+            </value>
+            <value>
+                <fullName>1254-Web Cut &amp; Converting</fullName>
+                <default>false</default>
+                <label>1254-Web Cut &amp; Converting</label>
+            </value>
+            <value>
+                <fullName>1255-Web Industries Inc</fullName>
+                <default>false</default>
+                <label>1255-Web Industries Inc</label>
+            </value>
+            <value>
+                <fullName>1256-White Transfer &amp; Storage Co</fullName>
+                <default>false</default>
+                <label>1256-White Transfer &amp; Storage Co</label>
+            </value>
+            <value>
+                <fullName>1257-WS Packing Group Inc</fullName>
+                <default>false</default>
+                <label>1257-WS Packing Group Inc</label>
+            </value>
+            <value>
+                <fullName>1258-Parker Hannifin Corporation</fullName>
+                <default>false</default>
+                <label>1258-Parker Hannifin Corporation</label>
+            </value>
+            <value>
+                <fullName>1259-3M St. Paul SubContractors</fullName>
+                <default>false</default>
+                <label>1259-3M St. Paul SubContractors</label>
+            </value>
+            <value>
+                <fullName>1260-3M St. Paul PFG Vendors</fullName>
+                <default>false</default>
+                <label>1260-3M St. Paul PFG Vendors</label>
+            </value>
+            <value>
+                <fullName>1261-EXEL</fullName>
+                <default>false</default>
+                <label>1261-EXEL</label>
+            </value>
+            <value>
+                <fullName>1262-PRC DESOTO INTERNATIONAL INC</fullName>
+                <default>false</default>
+                <label>1262-PRC DESOTO INTERNATIONAL INC</label>
+            </value>
+            <value>
+                <fullName>1264-3M Company (CA)</fullName>
+                <default>false</default>
+                <label>1264-3M Company (CA)</label>
+            </value>
+            <value>
+                <fullName>1265-3M Company (CN)</fullName>
+                <default>false</default>
+                <label>1265-3M Company (CN)</label>
+            </value>
+            <value>
+                <fullName>1266-3M Company (DE)</fullName>
+                <default>false</default>
+                <label>1266-3M Company (DE)</label>
+            </value>
+            <value>
+                <fullName>1267-3M Company (HK)</fullName>
+                <default>false</default>
+                <label>1267-3M Company (HK)</label>
+            </value>
+            <value>
+                <fullName>1268-3M Company (TH)</fullName>
+                <default>false</default>
+                <label>1268-3M Company (TH)</label>
+            </value>
+            <value>
+                <fullName>1269-3M Company (TW)</fullName>
+                <default>false</default>
+                <label>1269-3M Company (TW)</label>
+            </value>
+            <value>
+                <fullName>1270-3M Company (MX)</fullName>
+                <default>false</default>
+                <label>1270-3M Company (MX)</label>
+            </value>
+            <value>
+                <fullName>1271-3M Company (SG)</fullName>
+                <default>false</default>
+                <label>1271-3M Company (SG)</label>
+            </value>
+            <value>
+                <fullName>1272-3M Company (JP)</fullName>
+                <default>false</default>
+                <label>1272-3M Company (JP)</label>
+            </value>
+            <value>
+                <fullName>1273-3M Company (PL) Bonded</fullName>
+                <default>false</default>
+                <label>1273-3M Company (PL) Bonded</label>
+            </value>
+            <value>
+                <fullName>1274-3M US Supplier Inventory</fullName>
+                <default>false</default>
+                <label>1274-3M US Supplier Inventory</label>
+            </value>
+            <value>
+                <fullName>1275-3M Company (CN) Bonded</fullName>
+                <default>false</default>
+                <label>1275-3M Company (CN) Bonded</label>
+            </value>
+            <value>
+                <fullName>1285-3M Company (MY) Bonded</fullName>
+                <default>false</default>
+                <label>1285-3M Company (MY) Bonded</label>
+            </value>
+            <value>
+                <fullName>1286-3M Company (GB) Bonded</fullName>
+                <default>false</default>
+                <label>1286-3M Company (GB) Bonded</label>
+            </value>
+            <value>
+                <fullName>1287-3M Company (NL) Bonded</fullName>
+                <default>false</default>
+                <label>1287-3M Company (NL) Bonded</label>
+            </value>
+            <value>
+                <fullName>1288-3M GCS Supplier Inventory</fullName>
+                <default>false</default>
+                <label>1288-3M GCS Supplier Inventory</label>
+            </value>
+            <value>
+                <fullName>1289-3M Global Channel Serv, Inc HQ</fullName>
+                <default>false</default>
+                <label>1289-3M Global Channel Serv, Inc HQ</label>
+            </value>
+            <value>
+                <fullName>1290-3M Innovative Properties Co HQ</fullName>
+                <default>false</default>
+                <label>1290-3M Innovative Properties Co HQ</label>
+            </value>
+            <value>
+                <fullName>1291-Leaders Manufacturing Inc</fullName>
+                <default>false</default>
+                <label>1291-Leaders Manufacturing Inc</label>
+            </value>
+            <value>
+                <fullName>1292-Meyers Printing Company</fullName>
+                <default>false</default>
+                <label>1292-Meyers Printing Company</label>
+            </value>
+            <value>
+                <fullName>1293-Spectrum Plastics Group</fullName>
+                <default>false</default>
+                <label>1293-Spectrum Plastics Group</label>
+            </value>
+            <value>
+                <fullName>1294-Rogers Foam Corporation</fullName>
+                <default>false</default>
+                <label>1294-Rogers Foam Corporation</label>
+            </value>
+            <value>
+                <fullName>1295-PAC WORLDWIDE CORPORATION - OH</fullName>
+                <default>false</default>
+                <label>1295-PAC WORLDWIDE CORPORATION - OH</label>
+            </value>
+            <value>
+                <fullName>1296-PAC WORLDWIDE CORPORATION - NV</fullName>
+                <default>false</default>
+                <label>1296-PAC WORLDWIDE CORPORATION - NV</label>
+            </value>
+            <value>
+                <fullName>1297-3M Company (PL)</fullName>
+                <default>false</default>
+                <label>1297-3M Company (PL)</label>
+            </value>
+            <value>
+                <fullName>1298-3M Company (MY)</fullName>
+                <default>false</default>
+                <label>1298-3M Company (MY)</label>
+            </value>
+            <value>
+                <fullName>1299-3M Socorro</fullName>
+                <default>false</default>
+                <label>1299-3M Socorro</label>
+            </value>
+            <value>
+                <fullName>1300-3M US Subcontractors Eastern R</fullName>
+                <default>false</default>
+                <label>1300-3M US Subcontractors Eastern R</label>
+            </value>
+            <value>
+                <fullName>1301-3M US Subcontractors Midwester</fullName>
+                <default>false</default>
+                <label>1301-3M US Subcontractors Midwester</label>
+            </value>
+            <value>
+                <fullName>1302-3M US Subcontractors Southern</fullName>
+                <default>false</default>
+                <label>1302-3M US Subcontractors Southern</label>
+            </value>
+            <value>
+                <fullName>1303-3M US Subcontractors Western R</fullName>
+                <default>false</default>
+                <label>1303-3M US Subcontractors Western R</label>
+            </value>
+            <value>
+                <fullName>1304-3M US Subcontractors Pacific R</fullName>
+                <default>false</default>
+                <label>1304-3M US Subcontractors Pacific R</label>
+            </value>
+            <value>
+                <fullName>1305-SIERRA CORP</fullName>
+                <default>false</default>
+                <label>1305-SIERRA CORP</label>
+            </value>
+            <value>
+                <fullName>1306-3M CA CARLSBAD</fullName>
+                <default>false</default>
+                <label>1306-3M CA CARLSBAD</label>
+            </value>
+            <value>
+                <fullName>1307-CEVA</fullName>
+                <default>false</default>
+                <label>1307-CEVA</label>
+            </value>
+            <value>
+                <fullName>1308-QPSI LLC</fullName>
+                <default>false</default>
+                <label>1308-QPSI LLC</label>
+            </value>
+            <value>
+                <fullName>1310-AVEKA INC</fullName>
+                <default>false</default>
+                <label>1310-AVEKA INC</label>
+            </value>
+            <value>
+                <fullName>1311-3M Company (IE)</fullName>
+                <default>false</default>
+                <label>1311-3M Company (IE)</label>
+            </value>
+            <value>
+                <fullName>1312-3M Company (CL)</fullName>
+                <default>false</default>
+                <label>1312-3M Company (CL)</label>
+            </value>
+            <value>
+                <fullName>1313-3M Company (IL)</fullName>
+                <default>false</default>
+                <label>1313-3M Company (IL)</label>
+            </value>
+            <value>
+                <fullName>1314-3M Company (FR)</fullName>
+                <default>false</default>
+                <label>1314-3M Company (FR)</label>
+            </value>
+            <value>
+                <fullName>1315-Edumex SA de CV.</fullName>
+                <default>false</default>
+                <label>1315-Edumex SA de CV.</label>
+            </value>
+            <value>
+                <fullName>1316-3M SG SINGAPORE</fullName>
+                <default>false</default>
+                <label>1316-3M SG SINGAPORE</label>
+            </value>
+            <value>
+                <fullName>1317-3M TH LADLUMKAEW</fullName>
+                <default>false</default>
+                <label>1317-3M TH LADLUMKAEW</label>
+            </value>
+            <value>
+                <fullName>1318-3M INNOV SG</fullName>
+                <default>false</default>
+                <label>1318-3M INNOV SG</label>
+            </value>
+            <value>
+                <fullName>1319-3M CN SHANGHAI GENERAL OFFICE</fullName>
+                <default>false</default>
+                <label>1319-3M CN SHANGHAI GENERAL OFFICE</label>
+            </value>
+            <value>
+                <fullName>1320-CEVA LOGISTICS</fullName>
+                <default>false</default>
+                <label>1320-CEVA LOGISTICS</label>
+            </value>
+            <value>
+                <fullName>1321-PRECISION ABRASIVES CORP.</fullName>
+                <default>false</default>
+                <label>1321-PRECISION ABRASIVES CORP.</label>
+            </value>
+            <value>
+                <fullName>1322-EXPEDITORS</fullName>
+                <default>false</default>
+                <label>1322-EXPEDITORS</label>
+            </value>
+            <value>
+                <fullName>1999-Prince</fullName>
+                <default>false</default>
+                <label>1999-Prince</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

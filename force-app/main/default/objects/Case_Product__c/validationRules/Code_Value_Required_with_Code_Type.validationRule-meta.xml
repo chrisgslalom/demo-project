@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code_Value_Required_with_Code_Type</fullName>
+    <active>true</active>
+    <description>If the Code Type is populated on a Case Product, then the Code Value is required.</description>
+    <errorConditionFormula>AND( RecordType.Name = "Pricing Request",
+    NOT(
+        ISPICKVAL(Code_Type__c, "")
+        ),
+    ISBLANK(Code_Value__c)
+    )</errorConditionFormula>
+    <errorDisplayField>Code_Value__c</errorDisplayField>
+    <errorMessage>If the Customer has provided you with a Code Type, then you must enter in the Code Value.</errorMessage>
+</ValidationRule>

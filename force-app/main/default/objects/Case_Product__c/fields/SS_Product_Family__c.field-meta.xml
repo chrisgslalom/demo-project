@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Product_Family__c</fullName>
+    <description>Scott Safety field used for RMA line item. What is the product family?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the product family?</inlineHelpText>
+    <label>SS-Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cameras</fullName>
+                <default>false</default>
+                <label>Cameras</label>
+            </value>
+            <value>
+                <fullName>Compressors</fullName>
+                <default>false</default>
+                <label>Compressors</label>
+            </value>
+            <value>
+                <fullName>Fixed Instruments</fullName>
+                <default>false</default>
+                <label>Fixed Instruments</label>
+            </value>
+            <value>
+                <fullName>Locators/Tracking</fullName>
+                <default>false</default>
+                <label>Locators/Tracking</label>
+            </value>
+            <value>
+                <fullName>Mask Or Filters</fullName>
+                <default>false</default>
+                <label>Mask Or Filters</label>
+            </value>
+            <value>
+                <fullName>Misc. Parts</fullName>
+                <default>false</default>
+                <label>Misc. Parts</label>
+            </value>
+            <value>
+                <fullName>Portable Instruments</fullName>
+                <default>false</default>
+                <label>Portable Instruments</label>
+            </value>
+            <value>
+                <fullName>SCBA</fullName>
+                <default>false</default>
+                <label>SCBA</label>
+            </value>
+            <value>
+                <fullName>SEM's/Pass Console</fullName>
+                <default>false</default>
+                <label>SEM's/Pass Console</label>
+            </value>
+            <value>
+                <fullName>Service Parts</fullName>
+                <default>false</default>
+                <label>Service Parts</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Accountability</fullName>
+                <default>false</default>
+                <label>Accountability</label>
+            </value>
+            <value>
+                <fullName>PPE</fullName>
+                <default>false</default>
+                <label>PPE</label>
+            </value>
+            <value>
+                <fullName>PAPR</fullName>
+                <default>false</default>
+                <label>PAPR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

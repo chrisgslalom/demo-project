@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR004_Approval_Level_Required</fullName>
+    <active>true</active>
+    <description>For cfm case product, when cfm status is approved, the Approval Level cannot be null</description>
+    <errorConditionFormula>AND(
+Case__r.RecordType.DeveloperName == 'CFM_Cross_Business_Selling',
+ISPICKVAL(Product_Request_Status__c , 'Approved'),
+ISBLANK(TEXT(Approval_Level__c))
+)</errorConditionFormula>
+    <errorDisplayField>Approval_Level__c</errorDisplayField>
+    <errorMessage>Please must select Approval Level before approve case product.</errorMessage>
+</ValidationRule>

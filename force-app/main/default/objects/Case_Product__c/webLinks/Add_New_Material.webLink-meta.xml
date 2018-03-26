@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_New_Material</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Add New Material</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/{!$Label.Case_Product_Obj_Id}/e?{!$Label.CaseProduct_Case_FieldId}={!Case.CaseNumber}&amp;{!$Label.CaseProduct_Case_FieldId}_lkid={!Case.Id}&amp;saveURL={!Case.Id}&amp;retURL={!Case.Id}&amp;RecordType={!$Label.Case_Product_Add_New_Material}</url>
+</WebLink>

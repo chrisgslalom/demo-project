@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR011_Phase_in_or_out_equals_Yes</fullName>
+    <active>true</active>
+    <description>If field "Is this a Phase In/Phase Out?" = Yes, then these fields are required.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Is_this_a_Phase_In_Phase_Out__c, "Yes"), OR(ISBLANK(SAP_10_Digit_Phase_Out_SKU__c ), ISBLANK(Legacy_11_Digit_Phase_Out_SKU__c)))</errorConditionFormula>
+    <errorMessage>Both SAP 10-Digit Phase Out 3M ID# and Legacy 11-Digit Phase Out 3M ID# fields are required for a Phase In/Phase Out</errorMessage>
+</ValidationRule>

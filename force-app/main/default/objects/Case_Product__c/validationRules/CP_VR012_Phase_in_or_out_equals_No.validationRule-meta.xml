@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR012_Phase_in_or_out_equals_No</fullName>
+    <active>true</active>
+    <description>If field "Is this a Phase In/Phase Out?" = No AND if field "Is this a Material Varient with Price Linking" = NO, then these fields are required.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Is_this_a_Phase_In_Phase_Out__c , "No"), ISPICKVAL(Is_it_a_Material_Variant_w_Price_Linking__c , "No"), OR( ISPICKVAL(Pricing_Unit_of_Measure__c, ""), ISBLANK(Country_List_Price__c), ISBLANK(Minimum_Standard_Price__c), ISBLANK(Price_Floor_at_Pricing_Region__c)))</errorConditionFormula>
+    <errorMessage>Pricing Unit of Measure Country List Price (at Pricing Region) Minimum Stdrd Price (at Pricing Region) Price Floor (at Pricing Region) are required for submissions that are not a Phase In/Phase Out nor a Material Variant request with price linking</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR005_DeviatedPrice_Price_Required</fullName>
+    <active>true</active>
+    <description>Requested Distributor Price,  Requested End User Price are required for Devited Pricing Rquested.</description>
+    <errorConditionFormula>AND(
+    Case__r.RecordType.DeveloperName =='Deviated_Pricing',
+    ISNULL(Requested_Distributor_Price__c),
+    ISNULL(Requested_End_User_Price__c)
+)</errorConditionFormula>
+    <errorMessage>You need to input value for any following field: Requested Distributor Price,  Requested End User Price</errorMessage>
+</ValidationRule>

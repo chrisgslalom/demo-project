@@ -1,0 +1,10 @@
+{
+    "orgName": "Client Company",
+    "country": "US",
+    "language": "en_US",
+    "edition": "Enterprise",
+    "features": ["MultiCurrency", "API", "Communities", "CustomerSelfService", "CustomApps", "CustomTabs", "LightningServiceConsole", "ServiceCloud"],
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled", "ChatterEnabled", "IsOpportunityTeamEnabled", "IsEntitlementsEnabled", "IsKnowledgeEnabled", "IsLiveAgentEnabled", "IsAccountTeamsEnabled"]
+    }
+}

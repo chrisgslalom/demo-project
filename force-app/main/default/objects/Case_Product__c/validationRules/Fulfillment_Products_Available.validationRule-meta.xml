@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fulfillment_Products_Available</fullName>
+    <active>true</active>
+    <description>Validation Rule ensuring that when choosing a Product for Fulfillment that the Product is actually available for Fulfillment</description>
+    <errorConditionFormula>AND(RecordType.Name = "Pricing Request",
+    Product__r.Available_for_PAS_Fulfillment__c = FALSE,
+    ForFullfillment__c = TRUE
+    )</errorConditionFormula>
+    <errorDisplayField>ForFullfillment__c</errorDisplayField>
+    <errorMessage>This product is not available for fulfillment. Please select a different Product.</errorMessage>
+</ValidationRule>

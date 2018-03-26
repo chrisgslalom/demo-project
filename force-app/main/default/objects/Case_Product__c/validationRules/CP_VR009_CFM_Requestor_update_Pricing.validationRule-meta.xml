@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR009_CFM_Requestor_update_Pricing</fullName>
+    <active>true</active>
+    <description>You don't have access to input value for below fields: 
+Approver,Approval Level,BSO Approver Notes,CFM Price,Price Comments</description>
+    <errorConditionFormula>AND( 
+(RecordType.DeveloperName = 'CFM_Listed_Case_Product'||  RecordType.DeveloperName = 'CFM_Unlisted_Case_Product'), 
+Not( 
+ISPICKVAL(Case__r.Status, "Draft") ||  
+ISPICKVAL(Case__r.Status, "Unassigned") 
+), 
+OR(
+OR( 
+ISCHANGED(Approver__c),
+ISCHANGED(Approval_Level__c),
+ISCHANGED(BSO_Approver_Notes__c),
+ISCHANGED(CFM_Price__c),
+ISCHANGED(Price_Comments__c)
+),
+And(
+ISNEW() ,
+OR( 
+Not(ISBLANK(Approver__c)) , 
+Not(ISBLANK( Text(Approval_Level__c ))), 
+Not(ISBLANK( BSO_Approver_Notes__c )) , 
+Not(ISBLANK( CFM_Price__c )) , 
+Not(ISBLANK( Price_Comments__c ) ) 
+)
+) 
+),
+Case__r.User__c  =  $User.Id 
+)</errorConditionFormula>
+    <errorMessage>You don't have access to input value for below fields:
+Approver,Approval Level,BSO Approver Notes,CFM Price,Price Comments</errorMessage>
+</ValidationRule>

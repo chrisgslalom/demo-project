@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR007_CFMDollarvalue_Required_Fields</fullName>
+    <active>false</active>
+    <description>'Anticipated First order Dollar Value' and 'Anticipated Annual Dollar Value' are required if Anticipated type is 'Dollar Value'</description>
+    <errorConditionFormula>AND(
+   ISPICKVAL( Anticipated_Type__c , 'Dollar Value') ,
+   OR(
+     ISNULL(Anticipated_First_Order_Amount__c),
+     ISBLANK( Anticipated_First_Order_Amount__c),
+     ISNULL( Anticipated_Annual_Amount__c ),
+     ISBlank( Anticipated_Annual_Amount__c )
+    ), 
+   OR(
+     RecordType.DeveloperName = 'CFM_Listed_Case_Product', RecordType.DeveloperName = 'CFM_Unlisted_Case_Product' )
+)</errorConditionFormula>
+    <errorMessage>'Anticipated First order Dollar Value' and 'Anticipated Annual Dollar Value' are required if Anticipated type is 'Dollar Value'</errorMessage>
+</ValidationRule>

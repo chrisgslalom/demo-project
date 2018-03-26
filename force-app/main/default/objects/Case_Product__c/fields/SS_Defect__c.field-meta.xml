@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_Defect__c</fullName>
+    <description>Scott Safety field - What is the Defect related to this RMA line?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the Defect related to this RMA line?</inlineHelpText>
+    <label>SS-Defect</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ASSEMBLY/SERVICE</fullName>
+                <default>false</default>
+                <label>ASSEMBLY/SERVICE</label>
+            </value>
+            <value>
+                <fullName>CONTAMINATION</fullName>
+                <default>false</default>
+                <label>CONTAMINATION</label>
+            </value>
+            <value>
+                <fullName>CUSTOMER ISSUES</fullName>
+                <default>false</default>
+                <label>CUSTOMER ISSUES</label>
+            </value>
+            <value>
+                <fullName>DAMAGE</fullName>
+                <default>false</default>
+                <label>DAMAGE</label>
+            </value>
+            <value>
+                <fullName>DOCUMENT/PACKAGING</fullName>
+                <default>false</default>
+                <label>DOCUMENT/PACKAGING</label>
+            </value>
+            <value>
+                <fullName>ELECTRICAL/CHARGING</fullName>
+                <default>false</default>
+                <label>ELECTRICAL/CHARGING</label>
+            </value>
+            <value>
+                <fullName>FAILURE</fullName>
+                <default>false</default>
+                <label>FAILURE</label>
+            </value>
+            <value>
+                <fullName>FILTERS</fullName>
+                <default>false</default>
+                <label>FILTERS</label>
+            </value>
+            <value>
+                <fullName>METALS/COMPOSITES</fullName>
+                <default>false</default>
+                <label>METALS/COMPOSITES</label>
+            </value>
+            <value>
+                <fullName>PLASTICS/PAINT</fullName>
+                <default>false</default>
+                <label>PLASTICS/PAINT</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

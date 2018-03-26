@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR009_Quantity_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (   Case__r.Case_Record_Type_Name__c = "BSO_Sample_Assistance",
+OR(
+ISNULL(Quantity__c), ISBLANK(Quantity__c) 
+)
+)</errorConditionFormula>
+    <errorMessage>'Quantity' is required. Please enter a 'Quantity' to Continue.</errorMessage>
+</ValidationRule>

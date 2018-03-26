@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_VR003_Requested_Distributor_Price</fullName>
+    <active>true</active>
+    <description>Required - if Channel Partner/End User Type equals Channel Partner/Distributor Only</description>
+    <errorConditionFormula>AND( 
+Case__r.RecordType.DeveloperName = 'Deviated_Pricing', 
+TEXT(Case__r.Channel_End_User_Type__c) = 'Channel Partner/Distributor Only' , ISBLANK( Requested_Distributor_Price__c ) )</errorConditionFormula>
+    <errorDisplayField>Requested_Distributor_Price__c</errorDisplayField>
+    <errorMessage>Requested Distributor Price is Required - if Channel Partner/End User Type equals Channel Partner/Distributor Only</errorMessage>
+</ValidationRule>
